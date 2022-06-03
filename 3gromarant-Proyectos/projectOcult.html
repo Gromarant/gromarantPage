@@ -4,67 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="www.gromarant.com">
+    <meta name="keywords" content="HTML, CSS, JavaScript, figma">
+    <meta name="author" content="Mariangelica Rodríguez">
     <link rel="stylesheet" href="https://fonts.sandbox.google.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
     <link rel="stylesheet" href="style.css">
     <title>Proyecto Ocult</title>
-    <link rel="icon" type="image/x-icon" href="imagenesGromarant/Logo.jpg">
+    <link rel="icon" type="image/x-icon" href="imagenesGromarant/Logo-Dark-Favicon.svg">
 </head>
 <body class="fatherContainer">
     <header>
         <nav class="navBar">
-            <a  href=""><img id="navLogo" src="imagenesGromarant/Logo-gromarant-dark-complete.svg" alt="Gromarant" height="64px;"></a>
-            <a class="navHome" href="">Home</a>
-            <a class="navAutor" href="">Autor</a>
-            <a class="navSeeItZoom" href="">pronto</a>
+            <a  href=""><img id="navLogo" src="imagenesGromarant/Logo-Dark-Complete.svg"></a>
+            <a class="navHome fontNavBar" href="">Home</a>
+            <a class="navAutor fontNavBar" href="">Autor</a>
+            <a class="navSeeItZoom fontNavBar" href="">pronto</a>
             <form class="research">
-                <input type="text" placeholder="    Buscar" name="search">
+                <input class="fontRelevant" type="text" placeholder="Buscar" name="search">
                 <button type="submit"><span class="material-symbols-rounded">search</span></button>
             </form>
         </nav>
     </header>
     <main>
-        <section class="projectContent">
-            <img class="projectMockup" src="imagenesGromarant/mockupOcult.jpg">
+        <Section class="projectIntro">
+            <img class="projectMockup" src="imagenesGromarant/mockupOcult.png">
+            <p class="date fontTitle"><strong>Enero 2022</strong> | Duración: <strong>10 días</strong></p>
             <article class="projectType">
-                <h2 class="Name">Ocult </h2> 
-                <p class="time">Duración: <strong>10 días</strong></p>
+                <h2 class="Name fontTitle">Ocult </h2> 
+                <!-- <p class="time">Duración: <strong>10 días</strong></p> -->
                 <div class="por-que">
-                    <h3 class="title">¿Por qué?</h3>
-                    <p>por que</p>
+                    <h3 class="title fontTitle">¿Por qué?</h3>
+                    <p class="porqueQueComo fontdefoult">El creciente aumento de delitos cibernéticos afecta en gran medida a pequeñas y medianas empresas</p>
                 </div>
                 <div class="que">
-                    <h3 class="title">¿Qué?</h3>
-                    <p>Plataforma digital de evaluación y formación en ciberseguridad</p>
+                    <h3 class="title fontTitle">¿Qué?</h3>
+                    <p class="porqueQueComo fontdefoult">Plataforma digital de evaluación y formación en ciberseguridad</p>
                 </div>
                 <div class="como">
-                    <h3 class="title">¿Cómo?</h3>
-                    <p>como</p>
+                    <h3 class="title fontTitle">¿Cómo?</h3>
+                    <ul class="porqueQueComo fontdefoult">
+                        <li>Research</li>
+                        <li>Ideación</li>
+                        <li>Prototipado</li>
+                        <li>Desarrollo de plataforma</li>
+                    </ul>
                 </div>
-                <p class="rol">Roles</p>
+                <div class="rol">
+                    <p class="fontRelevant">Ux research | Conceptualización | Prototipado</p>
+                </div>
             </article>
+        </Section>
+        <Section class="projectResearch">
+            <p class="problem textDestacate">"Mejorar la cultura en ciberseguridad de profesionales en pequeñas y medianas empresas"</p>
+            <h3 class="researchTitle secctionTitle">Research</h3>
+            <p class="researchText secctionText">Contamos en este proyecto con la colaboración de profesionales en ciberseguridad a los que entrevistamos y adicionalmente realizamos netnografía para obtener una visión global y estado actual</p>
             <img class="contextDatos" src="imagenesGromarant/DatosIlustraOcult.png" alt="Datos, Ocult" title="Ocult, proyecto presentado a capgemini">
-            <p class="context-text">Datos de contexto</p>
-            <img class="Ideation" src="imagenesGromarant/PostItIdeacion.png" alt="Datos, Ocult" title="Ocult, proyecto presentado a capgemini">
-            <p class="ideation-text">Datos de contexto</p>
+        </Section>
+        <section class="projectInsights">
+            <h3 class="insightsTitle secctionTitle">insights</h3>
+            <p class="insight1 textDestacate">"la mayoría de los <b>ciberataques son a través de "Phishing"</b></p>
+            <p class="insight2 textDestacate">"Los <b>conocimientos sobre ciberseguridad</b> en el común de trabajadores de una empresa suelen ser casi nulos"</p>
+        </section>
+        <section class="persona">
+            <img class="userPersona" src="imagenesGromarant/User Persona.png" alt="Datos, Ocult" title="Ocult, proyecto presentado a capgemini">
+            <p class="userText secctionText">User persona prototípico</p>
+        </section>
+        <section class="projectIdeation">
+            <h3 class="ideationTitle secctionTitle">Ideación</h3>
+            <p class="ideation-text secctionText">"Empleamos principalmente la técnica de <b>"inversión"</b>, debido a que era la más sencilla de visualizar para todos los implicados en el proceso de ideación"</p>
+            <img class="ideationphoto" src="imagenesGromarant/Ideacion.png" alt="Datos, Ocult" title="Ocult, proyecto presentado a capgemini">
+        </section>
+        <section class="projectWireframes">
+            <h3 class="WireframesTitle secctionTitle">Prototipado</h3>
+            <img class="wireframesphoto" src="imagenesGromarant/prototiposBaja.png" alt="Datos, Ocult" title="Ocult, proyecto presentado a capgemini">
+        </section>
+        <section class="projectHifiWireframes">
+            <h3 class="hifiWireframeTitle secctionTitle">Nuestra solución</h3>
+            <img class="hifiphotoPack3 access" src="imagenesGromarant/01. hifiInitialframes.png" alt="Ocult, prototipos en alta" title="Ocult prototipos en alta">
+            <img class="hifiphoto dashboard" src="imagenesGromarant/02 Dashboard.png" alt="Ocult, prototipos en alta" title="Ocult prototipos en alta">
+            <img class="hifiphotoPack2 dashboards" src="imagenesGromarant/03. dashboards.png" alt="Ocult, prototipos en alta" title="Ocult prototipos en alta">
+            <img class="hifiphoto preguntaV-F" src="imagenesGromarant/04. pregunta verdadero-falso.png" alt="Ocult, prototipos en alta" title="Ocult prototipos en alta">
+            <img class="hifiphotoPack2 RespuestasV-F" src="imagenesGromarant/05. Respuestas verdadero-falso.png" alt="Ocult, prototipos en alta" title="Ocult prototipos en alta">
+            <img class="hifiphoto preguntaSelec" src="imagenesGromarant/06. pregunta selección.jpg" alt="Ocult, prototipos en alta" title="Ocult prototipos en alta">
+            <img class="hifiphotoPack2 respuestasSelec" src="imagenesGromarant/07. respuestas seleccion.png" alt="Ocult, prototipos en alta" title="Ocult prototipos en alta">
+            <img class="hifiphoto estadísticas" src="imagenesGromarant/08. estadísticas.png" alt="Ocult, prototipos en alta" title="Ocult prototipos en alta">
         </section>
         <section class="contact">
-            <a href="" title="Mail"><div class="iconContatContainer"><span class="iconify" data-icon="fluent:mail-20-filled" data-width="20" data-height="20"></span></div></a>
-            <a href="" title="LinkeInd"><div class="iconContatContainer"><span class="iconify" data-icon="akar-icons:linkedin-fill" data-width="20" data-height="20"></span></div></a>
-            <a href="" title="Instagram"><div class="iconContatContainer"><span class="iconify" data-icon="bxl:instagram-alt" data-width="20" data-height="20"></span></div></a>
-            <a href="" title="Facbook"><div class="iconContatContainer"><span class="iconify" data-icon="gg:facebook" data-width="20" data-height="20"></span></div></a>
-            <a href="" title="Github"><div class="iconContatContainer"><span class="iconify" data-icon="uim:github-alt" data-width="20" data-height="20"></span></div></a>
-            <a href="" title="Twitter"><div class="iconContatContainer"><span class="iconify" data-icon="akar-icons:twitter-fill" data-width="20" data-height="20"></span></div></a>
+            <a href="" title="Mail"><div class="iconContatContainer"><span class="iconify iconContat" data-icon="fluent:mail-20-filled" data-width="20" data-height="20"></span></div></a>
+            <a href="" title="LinkeInd"><div class="iconContatContainer"><span class="iconify iconContat" data-icon="akar-icons:linkedin-fill" data-width="20" data-height="20"></span></div></a>
+            <a href="" title="Instagram"><div class="iconContatContainer"><span class="iconify iconContat" data-icon="bxl:instagram-alt" data-width="20" data-height="20"></span></div></a>
+            <a href="" title="Facbook"><div class="iconContatContainer"><span class="iconify iconContat" data-icon="gg:facebook" data-width="20" data-height="20"></span></div></a>
+            <a href="" title="Github"><div class="iconContatContainer"><span class="iconify iconContat" data-icon="uim:github-alt" data-width="20" data-height="20"></span></div></a>
+            <a href="" title="Twitter"><div class="iconContatContainer"><span class="iconify iconContat" data-icon="akar-icons:twitter-fill" data-width="20" data-height="20"></span></div></a>
         </section>
-        <aside class="cvResume">
-           <div class="contImgCv"><img class="cvImg" src="imagenesGromarant/FotoPerfil 1.png" alt="Mariangelica Rodríguez"></div>
-           <h4 class="cvName">Mariangelica Rodríguez</h4> 
-           <p class="occupation">Diseñadora de productos digitales UX/UI y maquetadora web</p>
-           <p class="cvContent">Tener una web sólida comienza desde la base, conocer los insights de la investigación, ¿Qué necesita nuesta empresa para dar estructura a esas soluciones y productos que ofrecen valor a los usuarios</p>
-           <section class="cvTools">
+        <aside class="resume">
+           <div class="resumeImg"><img class="cvImg" src="imagenesGromarant/" alt="Mariangelica Rodríguez"></div>
+           <h4 class="resumeName">Mariangelica Rodríguez</h4> 
+           <p class="resumeOccupation">Diseñadora de productos digitales UX/UI y maquetadora web</p>
+           <p class="resumeContent">Tener una web sólida comienza por conocer, ¿Qué necesita nuesto usuario? para dar estructura a esas soluciones y productos que le ofrecen valor.</p>
+           <section class="resumeTools">
                 <a href="" title="Figma"><div class="iconToolContainer"><span class="iconify" data-icon="file-icons:figma" data-width="24" data-height="24"></span></div></a>
                 <a href="" title="Html5"><div class="iconToolContainer"><span class="iconify" data-icon="fontisto:html5" data-width="24" data-height="24"></span></div></a>
                 <a href="" title="Css3"><div class="iconToolContainer"><span class="iconify" data-icon="fa-brands:css3-alt" data-width="24" data-height="24"></span></div></a>
-                <a href="" title="JavaScript"><div class="iconToolContainer"><span class="iconify" data-icon="fa-brands:js" data-width="24" data-height="24"></span></div></a>
+                <a href="" title="JavaScript"><div class="iconToolContainer"><span class="iconify" data-icon="fa-brands:js" data-width="24" data-height="24" style="color: white;"></span></div></a>
             </section>
         </aside>
     </main>
@@ -74,7 +116,7 @@
         <img class="projectCar3" src="https://cdn.pixabay.com/photo/2022/03/09/16/30/dog-7058195__340.jpg" alt="Freelantropy, plataforma para frelancers" title="Freelantropy, plataforma para frelancers">
     </section>
     <footer class="footPage">
-        <p class="doneBy"><img class="footlogo" src="imagenesGromarant/Logo-gromarant-ligth-simple.svg" alt="Gromarant">&#169; Mariangelica Rodríguez</p>
+        <p class="doneBy"><img class="footlogo" src="imagenesGromarant/Logo-light-simple.svg" alt="Gromarant">&#169; Mariangelica Rodríguez</p>
         <a class="email" href="">gromarant@gmail.com</a>
         <ul class="footRRSS">
             <a href="" title="Mail"><div class="iconContatContainer footIcon"><span class="iconify" data-icon="fluent:mail-20-filled" data-width="24" data-height="24"></span></div></a>
