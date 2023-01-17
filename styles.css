@@ -1,56 +1,38 @@
-/* @font-face {
-    font-family: 'Material Icons';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://example.com/MaterialIcons-Regular.eot); /* For IE6-8 */
-    /* src: local('Material Icons'),
-      local('MaterialIcons-Regular'),
-      url(https://example.com/MaterialIcons-Regular.woff2) format('woff2'),
-      url(https://example.com/MaterialIcons-Regular.woff) format('woff'),
-      url(https://example.com/MaterialIcons-Regular.ttf) format('truetype');
-} */
-
-/*.material-symbols-rounded {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
-} */
-
-/* projectCards */
-/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap'); */
-
-/* RRSS */
-.iconify {
-    align-self: center;
-    justify-self: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Krub:wght@300;400&family=Monofett&family=Nunito:wght@300;400&family=Rubik+Bubbles&family=Silkscreen&family=Ubuntu:wght@400;500;700&family=VT323&display=swap');
 
 * {
     box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
     font-size: 10px;
     margin: 0;
     padding: 0;
-    font-size: 'Nunito', sans-serif;
+}
+::after, ::before {
+    box-sizing: border-box;
 }
 :root {
     --Primary-color: #24C1AE;
     --NavBar-Bg: #F5F5F5;
     --font-light: #F2F2F2;
     --accent-color: #20708C;
+    --font-grey: #828282;
 }
 
 .body, html {
+    margin: 0;
+    padding: 0;
     height: 100%;
-    width: 100vw;
+    width: 100%;
 }
 
+/*Cambia a hidden cuando aparece el menu*/
 .header {
-    height: 8.9rem;
+    display: flex;
     padding: 1.6rem;
+
     position: fixed;
-    top: 0;
+    left: 0;
+    height: fit-content;
     width: 100%;
     z-index: 500;
 }
@@ -63,6 +45,36 @@
     justify-content: space-between;
     width: 100%;
 }
+/*------------------------*/
+
+/*--se aplica para mostrar opciones de menu*/
+.header-options {
+    display: grid;
+    grid-template-rows: 1.6rem 4.8rem 0.4rem 2.72rem;
+}
+.navBar-options {
+    display: none;
+}
+.menu-options {
+    grid-row: 2/3;
+}
+.menu-options {
+    grid-row: 4/5;
+
+    background-color: #DCDCDC;
+    border-radius: 0.4rem;
+    display: flex;
+    gap: 0.8rem;
+    justify-self: flex-end;
+    padding: 0.4rem 0.8rem;
+    height: fit-content;
+    width: fit-content;
+}
+.menu-option {
+    font-size: 1.4rem;
+}
+/*------------------*/
+
 .navBar-logo {
     height: 3.4rem;
     width: 124rem;
@@ -70,40 +82,64 @@
 .navBar-author {
     display: none;
 }
-.navBar-Menu {
-    height: 100%;
-    width: 5.6rem;
+.navBar-menu {
+    display: flex;
+    place-content: center;
+    width: 6.4rem;
 }
 .iconify {
     color: var(--Primary-color);
     font-size: 2.4rem;
+    height: 100%;
+    width: 3.68rem;
 } 
-.navBar-menu > .iconify {
-    position: relative;
-    right: 1.2rem;
-    top: 1.2rem;
+
+.menu {
+    height: 100%;
+    width: 3.68rem;
 }
-.menu-opcions {
+.menu-options {
     display: none;
 }
-
 .main {
-    position: absolute;
-    left: 0;
-    top: 0;
+    margin: 0 8rem 2.4rem 1.6rem;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr) 4rem;
+    grid-template-columns: 1fr;
     gap: 3.2rem;
-    margin: 8.9rem 0 7.2rem 1.6rem;
-    width: 26.4rem;
-    height: 100%;
+    
+    position: absolute;
+    top: 10rem;
+    height: fit-content;
 }
-.gromaSnake , .funFace, .spotify , .ocult{
+.gromaSnake  {
+    grid-column: 1/2;
+    grid-row: 1/2;
     display: flex;
     flex-direction: column;
-    padding-top: 1.6rem;
-    width: 26.4rem;
+    padding: 1.6rem;
 }
-.project-img  {
-    align-self: center;
+.funFace {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    padding: 1.6rem;
+
+}
+.spotify {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    display: flex;
+    flex-direction: column;
+    padding: 1.6rem;
+}
+.roboPage {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    display: flex;
+    flex-direction: column;
+    padding: 1.6rem;
 }
 .project-img {
     align-self: center;
@@ -111,6 +147,7 @@
     width: 83.28px;
 }
 .project-title {
+    color: var(--accent-color);
     font-family: 'Krub', sans-serif;
     font-size: 1.2rem;
     font-weight: 400;
@@ -118,15 +155,23 @@
     padding-left: 1.6rem;
 }
 .project-descrip {
+    color: var(--font-grey);
     font-family: 'Nunito', sans-serif;
     font-size: 1rem;
     font-weight: 300;
     padding-left: 1.6rem;
 }
+.project-link {
+    color: var(--accent-color);
+    font-family: 'krub', sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+}
 .project-lang {
     display: flex;
     justify-content: right;
     align-items: center;
+    padding: 0.4rem;
     margin-bottom: 2.4rem;
 }
 .project-icon-lang {
@@ -142,35 +187,50 @@
     display: flex;
     flex-direction: column;
     gap: 1.6rem;
-    justify-self: space-between;
+    justify-content: space-between;
+    align-items: center;
     margin-right: 1.6rem;
     padding: 1.6rem 0.8rem;
+
     position: fixed;
-    top: 8.9rem;
+    top: 10rem;
     right: 0;
+    height: 20.8rem;
+    width: 6.4rem;
+}
+.iconContatContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 4.8rem;
+    width: 4.8rem;
+}
+.linkedIn, .instagram, .twitter {
+    font-size: 2.4rem;
+    width: 2.9rem;
 }
 
-
 .footer {
-    position: fixed;
-    bottom: 0;
     display: flex;
+    justify-content: space-between;
     background-color: var(--Primary-color);
-    margin-top: 1.6rem;
     padding: 0 1.6rem;
     border-radius: 1.6rem 1.6rem 0 0;
+    
+    position: fixed;
+    bottom: 0;
     height: 7.2rem;
     width: 100%;
-    z-index: 500;
 }
 .container-copy {
     display: flex;
     align-items: center;
     gap: 0.2rem;
-    width: 13.3rem;
+    width: fit-content;
     height: 100%;
 }
 .copy-right {
+    font-family: 'Krub', sans-serif;
     color: var(--font-light);
     font-size: 1rem;
     font-weight: 400;
@@ -180,365 +240,222 @@
     height: 26.08px;
 }
 .footer-icon {
-    place-self: center;
-    padding: 1rem;
+    display: flex;
+    font-size: 2.4rem;
     height: 4.8rem;
+    padding: 1rem;
+    place-self: center;
     width: 4.8rem;
 }
 .footer-iconify {
+    place-self: center;
     color: var(--font-light);
 }
 .footer-email {
-    justify-self: center;
+    width: 6.8rem;
+    height: 100%;
+    position: absolute;
+    left: calc(50% - 68px/2);
+    top: calc(50% - 72px/2);
 }
-.footer-gitHub {
-   justify-self: right;
-}
-/* .Instagram {
+.mail-direction {
     display: none;
 }
+.footer-gitHub {
+    width: 6.4rem;
+   justify-self: right;
+}
 
-    .Facbook {
+/* mobile landscape styles */
+@media (max-width: 740px) and (orientation: landscape) {
+    .main {
+        width: 87%;
+    }
+    .navBar-menu {
+        width: 6.4rem;
+    }
+    .navBar-options {
         display: none;
     }
-
-    .Twitter {
-        display: none;
-    }
-
-
-    .navBar {
-        display: grid;
-        grid-template-columns: repeat(4, 25%);
-        grid-template-rows: 64px;
-        grid-column: 1/5;
-        grid-row: 1/2;
-        align-items: center;
-        background-color: rgba(255, 255, 255, 0.8);
-        box-shadow: 0px 0.5px 0px rgba(40, 78, 91, 0.3);
-        height: 64px;
-        justify-items: center;
-        position: fixed;
-        top: 0;
-        width: 100vw;
-    }
-    
-    #navLogo {
-        grid-column: 1/2; 
-        grid-row: 1;
-        height: 32px;
-        justify-self: left;
-        margin-left: 16px;
-        width: 94px;
-    }
-    
-    .navAutor {
-        display: none;
-        grid-column: 4/5; 
-        grid-row: 1;
+    .gromaSnake, .funFace, .spotify, .roboPage {
         justify-self: center;
+        width: 80%;
     }
-
-    .research {
-        grid-column: 2/4; 
-        grid-row: 1;
+    .project-img {
+        height: 14.2rem;
+        width: 16.2rem;
     }
-
-    .searchButton {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: rgb(255, 255, 255);
-        border-radius: 50px;
-        border-style: none;
-        box-shadow: 0px 0.5px 0px rgb(40 78 91 / 30%);
-        justify-content: center;
+    .project-title {
+        font-size: 1.6rem;
     }
-
-    .searchIcon {
-        color: #284E5B;
-        height: 24px;
-        width: 24px;
+    .project-descrip {
+        font-size: 1.4rem
     }
-
-    .NavBarMenu {
-        grid-column: 4/5; 
-        grid-row: 1;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        height: 48px;
-        width: 48px;
+    .project-link {
+        font-size: 1.4rem;
     }
-
-    .menuHamburger {
-        border: 1px solid #284E5B;
-        border-radius: 10px 0.5px;
-        color: #284E5B;
-        height: 32px;
-        padding: 2px 4px 2px 4px;
-        width: 32px;
+    .project-lang {
+        padding: 1.6rem 0;
     }
-    
-    form > input {
-        display: none;
-        grid-column: 1/2; 
-        grid-row: 1;
-        align-self: center;
-        border-radius: 15px;
-        border-width: 0.5px;
-        height: 35px;
-        justify-self: center;
-        width: 100%;
-    }
-    
-    form > button {
-        align-self: center;
-        background-color: #FFFFFF;
-        border-radius: 50px;
-        border-style: none;
-        box-shadow: 0px 0.5px 0px rgba(40, 78, 91, 0.3);
-        height: 40px;
-        justify-self: center;
-        width: 40px;
-    }
-    
-    main {
-        display: grid;
-        grid-template-columns: repeat(4, 25%);
-        grid-template-rows: 100%;
-        grid-column: 1/5;
-        grid-row: 2/3;
-        margin: 22px 16px 56px 16px;
-    }
-    
-    .projetCards{ 
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: repeat(4, 25%);
-        grid-column: 1/4;
-        grid-row: 1/2;
-        align-items: baseline;
-        justify-items: center;
-        padding: 0px;
-    }
-    
-    .projectContent{
-        display: none;
-    }
-    
-    .cardProject {
-        border: 0.5px solid rgba(40, 78, 91, 0.6);
-        border-radius: 20px;
-        filter: drop-shadow(0px 1px 4px rgba(40, 78, 91, 0.16));
-        height: 69%;
-        width: 73%;
-    }
-
-    /* firstproject*/
-    /* .project1 {
-        grid-column: 1/2;
-        grid-row: 1/2;
-        background: url(imagenesOcult/bannerOcult.jpg);
-        
-    }
-    
-    .project2 {
-        grid-column: 1/2;
-        grid-row: 2/3;
-        background: url(https://cdn.pixabay.com/photo/2017/07/13/12/51/puzzle-2500328__340.jpg);
-    }
-    
-    .project3{
-        grid-column: 1/2;
-        grid-row: 3/4;
-        background: url(https://cdn.pixabay.com/photo/2022/03/09/16/30/dog-7058195__340.jpg);
-    } 
-
-    .project4 {
-        grid-column: 1/2;
-        grid-row: 4/5;
-        background: url(https://cdn.pixabay.com/photo/2022/01/11/12/07/animal-6930449_960_720.jpg);
-    }
-    
-    aside {
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: repeat(10, 10%);
-        grid-column: 4/5;
-        grid-row: 1/2; 
-        margin: 0 16px 0 0;
-    }
-    
-    .autorImg {
-        grid-column: 1/2;
-        grid-row: 1/2;
-        height: 72px;
-        padding: 8px;
-        width: 72px;
-    }
-
-    .cvImg {
-        border: 2px solid #1E7B9D;
-        border-radius: 50px;
-        height: 56px;
-        width: 56px;
+    .project-icon-lang {
+        height: 4.8rem;
+        width: 5.63rem;
     }
     .contact {
-        grid-column: 1/2;
-        grid-row: 2/5;
-        align-self: baseline;
-        align-items: center;
-        gap: 16px;
-        height: 288px;
-        justify-items: center;
-        margin-top: 48px;
+        height: 19.2rem;
     }
-
-    .iconContatContainer {
-        align-items: center;
-        height: 56px;
-        justify-items: center;
-        width: 56px;
+    .container-copy {
+        width: fit-content;
     }
-
-    .contactIcon {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background-color: rgb(255, 255, 255);
-        border-radius: 50px;
-        border-style: none;
-        box-shadow: 0px 0.5px 0px rgb(40 78 91 / 30%);
-        color: #284E5B;
-        height: 48px;
-        justify-content: center;
-        width: 48px;
+    .copy-right {
+        font-size: 1.4rem;
     }
-    
-    .resume {
-        display: none;
-    }
-    
-    .ProjectsCarrusel {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        align-self: center;
-        gap: 16px;
-        grid-column: 1/5;
-        grid-row: 3/4;
-        height: 100%;
-        justify-content: center;
-        padding: 16px;
+    .footer-iconify {
+        font-size: 3.2rem;
         width: 100%;
-        margin: 0;
-    }
-    
-    .projectCar {
-        border-radius: 10px;
-        filter: drop-shadow(0px 1px 4px rgba(40, 78, 91, 0.16));
-        height: 62%;
-        width: 23%;
-
-    }
-    
-    .firstProjectCard {
-        background: url(imagenesOcult/bannerOcult.jpg);
-    }
-    
-    .secondProjectCard{
-        background: url(https://cdn.pixabay.com/photo/2017/07/13/12/51/puzzle-2500328__340.jpg);
-    }
-
-    .thirdProjectCard {
-        background: url(https://cdn.pixabay.com/photo/2022/03/09/16/30/dog-7058195__340.jpg);
-    }
-    
-    .footPage {
-        display: grid;
-        grid-template-columns: repeat(4, 25%);
-        grid-template-rows: 64px;
-        grid-column: 1/5;
-        grid-row: 4/5;
-        background-color:  #284E5B;
-        height: 64px;
-        padding: 0 16px 0 16px;
-        position: fixed;
-        bottom: 0;
-        width: 100vw;
-        align-items: center;
-    }
-    
-    .doneBy {
-        grid-column: 1/4;
-        grid-row: 1;
-        color: rgba(240, 248, 255, 0.6);
-        justify-self: left;
-    }
-    
-    .footlogo {
-        height: 24px;
-        width: 24px;
-    }
-    
-    .footRRSS {
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: repeat(4, 56px);
-        grid-column: 4/5;
-        grid-row: 1;
-        justify-items: center;
-        gap: 16px;
-        height: 56px;
-        padding-right: 16px;
-    }
-
-    .footIcon {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        background-color: rgb(255, 255, 255);
-        border-radius: 50px;
-        border-style: none;
-        box-shadow: 0px 0.5px 0px rgb(40 78 91 / 30%);
-        color:#306577;
-        height: 40px;
-        justify-content: center;
-        width: 40px;
-    }
-
-    .footMail {
-        align-content: left;
-    }
-
-    .footLinkedIn {
-        display: none;
-    }
-
-    .footInstagram {
-        display: none;
-    }
-
-    .footFacbook {
-        display: none;
-    }
-
-    .footGithub {
-        display: none;
-    }
-
-    .footTwitter {
-        display: none;
-    }
-
-    .footWhatsApp {
-        display: none;
-    }
-    
-    .email {
-        display: none;
     }
 }
 
+/* Tablet portrait styles */
+@media (min-width: 768px) {
+    .header {
+        padding: 1.6rem 2.4rem;
+    }
+    .navBar{
+        height: 6.4rem;
+    }
+    .navBar-menu, .menu-options {
+        display: none;
+    }
+    .navBar-options {
+        align-items: center;
+        display: flex;
+        gap: 6.4rem;
+        font-family: 'Krub', sans-serif;
+        font-weight: 400;
+        justify-content: space-between;
+        padding: 0 1.6rem;
+    }
+    .repo, .author {
+        text-decoration: none;
+        color: var(--Primary-color);
+        font-size: 1.6rem;
+    }
+
+    .main {
+        margin: 0 8.8rem 2.4rem 2.4rem;
+        grid-template-rows: repeat(4, 1fr) 6rem;
+        width: 86%;
+        gap: 4.8rem;
+        height: fit-content;
+    }
+    .gromaSnake, .funFace, .spotify, .roboPage {
+        justify-self: center;
+        width: 80%;
+    }
+
+    .project-img {
+        height: 21.8rem;
+        width: 22.8rem;
+    }
+    .project-title {
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+    .project-descrip {
+        font-size: 1.6rem
+    }
+    .project-link {
+        font-size: 1.6rem;
+    }
+    .project-lang {
+        padding: 1.6rem 0;
+    }
+    .project-icon-lang {
+        height: 4.8rem;
+        width: 6rem;
+    }
+    .contact {
+        height: 19.2rem;
+        margin-right: 2.4rem;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: 7.2rem;
+        padding: 0 2.4rem;
+    }
+    .container-copy {
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .footer-logo {
+        height: 3.25rem;
+        width: 4.7rem;
+    }
+    .copy-right {
+        font-size: 1.6rem;
+    }
+    .footer-email {
+        display: none;
+    } 
+    .footer-dir {
+        color: var(--font-light);
+        display: flex;
+        grid-column: 3/6;
+        grid-row: 1/2;
+        line-height: 2.1rem;
+        place-self: center;
+        text-decoration: none; 
+    }
+    .mail-direction {
+        display: inline-block;
+        font-family: 'Krub', sans-serif;
+        font-size: 1.6rem;
+        font-weight: 500;
+    }
+    .footer-gitHub {
+        grid-column: 6/8;
+        grid-row: 1/2;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 1025px) {
+    .navBar-options {
+        font-size: 1.8rem;
+    }
+    .gromaSnake, .funFace, .spotify, .roboPage {
+        justify-self: center;
+        width: 60%;
+    }
+    .project-lang {
+        padding-right: 2.4rem;
+    }
+    .footer-email {
+        display: none;
+    } 
+    .footer-dir {
+        color: var(--font-light);
+        display: flex;
+        grid-column: 3/6;
+        grid-row: 1/2;
+        line-height: 2.1rem;
+        place-self: center;
+        text-decoration: none; 
+    }
+    .mail-direction {
+        display: inline-block;
+        font-family: 'Krub', sans-serif;
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+    .footer-gitHub {
+        grid-column: 6/8;
+        grid-row: 1/2;
+    }
+}
+
+.hidden {
+    display: none;
+}
