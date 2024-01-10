@@ -1,2 +1,0 @@
-# gromarantPage
-portafolio personal
