@@ -1,25 +1,27 @@
 
-function Project_banner() {
+function Project_banner({projects}/*{img, btns, title, desc, functionalities, copyRight}*/ ) {
 
   return(
     <>
-      <article className='project_banner'>Project_banner Component
-        <section className='banner_img'>
-          <button className='banner_btn'>Prototype</button>
-          <button className='banner_btn'>Web</button>
-          <button className='banner_btn'>Repository</button>
-        </section>
+      { projects?.map((project, index) =>
+        <article className={`project_banner ${index % 2 === 0 ? 'img-text' : 'text-img'}`} key={project.title}>
+          <section className={`banner_img ${project.img}`}>
+            { project.btns?.map(link => <button className={`banner_btn ${link}`} key={`${project.title}_${link}`}>{link}</button>)}
+          </section>
 
-        <section className='banner_desc'>
-          <h1 className='banner_title'>Prototype</h1>
-          <p className='banner_textContent'>Web</p>
-          <h2>Funcionalities</h2>
-          <ul className='banner_functionalities'>
-            <li>function</li>
-          </ul>
-          <p>develop by: {}</p>
-        </section>
-      </article>
+          <section className='banner_desc'>
+            <h1 className='banner_title'>{project.title}</h1>
+            <p className='banner_textContent'>{project.desc}</p>
+            <h2>Funcionalities</h2>
+            { project.functionalities?.map( func => {
+              <ul className='banner_functionalities' key={`${project.title}_${func}`}>
+                <li>{func}</li>
+              </ul>
+            })}
+            <p>develop by: {project.copyRight}</p>
+          </section>
+        </article>
+      )}
     </>
   )
 }
