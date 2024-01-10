@@ -1,5 +1,4 @@
-import './App.css'
-import Project_banner from './components/Project_banner/Project_banner'
+import Project_banner from '../../components/Project_banner/Project_banner';
 
 const projects = [
   {
@@ -36,7 +35,7 @@ const projects = [
   },
 ]
 
-function App() {
+function Home() {
 
   return (
     <>
@@ -45,4 +44,4 @@ function App() {
   )
 }
 
-export default App
+export default Home;
