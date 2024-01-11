@@ -29,7 +29,7 @@ function Text_block({title, desc, func=null, authors=null, academic_title=null, 
               <h2>{academic_title} | {date}</h2>
               <p>{academy}</p>
             </article>
-            <a href={fileLink} target='_blank'><button onClick={fileLink}>See link</button></a>
+            <a href={fileLink} target='_blank'><button>See link</button></a>
           </section>
           : null
         }
