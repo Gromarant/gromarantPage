@@ -1,7 +1,7 @@
 import RRSS from '../RRSS/RRSS';
 import Banner from '../Banner/Banner.jsx';
 import Text_block from '../Text_block/Text_block.jsx';
-const rrss = ['Linkedin', 'Instagram', 'Twitter'];
+import rrss from "../../data/rrss.json";
 
 function Project_banner({projects}) {
   return(

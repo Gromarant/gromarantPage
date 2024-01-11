@@ -7,7 +7,7 @@ function Banner({img, btns, title=''}) {
         { hasTitle ?<h1 key={`title_${title}`}>{title}</h1> : null}
         
         <section className={`banner_img ${img}`}>
-          { btns?.map(link => <button className={`banner_btn ${link}`}  key={`btn_${link}`}>{link}</button>)}
+          { btns?.map(btn => <a key={`btn_${btn.name}`} href={btn.link} target='_blank'><button className={`banner_btn ${btn.name}`}>{btn.name}</button></a>)}
         </section>
       </article>
     </>

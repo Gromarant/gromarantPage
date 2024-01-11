@@ -1,34 +1,110 @@
 [
   {
     "img": "FullPokeApp",
-    "btns": ["Prototype", "Web", "Repository"],
+    "btns": [
+      {
+        "name": "Repository",
+        "link": "https://github.com/Gromarant/fullPokeApp"
+      },
+      {
+        "name": "Web",
+        "link": "https://fullpokeapp.netlify.app/"
+      }
+    ],
     "title": "FullPokeApp",
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad labore sed expedita eos accusantium ea repellendus neque illo animi laboriosam consequatur cupiditate eligendi dolorum, aliquid, earum delectus unde praesentium nobis?",
     "functionalities" : ["func_1", "func_2", "func_3"],
-    "copyRight":["Mariangelica Rodriguez"]
+    "copyRight":["Mariangelica Rodriguez"],
+    "links": [
+      {
+        "name": "Prototype",
+        "link": "https://react.dev/learn/responding-to-events#adding-event-handlers"
+      },
+      {
+        "name": "Web",
+        "link": "https://nextui.org/"
+      }
+    ]
   },
   {
     "img": "Groma-Snake",
-    "btns": ["Prototype", "Web", "Repository"],
+    "btns": [
+      {
+        "name": "Repository",
+        "link": "https://github.com/Gromarant/fullPokeApp"
+      },
+      {
+        "name": "Web",
+        "link": "https://fullpokeapp.netlify.app/"
+      }
+    ],
     "title": "Groma-Snake",
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad labore sed expedita eos accusantium ea repellendus neque illo animi laboriosam consequatur cupiditate eligendi dolorum, aliquid, earum delectus unde praesentium nobis?",
     "functionalities" : ["func_1", "func_2", "func_3"],
-    "copyRight":["Mariangelica Rodriguez"]
+    "copyRight":["Mariangelica Rodriguez"],
+    "links": [
+        {
+          "name": "Prototype",
+          "link": "https://react.dev/learn/responding-to-events#adding-event-handlers"
+        },
+        {
+          "name": "Web",
+          "link": "https://nextui.org/"
+        }
+      ]
   },
   {
     "img": "Groma-Snake",
-    "btns": ["Prototype", "Web", "Repository"],
+    "btns": [
+      {
+        "name": "Repository",
+        "link": "https://github.com/Gromarant/fullPokeApp"
+      },
+      {
+        "name": "Web",
+        "link": "https://fullpokeapp.netlify.app/"
+      }
+    ],
     "title": "Groma-Snake2",
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad labore sed expedita eos accusantium ea repellendus neque illo animi laboriosam consequatur cupiditate eligendi dolorum, aliquid, earum delectus unde praesentium nobis?",
     "functionalities" : ["func_1", "func_2", "func_3"],
-    "copyRight":["Mariangelica Rodriguez"]
+    "copyRight":["Mariangelica Rodriguez"],
+    "links": [
+        {
+          "name": "Prototype",
+          "link": "https://react.dev/learn/responding-to-events#adding-event-handlers"
+        },
+        {
+          "name": "Web",
+          "link": "https://nextui.org/"
+        }
+      ]
   },
   {
     "img": "Groma-Snake",
-    "btns": ["Prototype", "Web", "Repository"],
+    "btns": [
+      {
+        "name": "Repository",
+        "link": "https://github.com/Gromarant/fullPokeApp"
+      },
+      {
+        "name": "Web",
+        "link": "https://fullpokeapp.netlify.app/"
+      }
+    ],
     "title": "Groma-Snake3",
     "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad labore sed expedita eos accusantium ea repellendus neque illo animi laboriosam consequatur cupiditate eligendi dolorum, aliquid, earum delectus unde praesentium nobis?",
     "functionalities" : ["func_1", "func_2", "func_3"],
-    "copyRight":["Mariangelica Rodriguez"]
+    "copyRight":["Mariangelica Rodriguez"],
+    "links": [
+        {
+          "name": "Prototype",
+          "link": "https://react.dev/learn/responding-to-events#adding-event-handlers"
+        },
+        {
+          "name": "Web",
+          "link": "https://nextui.org/"
+        }
+      ]
   }
 ]
