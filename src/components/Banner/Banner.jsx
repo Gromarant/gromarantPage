@@ -1,5 +1,5 @@
 function Banner({img, btns, title=''}) {
-  const hasTitle = title !== '';
+  const hasTitle = title !== false;
 
   return(
     <>

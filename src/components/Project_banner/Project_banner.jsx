@@ -1,36 +1,24 @@
 import RRSS from '../RRSS/RRSS';
-
+import Banner from '../Banner/Banner.jsx';
+import Text_block from '../Text_block/Text_block.jsx';
 const rrss = ['Linkedin', 'Instagram', 'Twitter'];
 
-
 function Project_banner({projects}) {
-
   return(
     <>
       { projects?.map((project, index) => {
         const isNotLast = index < projects?.length-1;
-        
+        const isEven = index % 2 === 0;
+
           return (
           <section key={`${project.title}_${index}`}>
-            <article className={`project_banner ${index % 2 === 0 ? 'img-text' : 'text-img'}`}>
-              <section className={`banner_img ${project.img}`}>
-                { project.btns?.map(link => <button className={`banner_btn ${link}`} key={`${project.title}_${link}`}>{link}</button>)}
-              </section>
-
-              <section className='banner_desc'>
-                <h1 className='banner_title'>{project.title}</h1>
-                <p className='banner_textContent'>{project.desc}</p>
-                <h2>Funcionalities</h2>
-                <ul className='banner_functionalities'>
-                  { project.functionalities?.map( func => {
-                    <li key={`${project.title}_${func}`}>{func}</li>
-                  })}
-                </ul>
-                <p>develop by: {project.copyRight}</p>
-              </section>
-            </article>
+            <Banner className={`project_banner ${ isEven ? 'img-text' : 'text-img'}`}
+              img={project.img}
+              btns={project.btns}
+              title={project.title}
+            />
+            <Text_block title={project.title} desc={project.desc} func={project.functionalities} authors={project.copyRight}/>
             <RRSS rrss={rrss}/>
-
             {(isNotLast) ? <span className='divisor'>---------------------------------------</span> : null}
           </section>
           )
