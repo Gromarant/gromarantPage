@@ -1,6 +1,7 @@
 [
   {
-    "img": "FullPokeApp",
+    "home_img": "FullPokeApp",
+    "about_img": "FullPokeApp",
     "btns": [
       {
         "name": "Repository",
@@ -27,7 +28,9 @@
     ]
   },
   {
-    "img": "Groma-Snake",
+    
+    "home_img": "Groma-Snake",
+    "about_img": "Groma-Snake",
     "btns": [
       {
         "name": "Repository",
@@ -54,7 +57,8 @@
       ]
   },
   {
-    "img": "Groma-Snake",
+    "home_img": "Groma-Snake2",
+    "about_img": "Groma-Snake2",
     "btns": [
       {
         "name": "Repository",
@@ -81,7 +85,8 @@
       ]
   },
   {
-    "img": "Groma-Snake",
+    "home_img": "Groma-Snake3",
+    "about_img": "Groma-Snake3",
     "btns": [
       {
         "name": "Repository",
