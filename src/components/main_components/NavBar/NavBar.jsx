@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { lang_en } from "../../utils";
+import { lang_en } from "../../../utils";
 
 function NavBar() {
   return(
