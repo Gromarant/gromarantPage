@@ -6,3 +6,5 @@ export const scrollUp = () => window.scrollTo({
   top: 0,  
   behavior: 'smooth'
 });
+
+export const isTheSameAs = (condition, element) => condition === element;

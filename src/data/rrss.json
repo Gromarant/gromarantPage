@@ -1,14 +1,17 @@
 [
   {
     "name": "LinkedIn",
-    "link": "https://www.linkedin.com/in/mariangelica-rodr%C3%ADguez-p%C3%A9rez/"
+    "link": "https://www.linkedin.com/in/mariangelica-rodr%C3%ADguez-p%C3%A9rez/",
+    "title": "Go to LinkedIn"
   },
   {
     "name": "Instagram",
-    "link": "https://www.instagram.com/gromarant/"
+    "link": "https://www.instagram.com/gromarant/",
+    "title": "Go to Instagram"
   },
   {
     "name": "Twitter",
-    "link": "https://twitter.com/GromarantDev"
+    "link": "https://twitter.com/GromarantDev",
+    "title": "Go to Twitter"
   }
 ]
