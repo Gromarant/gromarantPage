@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { lang_en } from "../../../utils";
+import Dropdown from '../../Dropdown/Dropdown';
 
 function NavBar() {
   return(
@@ -15,6 +16,7 @@ function NavBar() {
           <li><Link to='/sobre_mi'>Sobre mi</Link></li>
         </ul>
     }
+    <Dropdown lang='en'/>
     </nav>
   )
 }
