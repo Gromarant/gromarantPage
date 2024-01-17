@@ -10,8 +10,8 @@
       "link": "https://fullpokeapp.netlify.app/"
     }
   ],
-  "fullPokeApp_desc": "Web application develop in React.js, SASS and Nextui.",
-  "fullPokeApp_functionalities" : [ "Memory game", "Search engine", "Pokémon creation"],
+  "fullPokeApp_desc": "Aplicación web desarrollada en React.js, SASS y Nextui.",
+  "fullPokeApp_functionalities" : [ "Juego de memoria.", "Buscador.", "Sección para crear Pokémones."],
   "fullPokeApp_copyRight":["Mariangelica Rodriguez"],
 
   "gromaSnake_title": "Groma-Snake",
@@ -33,8 +33,8 @@
       "link": "https://www.youtube.com/watch?v=hwLYrtQhLVI"
     }
   ],
-  "gromaSnake_desc": "Game develop in HTML, CSS and JavaScript.",
-  "gromaSnake_functionalities" : [ "Snake game", "Reset game", "See points and score"],
+  "gromaSnake_desc": "Juego desarrollado en  HTML, CSS y JavaScript vanilla.",
+  "gromaSnake_functionalities" : [ "Juego de la culebra.", "Reiniciar el juego.", "er Puntaje y score."],
   "gromaSnake_copyRight":["Mariangelica Rodriguez"],
 
   "funFace_title": "FunFace",
@@ -52,8 +52,8 @@
       "link": "https://gromarant.github.io/FunFace/"
     }
   ],
-  "funFace_desc": "Static web page, build with HTML, CSS and JavaScript vanilla.",
-  "funFace_functionalities" : [ "Display random emoji", "Emoji selector"],
+  "funFace_desc": "Página web estática, desarrollada en HTML, CSS y JavaScript vanilla.",
+  "funFace_functionalities" : [ "Mostrar un emoji aleatorio.", "Elegir emoji a mostrar desde selector."],
   "funFace_copyRight":["Mariangelica Rodriguez"],
 
   "robopage_title": "Robopage",
@@ -67,35 +67,35 @@
       "link": "https://robopage.netlify.app/"
     }
   ],
-  "robopage_desc": "React web app",
-  "robopage_functionalities" : [ "Search engine with API fetch data"],
+  "robopage_desc": "Aplicación web en React.js",
+  "robopage_functionalities" : [ "Buscador con solicitud de datos a una Api externa."],
   "robopage_copyRight":["Mariangelica Rodriguez"],
 
   "linkedIn": "LinkedIn",
   "linkedIn_link": "https://www.linkedin.com/in/mariangelica-rodr%C3%ADguez-p%C3%A9rez/",
-  "linkedIn_title": "Go to LinkedIn",
+  "linkedIn_title": "Ir a LinkedIn",
 
   "instagram_name": "Instagram",
   "instagram_link": "https://www.instagram.com/gromarant/",
-  "instagram_title": "Go to Instagram",
-  
+  "instagram_title": "Ir a Instagram",
+
   "twitter_name": "Twitter",
   "twitter_link": "https://twitter.com/GromarantDev",
-  "twitter_title": "Go to Twitter",
+  "twitter_title": "Ir a Twitter",
 
   "email_name": "Email",
   "email_link": "mailto:contacto@gromarant.com",
-  "email_title": "Write and email",
+  "email_title": "Escribir un correo",
 
   "profile_photo_src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/mask-group-AQE4xeJ3E0cMZjOq.webp",
-  "profile_photo_alt": "Profile photo",
+  "profile_photo_alt": "Foto de perfil",
   "profile_photo_title": "Mariangelica Rodriguez",
 
   "author_name": "Mariangelica Rodriguez",
-  "author_profession": "Full stack developer | UI/UX product designer",
+  "author_profession": "Desarrolladora Full stack | Diseñadora UI/UX",
   "author_greating_src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=960,h=752,fit=crop/m5KpR2QMglIWRz11/card-A1aQPzXgM2Tjzx2P.webp",
-  "author_greating_alt": "Hi!! I'm glad you are here and Learn something about me, welcome!!",
-  "author_greating_title": "Welcome!!",
+  "author_greating_alt": "Hola!! Encantada de que estés por aquí y que conozcas un poco sobre mí",
+  "author_greating_title": "bienvenid@!!",
  
   "langs_and_tools": [
     {
@@ -164,19 +164,19 @@
     }
   ],
 
-  "section_experience_title": "Experience",
-  "section_Lang_title": "Languages / tools",
-  "section_academic_title": "Academic titles",
+  "section_experience_title": "Experiencia",
+  "section_Lang_title": "Lenguajes / herramientas",
+  "section_academic_title": "Titulaciones",
 
   "academic_title": [
     {
-      "title": "Full stack developer",
+      "title": "Desarrollador Full stack",
       "date": "08/2023",
       "academy": "The Bridge | Digital Talent Accelerator",
       "diploma_link": "https://drive.google.com/file/d/17Tliv0fcZHBc5yvRQ8RAyOg80NLgF-eY/view?usp=sharing"
     },
     {
-      "title": "UX/UI Product Design",
+      "title": "Diseñador UX/UI",
       "date": "01/2021",
       "academy": "The Bridge | Digital Talent Accelerator",
       "diploma_link": "https://drive.google.com/file/d/1YrrCJn8vf9AQ1EBPqmh7G1oCbn7oYGjv/view"
