@@ -30,15 +30,16 @@ function About_me(){
         name={profileData.spanish.name}
         titles={profileData.spanish.profession}
         presentation={profileData.spanish.greating}
-        /> }
+        /> 
+      }
       <Section_title title='Experience' isEven={true}/>
       { projects?.map(project => <Banner img={project.about_img} btns={project.btns} title={project.title} key={`${project.title}_about`}/>)} 
       <Section_title title='Languages and tools' isEven={false}/>
       { langs_and_tools?.map(element => <Icon key={element.name} img={element.url} name={element.name}/>) }
       <Section_title title='Academic titles' isEven={true}/>
       { lang_en(lang) 
-      ? academic?.english.map(subject => <Text_block key={subject.date} academic_title={subject.title} date={subject.date} academy={subject.academy} fileLink={subject.diploma_link}/>)
-      : academic?.spanish.map(subject => <Text_block key={subject.date} academic_title={subject.title} date={subject.date} academy={subject.academy} fileLink={subject.diploma_link}/>)}
+        ? academic?.english.map(subject => <Text_block key={subject.date} academic_title={subject.title} date={subject.date} academy={subject.academy} fileLink={subject.diploma_link}/>)
+        : academic?.spanish.map(subject => <Text_block key={subject.date} academic_title={subject.title} date={subject.date} academy={subject.academy} fileLink={subject.diploma_link}/>)}
       {<Go_up_btn onClick={scrollUp} title='Scroll to top'/>}
     </section>
   )

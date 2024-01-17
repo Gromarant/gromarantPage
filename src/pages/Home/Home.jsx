@@ -18,7 +18,7 @@ function Home() {
               title={project.title}
             />
             <Text_block title={project.title} desc={project.desc} func={project.functionalities} authors={project.copyRight}/>
-            <RRSS rrss={rrss}/>
+            {(isNotLast( projects, index)) ? <RRSS rrss={rrss}/> : null}
             {(isNotLast( projects, index)) ? <span className='divisor'>---------------------------------------</span> : null}
           </section>
           )
