@@ -1,12 +1,10 @@
-import Text_block from '../Text_block/Text_block';
-
-function Profile({photo, name, titles, presentation}) {
-  // console.log('photo: ', photo);
+function Profile({photo, photo_alt, photo_title, author, profession, greating, greating_alt, greating_title}) {
   return(
-    <article>
-      <img src={photo.src} alt={photo.alt} title={photo.title}/>
-      <Text_block title={name} desc={titles}/>
-      <img src={presentation.src} alt={presentation.alt} title={presentation.title}/>
+    <article className='profile'>
+      <img src={photo} alt={photo_alt} title={photo_title}/>
+      <h1>{author}</h1>
+      <p>{profession}</p>
+      <img src={greating} alt={greating_alt} title={greating_title}/>
     </article>
   )
 }
