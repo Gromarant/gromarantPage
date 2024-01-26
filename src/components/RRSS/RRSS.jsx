@@ -3,7 +3,7 @@ import { FaXTwitter } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { isTheSameAs } from "../../utils";
 
-function RRSS({rrss}) {
+function RRSS({rrss, footer=false}) {
   return(
     <section className='rrss'>
     { rrss?.map((red, index) => 
@@ -11,11 +11,11 @@ function RRSS({rrss}) {
         { 
           isTheSameAs( red.name, 'LinkedIn') ? <button><FaLinkedinIn /></button>
           : isTheSameAs( red.name, 'Instagram') ? <button><FaInstagram /></button>
-          : isTheSameAs( red.name, 'Email') ? <button><MdEmail /></button>
-          : <button><FaXTwitter /></button>
+          : isTheSameAs( red.name, 'Twitter') ? <button><FaXTwitter /></button> : null
         }
-      </a>
-      )}
+        { footer && isTheSameAs( red.name, 'Email') ? <button><MdEmail /></button> : null}
+      </a>)
+    }
     </section>
   )
 }
