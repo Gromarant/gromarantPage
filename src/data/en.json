@@ -71,25 +71,31 @@
   "robopage_functionalities" : [ "Search engine with API fetch data"],
   "robopage_copyRight":["Mariangelica Rodriguez"],
 
-  "linkedIn": "LinkedIn",
-  "linkedIn_link": "https://www.linkedin.com/in/mariangelica-rodr%C3%ADguez-p%C3%A9rez/",
-  "linkedIn_title": "Go to LinkedIn",
-
-  "instagram_name": "Instagram",
-  "instagram_link": "https://www.instagram.com/gromarant/",
-  "instagram_title": "Go to Instagram",
-  
-  "twitter_name": "Twitter",
-  "twitter_link": "https://twitter.com/GromarantDev",
-  "twitter_title": "Go to Twitter",
-
-  "email_name": "Email",
-  "email_link": "mailto:contacto@gromarant.com",
-  "email_title": "Write and email",
+  "rrss" : [
+    {
+      "name": "LinkedIn",
+      "link": "https://www.linkedin.com/in/mariangelica-rodr%C3%ADguez-p%C3%A9rez/",
+      "title": "Go to LinkedIn"
+    },
+    {
+      "name": "Instagram",
+      "link": "https://www.instagram.com/gromarant/",
+      "title": "Go to Instagram"
+    },
+    {
+      "name": "Twitter",
+      "link": "https://twitter.com/GromarantDev",
+      "title": "Go to Twitter"
+    },
+    {
+      "name": "Email",
+      "link": "mailto:contacto@gromarant.com",
+      "title": "Write and email"
+    }
+  ],
 
   "profile_photo_src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/mask-group-AQE4xeJ3E0cMZjOq.webp",
   "profile_photo_alt": "Profile photo",
-  "profile_photo_title": "Mariangelica Rodriguez",
 
   "author_name": "Mariangelica Rodriguez",
   "author_profession": "Full stack developer | UI/UX product designer",
@@ -187,5 +193,12 @@
       "academy": "Centro de estudios Infer, SL (Sistema de Formación Profesional)",
       "diploma_link": "https://drive.google.com/file/d/1TdUkbtT7b-GAhFzkx_daRuHY050DQZaU/view"
     }
-  ]
+  ],
+
+  "scroll_btn_title": "Scroll to top",
+
+  "location_title": "Location",
+  "Location_place": "Madrid, Spain",
+
+  "OnTheWeb_title": "OnTheWeb_title"
 }
