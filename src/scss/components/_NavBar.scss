@@ -1,0 +1,51 @@
+@use '../abstracts';
+
+.navBar {
+  background-color: abstracts.$white-color;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  padding: 0 16px;
+  position: sticky;
+  top: 32px;
+}
+
+.navBar_logo {
+  height: 100%;
+}
+
+.navBar_lang {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.lang_img {
+  max-height: 48px;
+  max-width: 48px;
+}
+
+.lang_selector {
+  color: abstracts.$primary-color;
+  font-size: 18px;
+  margin: 24px 8px;
+}
+
+ul.navBar_links {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  padding: 8px 16px;
+}
+
+ul.navBar_links a {
+  color: abstracts.$primary-color;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+ul.navBar_links li {
+  place-content: center;
+}

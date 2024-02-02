@@ -11,12 +11,12 @@ function Dropdown() {
   };
   
   return(
-    <label htmlFor='lang'>
+    <label htmlFor='lang' className='navBar_lang'>
       { lang_en(lang) 
-        ? <img src='https://cdn-icons-png.flaticon.com/128/323/323310.png' alt={lang}/> 
-        : <img src='https://cdn-icons-png.flaticon.com/128/10601/10601048.png' alt={lang}/> 
+        ? <img className='lang_img' src='https://cdn-icons-png.flaticon.com/128/323/323310.png' alt={lang}/> 
+        : <img className='lang_img' src='https://cdn-icons-png.flaticon.com/128/10601/10601048.png' alt={lang}/> 
       }
-      <select name='lang' id='lang' onClick={handleLanguageSelection}>
+      <select className='lang_selector' name='lang' id='lang' onClick={handleLanguageSelection}>
         <option value='en'>English</option>
         <option value='es'>Español</option>
       </select>
