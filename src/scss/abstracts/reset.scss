@@ -1,0 +1,20 @@
+@use './colors';
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+input, textarea, button, select {
+  font: inherit;
+}
+
+body {
+  background-color: colors.$background-color;
+  font-size: 16px;
+  padding: 32px 160px;
+}

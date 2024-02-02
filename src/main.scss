@@ -1,18 +1,2 @@
 @use './scss/abstracts';
-
-*, *::before, *::after {
-  box-sizing: border-box;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-}
-
-input, textarea, button, select {
-  font: inherit;
-}
-
-body {
-  background-color: abstracts.$background-color;
-}
+@use './scss/components';
