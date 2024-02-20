@@ -1,51 +1,118 @@
 @use '../abstracts';
 
 .navBar {
-  background-color: abstracts.$white-color;
+  align-items: center;
+  background-color: abstracts.$font_light;
   border-radius: 16px;
   display: flex;
-  justify-content: space-between;
   height: 80px;
+  justify-content: space-between;
   padding: 0 16px;
   position: sticky;
-  top: 32px;
+  top: 16px;
+
+  .navBar_logo {
+    min-width: 200px;
+    width: 200px;
+  }
+
+  .dropdown {
+    display: none;
+  }
+
+  .menu {
+    align-items: end;
+    background-color: #ffffff;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 16px;
+    margin: 16px 0;
+    padding: 8px 16px;
+    position: absolute;
+    right: 0;
+    top: 80px;
+
+    ul.dropdown_links {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      list-style: none;
+      margin-top: 8px;
+
+      li, a {
+        color: abstracts.$primary-color;
+        font-size: 18px;
+        text-decoration: none;
+        place-content: center;
+      }
+    }
+  }
+
+  .active {
+    background-color: abstracts.$primary_variant-color;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 8px;
+  }
+
+  .dropdown_links a:not(.active):hover {
+    color: abstracts.$secondary-color;
+  }
+
+  .navBar_lang {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    height: 100%;
+    justify-content: center;
+    margin: 1px 0;
+
+    .lang_img {
+      max-height: 32px;
+      max-width: 32px;
+    }
+
+    .lang_selector {
+      border: solid 1px abstracts.$primary_variant-color;
+      border-radius: 8px;
+      color: abstracts.$primary-color;
+      font-size: 18px;
+    }
+  }
 }
 
-.navBar_logo {
-  height: 100%;
+@media (min-width: abstracts.$layout_breakpoint_medium) {
+  .navBar {
+
+    .burguer_menu {
+      display: none;
+    }
+
+    .dropdown {
+      display: flex;
+      gap: 24px;
+    }
+
+    ul.dropdown_links {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      gap: 16px;
+      list-style: none;
+
+      li, a {
+        text-decoration: none;
+      }
+    }
+  }
 }
 
-.navBar_lang {
-  display: flex;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-}
+@media (min-width: abstracts.$layout_breakpoint_expanded) {
+  .navBar {
 
-.lang_img {
-  max-height: 48px;
-  max-width: 48px;
-}
-
-.lang_selector {
-  color: abstracts.$primary-color;
-  font-size: 18px;
-  margin: 24px 8px;
-}
-
-ul.navBar_links {
-  display: flex;
-  gap: 16px;
-  list-style: none;
-  padding: 8px 16px;
-}
-
-ul.navBar_links a {
-  color: abstracts.$primary-color;
-  font-size: 18px;
-  text-decoration: none;
-}
-
-ul.navBar_links li {
-  place-content: center;
+    .dropdown {
+      gap: 48px;
+    }
+  }
 }
