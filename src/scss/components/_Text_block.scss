@@ -1,0 +1,16 @@
+.project_desc {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  .desc_func {
+    ul {
+      padding-left: 32px;
+    }
+  }
+
+  .desc_authors {
+    display: flex;
+    gap: 8px;
+  }
+}
