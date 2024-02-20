@@ -7,38 +7,46 @@ function Home({translate}) {
 
   return (
     <>
-      <section>
-        <Banner className={`project_banner ${ isEven ? 'img-text' : 'text-img'}`}
-          img={translate.fullPokeApp_title}
-          btns={translate.fullPokeApp_links}
-        />
-        <Text_block title={translate.fullPokeApp_title} desc={translate.fullPokeApp_desc} func={translate.fullPokeApp_functionalities} authors={translate.fullPokeApp_copyRight}/>
+      <section className='projects'>
+        <article className='project'>
+          <Banner className={`project_banner ${ isEven ? 'img-text' : 'text-img'}`}
+            img={translate.fullPokeApp_title}
+            btns={translate.fullPokeApp_links}
+          />
+          <Text_block title={translate.fullPokeApp_title} desc={translate.fullPokeApp_desc} func={translate.fullPokeApp_functionalities} authors={translate.fullPokeApp_copyRight}/>
+        </article>
         <RRSS rrss={translate.rrss}/>
-        <span className='divisor'>---------------------------------------</span>
+        <span className='divisor'></span>
 
-        <Banner className={`project_banner ${ isEven ? 'img-text' : 'text-img'}`}
-          img={translate.gromaSnake_title}
-          btns={translate.gromaSnake_links}
-        />
-        <Text_block title={translate.gromaSnake_title} desc={translate.gromaSnake_desc} func={translate.gromaSnake_functionalities} authors={translate.gromaSnake_copyRight}/>
+        <article className='project'>
+          <Banner className={`project_banner ${ isEven ? 'img-text' : 'text-img'}`}
+            img={translate.gromaSnake_title}
+            btns={translate.gromaSnake_links}
+          />
+          <Text_block title={translate.gromaSnake_title} desc={translate.gromaSnake_desc} func={translate.gromaSnake_functionalities} authors={translate.gromaSnake_copyRight}/>
+        </article>      
         <RRSS rrss={translate.rrss}/>
-        <span className='divisor'>---------------------------------------</span>
+        <span className='divisor'></span>
 
-        <Banner className={`project_banner ${ isEven ? 'img-text' : 'text-img'}`}
-          img={translate.funFace_title}
-          btns={translate.funFace_links}
-        />
-        <Text_block title={translate.funFace_title} desc={translate.funFace_desc} func={translate.funFace_functionalities} authors={translate.funFace_copyRight}/>
+        <article className='project'>
+          <Banner className={`project_banner ${ isEven ? 'img-text' : 'text-img'}`}
+            img={translate.funFace_title}
+            btns={translate.funFace_links}
+          />
+          <Text_block title={translate.funFace_title} desc={translate.funFace_desc} func={translate.funFace_functionalities} authors={translate.funFace_copyRight}/>
+        </article>    
         <RRSS rrss={translate.rrss}/>
-        <span className='divisor'>---------------------------------------</span>
+        <span className='divisor'></span>
 
-        <Banner className={`project_banner ${ isEven ? 'img-text' : 'text-img'}`}
-          img={translate.robopage_title}
-          btns={translate.robopage_links}
-        />
-        <Text_block title={translate.robopage_title} desc={translate.robopage_desc} func={translate.robopage_functionalities} authors={translate.robopage_copyRight}/>
+        <article className='project'>
+          <Banner className={`project_banner ${ isEven ? 'img-text' : 'text-img'}`}
+            img={translate.robopage_title}
+            btns={translate.robopage_links}
+          />
+          <Text_block title={translate.robopage_title} desc={translate.robopage_desc} func={translate.robopage_functionalities} authors={translate.robopage_copyRight}/>
+        </article>
         <RRSS rrss={translate.rrss}/>
-        <span className='divisor'>---------------------------------------</span>
+        <span className='divisor'></span>
       </section>
     </>
   )
