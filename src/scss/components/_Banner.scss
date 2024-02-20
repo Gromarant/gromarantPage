@@ -1,0 +1,47 @@
+@use '../abstracts';
+
+.banner_img {
+  border-radius: 16px;
+  background-image: url(https://images.unsplash.com/photo-1707080181888-25efd661305e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzfHx8ZW58MHx8fHx8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-width: 250px;
+  min-height: 250px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  .banner_btns {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    padding: 16px;
+    a {
+      text-decoration: none;
+    }
+
+    .banner_btn {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+
+      background-color: abstracts.$btns_bg_light;
+      border: none;
+      border-radius: 16px;
+      font-size: 12px;
+      min-height: 48px;
+      min-width: 64px;
+      padding: 8px;
+
+      svg {
+        font-size: 18px;
+        margin: 4px;
+      }
+    }
+  }
+}
