@@ -1,20 +1,55 @@
+@use '../abstracts';
+
 .projects {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 48px;
+  width: 100%;
+  max-width: 1200px;
+  justify-self: center;
+  
+  .project {
+    display: grid;
+    gap: 24px;
+    width: 100%;
+  }
+  
+  .divisor {
+    display: block;
+    border: 2px solid #f7e0d3;
+    border-radius: 16px;
+    width: 85%;
+    margin-bottom: 16px;
+  }
 }
 
-.project {
-  display: grid;
-  gap: 24px;
-  width: 90svw;
-}
+@media (min-width: abstracts.$layout_breakpoint_expanded) {
+  .project {
+    .project_desc {
+      gap: 40px;
+      width: fit-content;
+    }
+  }
 
-.divisor {
-  display: block;
-  border: 2px solid #f7e0d3;
-  border-radius: 16px;
-  width: 85%;
-  margin-bottom: 16px;
+  .banner_desc {
+    grid-template-columns: 55% auto;
+    align-items: center;
+  }
+
+  .desc_banner {
+    grid-template-columns: auto 55%;
+    align-items: center;
+
+    .project_desc {
+      grid-column: 1/2;
+      grid-row: 1;
+      justify-self: right;
+    }
+
+    .project_banner {
+      grid-column: 2/3;
+    }
+
+  }
 }

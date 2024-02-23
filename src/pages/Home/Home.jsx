@@ -9,7 +9,7 @@ function Home({translate}) {
   return (
     <>
       <section className='projects'>
-        <article className={`project ${ isEven(0) ? 'desc_banner' : 'banner_desc'}`}>
+        <article className={`project ${ isEven(0) ? 'banner_desc' : 'desc_banner'}`}>
           <Banner
             img={translate.fullPokeApp_title}
             btns={translate.fullPokeApp_links}
@@ -20,7 +20,7 @@ function Home({translate}) {
         <RRSS rrss={translate.rrss}/>
         <span className='divisor'></span>
 
-        <article className={`project ${ isEven(1) ? 'desc_banner' : 'banner_desc'}`}>
+        <article className={`project ${ isEven(1) ? 'banner_desc' : 'desc_banner'}`}>
           <Banner
             img={translate.gromaSnake_title}
             btns={translate.gromaSnake_links}
@@ -31,7 +31,7 @@ function Home({translate}) {
         <RRSS rrss={translate.rrss}/>
         <span className='divisor'></span>
 
-        <article className={`project ${ isEven(2) ? 'desc_banner' : 'banner_desc'}`}>
+        <article className={`project ${ isEven(2) ? 'banner_desc' : 'desc_banner'}`}>
           <Banner
             img={translate.funFace_title}
             btns={translate.funFace_links}
@@ -42,7 +42,7 @@ function Home({translate}) {
         <RRSS rrss={translate.rrss}/>
         <span className='divisor'></span>
 
-        <article className={`project ${ isEven(3) ? 'desc_banner' : 'banner_desc'}`}>
+        <article className={`project ${ isEven(3) ? 'banner_desc' : 'desc_banner'}`}>
           <Banner
             img={translate.robopage_title}
             btns={translate.robopage_links}
