@@ -50,7 +50,7 @@
   }
 
   .active {
-    background-color: abstracts.$primary_variant-color;
+    background-color: abstracts.$primary_variant-light;
     border-radius: 8px;
     font-weight: bold;
     padding: 8px;
@@ -74,7 +74,7 @@
     }
 
     .lang_selector {
-      border: solid 1px abstracts.$primary_variant-color;
+      border: solid 1px abstracts.$primary_variant-light;
       border-radius: 8px;
       color: abstracts.$primary-color;
       font-size: 18px;
