@@ -1,0 +1,32 @@
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  padding: 16px 8px;
+
+  .profile_photo {
+    border-radius: 50%;
+  }
+
+  .profile_text {
+    text-align: center;
+    width: min(60%, 400px);
+    
+      .profile_name {
+        font-size: 18px;
+      }
+      .profile_professions {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        justify-content: center;
+      }
+  }
+
+  .profile_greeting {
+    max-width: 250px;
+  }
+}

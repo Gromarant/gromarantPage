@@ -95,11 +95,17 @@
     "title": "Escribir un correo"
   },
 
-  "profile_photo_src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/mask-group-AQE4xeJ3E0cMZjOq.webp",
+  "profile_photo_src": {
+    "mobile": "../public/images/profile_photo.webp",
+    "desktop": "../public/images/profile_photo.webp"
+  },
   "profile_photo_alt": "Foto de perfil",
 
   "author_name": "Mariangelica Rodriguez",
-  "author_profession": "Desarrolladora Full stack | Diseñadora UI/UX",
+  "author_profession": {
+    "fullstack": "Desarrolladora Full stack",
+    "ux/ui": "Diseñadora UI/UX"
+  },
   "author_greating_src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=960,h=752,fit=crop/m5KpR2QMglIWRz11/card-A1aQPzXgM2Tjzx2P.webp",
   "author_greating_alt": "Hola!! Encantada de que estés por aquí y que conozcas un poco sobre mí",
   "author_greating_title": "bienvenid@!!",

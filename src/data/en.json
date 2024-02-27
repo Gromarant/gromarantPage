@@ -95,11 +95,17 @@
     "title": "Write and email"
   },
 
-  "profile_photo_src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/mask-group-AQE4xeJ3E0cMZjOq.webp",
+  "profile_photo_src": {
+    "mobile": "../public/images/profile_photo_94.webp",
+    "desktop": "../public/images/profile_photo_120.webp"
+  },
   "profile_photo_alt": "Profile photo",
 
   "author_name": "Mariangelica Rodriguez",
-  "author_profession": "Full stack developer | UI/UX product designer",
+  "author_profession": {
+    "fullstack": "Full stack developer",
+    "ux/ui": "UI/UX product designer"
+  },
   "author_greating_src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=960,h=752,fit=crop/m5KpR2QMglIWRz11/card-A1aQPzXgM2Tjzx2P.webp",
   "author_greating_alt": "Hi!! I'm glad you are here and Learn something about me, welcome!!",
   "author_greating_title": "Welcome!!",
