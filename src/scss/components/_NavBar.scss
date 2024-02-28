@@ -1,15 +1,16 @@
 @use '../abstracts';
 
 .navBar {
-  align-items: center;
-  background-color: abstracts.$font_light;
-  border-radius: 16px;
   display: flex;
-  height: 80px;
   justify-content: space-between;
+  align-items: center;
   padding: 0 16px;
   position: sticky;
   top: 16px;
+
+  background-color: abstracts.$font_light;
+  border-radius: 16px;
+  height: 80px;
 
   .navBar_logo {
     min-width: 200px;
@@ -27,18 +28,16 @@
     display: flex;
     flex-direction: column-reverse;
     gap: 16px;
-    margin: 16px 0;
-    padding: 8px 16px;
+    padding: 16px;
     position: absolute;
     right: 0;
-    top: 80px;
+    top: 96px;
 
     ul.dropdown_links {
       display: flex;
       flex-direction: column;
       gap: 24px;
       list-style: none;
-      margin-top: 8px;
 
       li, a {
         color: abstracts.$primary-color;
@@ -91,18 +90,24 @@
 
     .dropdown {
       display: flex;
-      gap: 24px;
-    }
-
-    ul.dropdown_links {
-      display: flex;
-      align-items: center;
       flex-direction: row;
-      gap: 16px;
-      list-style: none;
+      gap: 24px;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      right: 16px;
 
-      li, a {
-        text-decoration: none;
+      height: 100%;
+
+      ul.dropdown_links {
+        display: flex;
+        flex-direction: row;
+        gap: 16px;
+        list-style: none;
+  
+        li, a {
+          text-decoration: none;
+        }
       }
     }
   }
