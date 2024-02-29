@@ -1,5 +1,6 @@
 @use './colors';   
-@use './fonts';   
+@use './fonts'; 
+@use './layouts';  
 @import url('https://fonts.googleapis.com/css2?family=Krub:wght@400;500;700&display=swap');
 
 *, *::before, *::after {
@@ -34,7 +35,7 @@ h2 {
   font-size: 20px;
 }
 
-p, li {
+p, li, a {
   font-size: fonts.$body_small;
 }
 
@@ -54,5 +55,11 @@ p, li {
   gap: 32px;
   margin: auto;
   min-width: 300px;
-  padding: 16px;
+  padding: 32px 16px 16px;
+}
+
+@media (min-width: layouts.$layout_breakpoint_medium) {
+  #root {
+    padding: 48px 32px 32px;
+  }
 }
