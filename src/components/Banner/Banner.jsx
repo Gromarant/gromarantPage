@@ -12,7 +12,7 @@ function Banner({img, btns, index, title}) {
         
         <section className={`banner_img ${ isEven(index) ? 'btns_img' : 'img_btns'} ${img}`}>
           <section className='banner_btns'>
-            { btns?.map(btn => <a key={`btn_${btn.name}`} href={btn.link} target='_blank'><button className={`banner_btn ${btn.name}`}>
+            { btns?.map(btn => <a key={`btn_${btn.name}`} href={btn.link} target='_blank'><button className={`btn ${btn.name}`}>
               { 
                 isTheSameAs(btn.name , 'Repository') || isTheSameAs(btn.name , 'Repositorio') ? <FaGithub />
                 : isTheSameAs(btn.name , 'Web') ? <FaGlobe />

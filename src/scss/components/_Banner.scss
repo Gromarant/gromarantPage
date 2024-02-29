@@ -7,7 +7,7 @@
 
   background-color: abstracts.$primary-color;
   border-radius: 16px;
-  min-height: 305px;
+  min-height: 320px;
 
 
   .banner_btns {
@@ -20,27 +20,9 @@
       text-decoration: none;
     }
 
-    .banner_btn {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 8px;
-
+    .btn {
       background-color: abstracts.$btns_bg_light;
       border: none;
-      border-radius: 16px;
-      color: abstracts.$primary-color;
-      font-size: 12px;
-      font-weight: 600;
-      height: 62px;
-      width: 84px;
-
-      svg {
-        color: abstracts.$primary-color;
-        font-size: 24px;
-        margin: 4px;
-      }
     }
   }
 }
@@ -53,80 +35,206 @@
   align-items: flex-start;
 }
 
-.FullPokeApp {
-  background: url("../../../public/images/fullPokeApp_banner_img_mobile.webp"), abstracts.$bg_fullPokeApp;
-}
-
-.Groma-Snake {
-  background: url("../../../public/images/groaSnake_banner_img_mobile.webp"), abstracts.$bg_groma-snake;
-}
-
-.FunFace {
-  background: url("../../../public/images/Funface_banner_img_mobile.webp"), abstracts.$bg_funFace;
-}
-
-.Robopage {
-  background: url("../../../public/images/RoboPage_banner_img_mobile.webp"), abstracts.$bg_roboPage;
-}
-
-@media (min-width: abstracts.$layout_breakpoint_medium) {
-  .banner_img {
-    height: 432px;
-
-    .banner_btns {
-      .banner_btn {
-        font-size: 14px;
-        height: 80px;
-        width: 110px;
-
-        svg {
-          font-size: 32px;
-        }
-      }
-    }
-  }
-
+.project {
   .FullPokeApp {
-    background: url("../../../public/images/fullPokeApp_banner_img_tablet-desktop.webp"), abstracts.$bg_fullPokeApp;
+    background: url("../../../public/images/fullPokeApp_banner_img_small.webp"), abstracts.$bg_fullPokeApp;
   }
-
+  
   .Groma-Snake {
-    background: url("../../../public/images/groaSnake_banner_img_tablet-desk.webp"), abstracts.$bg_groma-snake;
+    background: url("../../../public/images/gromaSnake_banner_img_small.webp"), abstracts.$bg_groma-snake;
   }
   
   .FunFace {
-    background: url("../../../public/images/Funface_banner_img_tablet-desk.webp"), abstracts.$bg_funFace;
+    background: url("../../../public/images/Funface_banner_img_small.webp"), abstracts.$bg_funFace;
   }
   
   .Robopage {
-    background: url("../../../public/images/RoboPage_banner_img_tablet-desktop.webp"), abstracts.$bg_roboPage;
+    background: url("../../../public/images/Robopage_banner_img_small.webp"), abstracts.$bg_roboPage;
+  }
+
+  .Groma-Snake, .Robopage {
+    background-repeat: no-repeat;
+    background-position: left 30% center;
+  }
+  
+  .FullPokeApp,.FunFace {
+    background-repeat: no-repeat;
+    background-position: right 30% center;
+  }
+}
+
+.about_projects {
+  .FullPokeApp {
+    background: url("../../../public/images/fullPokeApp_banner_img_small.webp");
+  }
+  
+  .Groma-Snake {
+    background: url("../../../public/images/gromaSnake_banner_img_small.webp");
+  }
+  
+  .FunFace {
+    background: url("../../../public/images/Funface_banner_img_small.webp");
+  }
+  
+  .Robopage {
+    background: url("../../../public/images/Robopage_banner_img_small.webp");
+  }
+  
+  .Groma-Snake, .Robopage {
+    background-repeat: no-repeat;
+    background-position: left 30% center;
+  }
+  
+  .FullPokeApp,.FunFace {
+    background-repeat: no-repeat;
+    background-position: right 30% center;
+  }
+}
+
+
+@media (min-width: abstracts.$layout_breakpoint_medium) {
+  .banner_img {
+    height: 500px;
+  }
+
+  .project {
+    .FullPokeApp {
+      background: url("../../../public/images/fullPokeApp_banner_img_medium.webp"), abstracts.$bg_fullPokeApp;
+    }
+  
+    .Groma-Snake {
+      background: url("../../../public/images/gromaSnake_banner_img_medium.webp"), abstracts.$bg_groma-snake;
+    }
+    
+    .FunFace {
+      background: url("../../../public/images/Funface_banner_img_medium.webp"), abstracts.$bg_funFace;
+    }
+    
+    .Robopage {
+      background: url("../../../public/images/Robopage_banner_img_medium.webp"), abstracts.$bg_roboPage;
+    }
+
+    .Groma-Snake, .Robopage {
+      background-repeat: no-repeat;
+      background-position: left 20% center;
+    }
+    
+    .FullPokeApp,.FunFace {
+      background-repeat: no-repeat;
+      background-position: right 20% center;
+    }
+  }
+
+  .about_content {
+
+    .about_projects {
+      .FullPokeApp {
+        background: url("../../../public/images/fullPokeApp_banner_img_medium.webp");
+      }
+      
+      .Groma-Snake {
+        background: url("../../../public/images/gromaSnake_banner_img_medium.webp");
+      }
+      
+      .FunFace {
+        background: url("../../../public/images/Funface_banner_img_medium.webp");
+      }
+      
+      .Robopage {
+        background: url("../../../public/images/Robopage_banner_img_medium.webp");
+      }
+
+      .Groma-Snake, .Robopage {
+        background-repeat: no-repeat;
+        background-position: left 20% center;
+      }
+      
+      .FullPokeApp,.FunFace {
+        background-repeat: no-repeat;
+        background-position: right 20% center;
+      }
+    }
   }
 }
 
 @media (min-width: abstracts.$layout_breakpoint_expanded) {
   .banner_img {
-    height: 432px;
+    height: 600px;
+  }
 
+  .btns_img, .img_btns {
     .banner_btns {
-      .banner_btn {
-        font-size: 14px;
-        height: 80px;
-        width: 110px;
+      padding: 0;
+    }
+  }
 
-        svg {
-          font-size: 32px;
-        }
+  .project {
+    .FullPokeApp {
+      background: url("../../../public/images/FullPokeApp_banner_img_expanded.webp"), abstracts.$bg_fullPokeApp;
+    }
+  
+    .Groma-Snake {
+      background: url("../../../public/images/gromaSnake_banner_img_expanded.webp"), abstracts.$bg_groma-snake;
+    }
+    
+    .FunFace {
+      background: url("../../../public/images/Funface_banner_img_expanded.webp"), abstracts.$bg_funFace;
+    }
+    
+    .Robopage {
+      background: url("../../../public/images/Robopage_banner_img_expanded.webp"), abstracts.$bg_roboPage;
+    }
+
+    .Groma-Snake, .Robopage {
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+    
+    .FullPokeApp,.FunFace {
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+  }
+
+  .about_content {
+    .about_projects {
+      .FullPokeApp {
+        background: url("../../../public/images/fullPokeApp_banner_img_expanded.webp");
+      }
+      
+      .Groma-Snake {
+        background: url("../../../public/images/gromaSnake_banner_img_expanded.webp");
+      }
+      
+      .FunFace {
+        background: url("../../../public/images/Funface_banner_img_expanded.webp");
+      }
+      
+      .Robopage {
+        background: url("../../../public/images/Robopage_banner_img_expanded.webp");
+      }
+      
+      .Groma-Snake, .Robopage {
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      
+      .FullPokeApp,.FunFace {
+        background-repeat: no-repeat;
+        background-position: center;
       }
     }
   }
-}
 
-.Groma-Snake, .Robopage {
-  background-repeat: no-repeat;
-  background-position: left clamp(0.5px, 20%, 6rem) center;
-}
+  .banner_btns {
+    .banner_btn {
+      font-size: 14px;
+      height: 80px;
+      width: 110px;
 
-.FullPokeApp,.FunFace {
-  background-repeat: no-repeat;
-  background-position: right clamp(0.5px, 20%, 6rem) center;
+      svg {
+        font-size: 32px;
+      }
+    }
+  }
 }

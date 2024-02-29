@@ -19,37 +19,15 @@
     display: block;
     border: 2px solid #f7e0d3;
     border-radius: 16px;
-    width: 85%;
+    width: 100%;
     margin-bottom: 16px;
   }
 }
 
-@media (min-width: abstracts.$layout_breakpoint_expanded) {
-  .project {
-    .project_desc {
-      gap: 40px;
-      width: fit-content;
+@media (min-width: abstracts.$layout_breakpoint_medium) {
+  .projects {
+    .project {
+      gap: 32px;
     }
-  }
-
-  .banner_desc {
-    grid-template-columns: 55% auto;
-    align-items: center;
-  }
-
-  .desc_banner {
-    grid-template-columns: auto 55%;
-    align-items: center;
-
-    .project_desc {
-      grid-column: 1/2;
-      grid-row: 1;
-      justify-self: right;
-    }
-
-    .project_banner {
-      grid-column: 2/3;
-    }
-
   }
 }

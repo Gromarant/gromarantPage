@@ -1,0 +1,35 @@
+@use './colors';
+@use './layouts';
+@use './fonts';
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+
+  border-radius: 16px;
+  color: colors.$primary-color;
+  font-size: fonts.$btn_small;
+  font-weight: fonts.$medium;
+  height: 3.75rem;
+  width: 5rem;
+   
+  svg {
+    color: colors.$primary-color;
+    font-size: 24px;
+  }
+}
+
+@media (min-width: layouts.$layout_breakpoint_medium) {
+  .btn {
+    font-size: fonts.$btn_medium;
+    height: 5rem;
+    width: 6.875rem;
+
+    svg {
+      font-size: 32px;
+    }
+  }
+}
