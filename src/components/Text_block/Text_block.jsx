@@ -1,6 +1,7 @@
 import { useContext } from 'react';
 import { LangContext } from '../../context/LangContext';
 import { lang_en } from '../../utils';
+import { IoOpenOutline } from "react-icons/io5";
 
 function Text_block({title, desc, func=null, authors=null, academic_title=null, date=null, academy=null, fileLink=null}) {
   const { lang } = useContext(LangContext);
@@ -27,24 +28,24 @@ function Text_block({title, desc, func=null, authors=null, academic_title=null, 
             </ul>
           </section>
           <section className='desc_authors'>
-            { lang_en(lang) ? <p>Develop by: </p> : <p>Desarrollado por: </p>}
-            { authors?.map((author, index) => <p key={`${title}_${author}_${index}`}>{author}</p>)}
+            { lang_en(lang) ? <p className='dev'>Develop by: </p> : <p className='dev'>Desarrollado por: </p>}
+            { authors?.map((author, index) => <p className='authors' key={`${title}_${author}_${index}`}>{author}</p>)}
           </section>
         </article>
         : null
       }
       { hasAcademic_title && hasDate && hasAcademy && hasFileLink ?
-        <article className=''>
-        <h1>{title}</h1>
-        <p>{desc}</p>
-          <section>
-            <article>
-              <h2>{academic_title} | {date}</h2>
-              <p>{academy}</p>
-            </article>
-            <a href={fileLink} target='_blank'><button>{`${lang_en(lang) ? 'See link' : 'abrir link'}`}</button></a>
-          </section>
-        </article>
+        <section className='academic_title'>
+          <article className='academic_studies'>
+            <section className='study'>
+              <p className='study_title'>{academic_title}</p>
+              <span className='academic_divisor'>|</span>
+              <p className='study_date'>{date}</p>
+            </section>
+            <p>{academy}</p>
+          </article>
+          <a href={fileLink} target='_blank'><button className='btn openLink'><IoOpenOutline />{`${lang_en(lang) ? 'See link' : 'abrir link'}`}</button></a>
+        </section>
         : null
       }
     </>
