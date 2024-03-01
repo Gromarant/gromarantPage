@@ -22,6 +22,21 @@
   }
 }
 
+.go_Up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  border: solid 1px #1E7B9D;
+  color: #1E7B9D;
+  font-size: 24px;
+  height: 64px;
+  justify-self: right;
+  margin-right: 16px;
+  width: 64px;
+}
+
 @media (min-width: layouts.$layout_breakpoint_medium) {
   .btn {
     font-size: fonts.$btn_medium;
@@ -31,5 +46,11 @@
     svg {
       font-size: 32px;
     }
+  }
+}
+
+@media (min-width: layouts.$layout_breakpoint_expanded) {
+  .go_Up {
+    display: none;
   }
 }
