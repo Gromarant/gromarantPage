@@ -96,8 +96,9 @@
   },
 
   "profile_photo_src": {
-    "mobile": "../public/images/profile_photo.webp",
-    "desktop": "../public/images/profile_photo.webp"
+    "small": "../public/images/profile_photo120.webp",
+    "medium": "../public/images/profile_photo144.webp",
+    "large": "../public/images/profile_photo168.webp"
   },
   "profile_photo_alt": "Foto de perfil",
 
@@ -113,67 +114,67 @@
   "langs_and_tools": [
     {
       "name": "Javascript",
-      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/language-js-YNqpBnKaegcMDKgO.webp"
+      "url": "../public/images/icons/icon_js.webp"
     },
     {
       "name": "React.Js",
-      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/language-js-YNqpBnKaegcMDKgO.webp"
+      "url": "../public/images/icons/icon_react.webp"
     },
     {
       "name": "Node.js",
-      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/language-js-YNqpBnKaegcMDKgO.webp"
+      "url": "../public/images/icons/icon_nodejs.webp"
     },
     {
       "name": "HTML5",
-      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/language-js-YNqpBnKaegcMDKgO.webp"
+      "url": "../public/images/icons/icon_html5.webp"
     },
     {
       "name": "SASS",
-      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/language-js-YNqpBnKaegcMDKgO.webp"
+      "url": "../public/images/icons/icon_sass.webp"
     },
     {
       "name": "Express.js",
-      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/language-js-YNqpBnKaegcMDKgO.webp"
+      "url": "../public/images/icons/icon_expressjs.webp"
     },
     {
       "name": "CSS3",
-      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/language-js-YNqpBnKaegcMDKgO.webp"
+      "url": "../public/images/icons/icon_css3.webp"
     },
     {
       "name": "Nextui",
-      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/language-js-YNqpBnKaegcMDKgO.webp"
+      "url": "../public/images/icons/icon_nextui.webp"
     },
     {
       "name": "Jest",
-      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/language-js-YNqpBnKaegcMDKgO.webp"
+      "url": "../public/images/icons/icon_jest.webp"
     },
     {
       "name": "GIT/ GitHub",
-      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/language-js-YNqpBnKaegcMDKgO.webp"
+      "url": "../public/images/icons/icon_github.webp"
     },
     {
       "name": "Figma",
-      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/language-js-YNqpBnKaegcMDKgO.webp"
+      "url": "../public/images/icons/icon_figma.webp"
     },
     {
       "name": "Balsamic",
-      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/language-js-YNqpBnKaegcMDKgO.webp"
+      "url": "../public/images/icons/icon_balsamic.webp"
     },
     {
       "name": "Firebase",
-      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/language-js-YNqpBnKaegcMDKgO.webp"
+      "url": "../public/images/icons/icon_firebase.webp"
     },
     {
       "name": "MongoDb",
-      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/language-js-YNqpBnKaegcMDKgO.webp"
+      "url": "../public/images/icons/icon_mongodb.webp"
     },
     {
       "name": "Docker",
-      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/language-js-YNqpBnKaegcMDKgO.webp"
+      "url": "../public/images/icons/icon_docker.webp"
     },
     {
       "name": "SQL",
-      "url": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=984,h=984,fit=crop/m5KpR2QMglIWRz11/language-js-YNqpBnKaegcMDKgO.webp"
+      "url": "../public/images/icons/icon_sql.webp"
     }
   ],
 

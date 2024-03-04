@@ -1,0 +1,26 @@
+@use '../abstracts';
+
+.tool_bg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: abstracts.$icon-neutral-bg;
+  border-radius: 50%;
+  height: 56px;
+  width: 56px;
+}
+
+@media (min-width: abstracts.$layout_breakpoint_medium) {
+  .tool_bg {
+    height: 64px;
+    width: 64px;
+  }
+}
+
+@media (min-width: abstracts.$layout_breakpoint_expanded) {
+  .tool_bg {
+    height: 74px;
+    width: 74px;
+  }
+}
