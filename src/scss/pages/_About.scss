@@ -1,0 +1,56 @@
+@use '../abstracts';
+
+.about_content {
+  display: grid;
+  justify-items: center;
+  gap: 48px;
+
+  .primary {
+    color: abstracts.$primary-color;
+  }
+
+  h1 {
+    color: abstracts.$secondary-color;
+  }
+
+  .about_projects {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    width: 100%;
+
+    .project_banner {
+      h1 {
+        text-align: center;
+      }
+    }
+    .btn {
+      border: solid 2px abstracts.$primary-color;
+      background-color: abstracts.$background-color;
+    }
+  }
+
+  .languages_tools {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(85px, 1fr));
+    justify-items: center;
+
+    .tools {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 4px;
+    }
+  }
+
+  .academic_titles {
+    display: grid;
+    gap: 32px;
+  }
+}
+
+@media (min-width: abstracts.$layout_breakpoint_medium) {
+  .about_content {
+    gap: 64px;
+  }
+}
