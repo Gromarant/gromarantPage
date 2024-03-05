@@ -11,6 +11,7 @@
   background-color: abstracts.$font_light;
   border-radius: 16px;
   height: 80px;
+  z-index: 1000;
 
   .navBar_logo {
     min-width: 200px;

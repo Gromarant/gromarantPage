@@ -1,0 +1,41 @@
+@use '../abstracts';
+
+.section_title {
+  display: flex;
+  width: max-content;
+  align-items: center;
+
+  .diamond {
+    height: 96px;
+    width: 96px;
+    rotate: 45deg;
+    z-index: -1;
+    position: relative;
+    right: 20px;
+  }
+
+  .title-diamond {
+    position: relative;
+    left: 25px;
+  }
+
+  .diamond-title {
+    position: relative;
+    right: -70px;
+  }
+
+  .orange {
+    background-color: abstracts.$orange;
+  }
+
+  .aqua {
+    background-color: abstracts.$aqua;
+    position: relative;
+    left: -125px;
+  }
+  .section_name {
+    color: abstracts.$primary-color;
+    font-size: abstracts.$subtitle_small;
+    font-weight: abstracts.$light;
+  }
+}
