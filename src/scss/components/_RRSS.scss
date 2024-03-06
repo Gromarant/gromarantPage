@@ -1,14 +1,14 @@
 @use '../abstracts';
 
 .rrss {
-  padding: 8px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(40px, 56px));
+  justify-content: center;
+  gap: 24px;
 
   .rrss_btn {
     background-color: transparent;
     border: none;
-    padding: 8px;
-    margin: 0 16px;
-    min-height: 40px;
-    min-width: 40px;
+    height: 56px;
   }
 }
