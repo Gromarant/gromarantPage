@@ -1,10 +1,11 @@
 function Section_title({title, isEven}) {
   
   return(
-    <article className={isEven ? 'img-text' : 'text-img'}>
-      <span>{isEven ? 'Diamond-orange' : 'Diamond-green'}</span>
-      <h1>{title}</h1>
-    </article>
+    <section className='section_title'>
+      <h1 className={`section_name ${isEven ? 'title-diamond' : 'diamond-title'}`}>{title}</h1>
+      <div className={`diamond ${isEven ? 'orange' : 'aqua'}`}>
+      </div>
+    </section>
   )
 }
 
