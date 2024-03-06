@@ -164,12 +164,12 @@
   .banner_img {
     height: 600px;
   }
-
+  
   .project {
     .FullPokeApp {
       background: url("../../../public/images/FullPokeApp_banner_img_expanded.webp"), abstracts.$bg_fullPokeApp;
     }
-  
+    
     .Groma-Snake {
       background: url("../../../public/images/gromaSnake_banner_img_expanded.webp"), abstracts.$bg_groma-snake;
     }
@@ -181,7 +181,7 @@
     .Robopage {
       background: url("../../../public/images/Robopage_banner_img_expanded.webp"), abstracts.$bg_roboPage;
     }
-
+    
     .Groma-Snake, .Robopage {
       background-repeat: no-repeat;
       background-position: center;
@@ -192,9 +192,10 @@
       background-position: center;
     }
   }
-
+  
   .about_content {
     .about_projects {
+      max-width: 850px;
       
       .btns_img, .img_btns {
         .banner_btns {
