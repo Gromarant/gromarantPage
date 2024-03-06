@@ -1,6 +1,6 @@
 import RRSS from '../../RRSS/RRSS';
 import { FaLocationDot } from "react-icons/fa6";
-import { MdAlternateEmail } from "react-icons/md";
+import { BsFillSendFill } from "react-icons/bs";
 
 function Footer({translate}) {
 
@@ -22,7 +22,7 @@ function Footer({translate}) {
         <article className='footer_section contact' onClick={contactHandler}>
           <h2 className='show_medium'>{translate.OnTheWeb_title}</h2>
           <RRSS  className='show_medium' rrss={translate.rrss} footer={translate.mailTo}/>
-          <MdAlternateEmail  className='icon show_small'/>
+          <BsFillSendFill  className='icon show_small'/>
           <p className='show_small'>Contact</p>
         </article>
       </section>
