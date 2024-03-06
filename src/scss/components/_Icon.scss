@@ -11,10 +11,42 @@
   width: 56px;
 }
 
+.contact_icons {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(40px, 56px));
+  justify-content: center;
+  justify-self: center;
+  gap: 24px;
+
+  background-color: abstracts.$btns_bg_light;
+  border: solid 0.25px abstracts.$primary-color;
+  border-radius: 16px;
+  padding: 8px 16px;
+  width: fit-content;
+
+  .rrss_btn  {
+    background-color: abstracts.$primary-color;
+    color: abstracts.$icon-light;
+    border-radius: 50%;
+
+    .icon {
+      color: white;
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}
+
 @media (min-width: abstracts.$layout_breakpoint_medium) {
   .tool_bg {
     height: 64px;
     width: 64px;
+  }
+
+  .contact_icons {
+    display: none;
   }
 }
 

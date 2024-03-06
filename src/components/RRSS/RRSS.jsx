@@ -3,9 +3,9 @@ import { FaXTwitter } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { isTheSameAs } from "../../utils";
 
-function RRSS({rrss, footer}) {
+function RRSS({rrss, footer, classProp="rrss"}) {
   return(
-    <section className='rrss'>
+    <section className={classProp}>
     { rrss?.map((red, index) => 
       <button className='rrss_btn' key={`${red}_${index}`}>
         { 

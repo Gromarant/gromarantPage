@@ -3,6 +3,12 @@ import { FaLocationDot } from "react-icons/fa6";
 import { MdAlternateEmail } from "react-icons/md";
 
 function Footer({translate}) {
+
+  const contactHandler = () => {
+    const contactIcons = document.querySelector('.contact_icons');
+    contactIcons.classList.toggle('hidden');
+  }
+
   return(
     <footer>
       <section className='footer_up_items'>
@@ -12,7 +18,8 @@ function Footer({translate}) {
           <p>{translate.Location_place}</p>
         </article>
 
-        <article className='footer_section contact'>
+
+        <article className='footer_section contact' onClick={contactHandler}>
           <h2 className='show_medium'>{translate.OnTheWeb_title}</h2>
           <RRSS  className='show_medium' rrss={translate.rrss} footer={translate.mailTo}/>
           <MdAlternateEmail  className='icon show_small'/>
