@@ -5,7 +5,6 @@ import { isEven } from "../../utils.js";
 
 
 function Home({translate}) {
-
   return (
     <>
       <section className='projects'>
@@ -50,8 +49,6 @@ function Home({translate}) {
           />
           <Text_block title={translate.robopage_title} desc={translate.robopage_desc} func={translate.robopage_functionalities} authors={translate.robopage_copyRight}/>
         </article>
-        <RRSS rrss={translate.rrss}/>
-        <span className='divisor'></span>
       </section>
     </>
   )

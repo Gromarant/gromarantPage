@@ -6,21 +6,13 @@
   align-items: center;
   gap: 48px;
   width: 100%;
-  max-width: 1200px;
+  max-width: 1120px;
   justify-self: center;
   
   .project {
     display: grid;
     gap: 24px;
     width: 100%;
-  }
-  
-  .divisor {
-    display: block;
-    border: 2px solid #f7e0d3;
-    border-radius: 16px;
-    width: 100%;
-    margin-bottom: 16px;
   }
 }
 
