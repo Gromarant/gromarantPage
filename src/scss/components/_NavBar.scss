@@ -4,19 +4,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 16px;
   position: sticky;
   top: 16px;
 
   background-color: abstracts.$font_light;
   border-radius: 16px;
   height: 80px;
-  z-index: 1000;
 
   .navBar_logo {
     min-width: 200px;
     width: 200px;
   }
+
+  .burguer_menu {
+    margin-right: 16px;
+  } 
 
   .dropdown {
     display: none;
@@ -29,7 +31,7 @@
     display: flex;
     flex-direction: column-reverse;
     gap: 16px;
-    padding: 16px;
+    padding: 8px 16px;
     position: absolute;
     right: 0;
     top: 96px;
@@ -99,7 +101,7 @@
       right: 16px;
 
       height: 100%;
-
+      
       ul.dropdown_links {
         display: flex;
         flex-direction: row;
@@ -108,7 +110,6 @@
   
         li, a {
           text-decoration: none;
-          font-size: abstracts.$body_medium;
         }
       }
     }
