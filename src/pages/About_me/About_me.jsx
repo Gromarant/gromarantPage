@@ -4,11 +4,11 @@ import Icon from '../../components/Icon/Icon';
 import Text_block from "../../components/Text_block/Text_block";
 import Profile from '../../components/Profile/Profile';
 import RRSS from '../../components/RRSS/RRSS';
+import { setInitialState } from '../../utils';
 
 function About_me({translate}){
-
   return(
-    <section className='about_content'>
+    <section className='about_content' onClick={setInitialState}>
       <Profile 
         photo_small={translate.profile_photo_src.small} 
         photo_medium={translate.profile_photo_src.medium} 
