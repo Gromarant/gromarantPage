@@ -28,10 +28,14 @@
     background-color: abstracts.$primary-color;
     color: abstracts.$icon-light;
     border-radius: 50%;
-
+    
     .icon {
       color: white;
     }
+  }
+  
+  .rrss_btn:hover {
+    background-color: abstracts.$secondary-color;
   }
 }
 

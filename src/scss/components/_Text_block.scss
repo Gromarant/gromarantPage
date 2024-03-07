@@ -53,14 +53,23 @@
     a {
       text-decoration: none;
     }
+    
+    p {
+      color: abstracts.$font_neutral;
+    }
 
     .btn {
       text-decoration: none;
       border: solid 2px abstracts.$primary-color;
       background-color: abstracts.$background-color;
     }
-    p {
-      color: abstracts.$font_neutral;
+
+    .btn:hover {
+      border: solid 2px abstracts.$primary_variant-light;
+      
+      svg {
+        color: abstracts.$secondary-color;
+      }
     }
 
     .study {

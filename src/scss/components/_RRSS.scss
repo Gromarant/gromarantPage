@@ -11,4 +11,10 @@
     border: none;
     height: 56px;
   }
+
+  .rrss_btn:hover {
+    .icon {
+      color: abstracts.$secondary-color;
+    }
+  }
 }

@@ -37,6 +37,12 @@
   width: 64px;
 }
 
+.go_Up:hover {
+  background-color: #E6F5F0;
+  color: #F09D20;
+  border-color: #24C2AF;
+}
+
 @media (min-width: layouts.$layout_breakpoint_medium) {
   .btn {
     font-size: fonts.$btn_medium;

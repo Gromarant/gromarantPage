@@ -60,6 +60,14 @@ footer {
       display: none;
     }
   }
+
+  .contact {
+    .rrss{
+      .rrss_btn:hover {
+        background-color: abstracts.$secondary-color;
+      } 
+    }
+  }
 }
 
 @media (min-width: abstracts.$layout_breakpoint_medium) {
