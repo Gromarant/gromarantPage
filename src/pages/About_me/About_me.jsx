@@ -10,11 +10,15 @@ function About_me({translate}){
   return(
     <section className='about_content'>
       <Profile 
+        photo_small={translate.profile_photo_src.small} 
+        photo_medium={translate.profile_photo_src.medium} 
+        photo_large={translate.profile_photo_src.large}
         photo_alt={translate.profile_photo_alt}
         photo_title={translate.author_name}
         author={translate.author_name}
         profession={translate.author_profession}
-        greating={translate.author_greating_src}
+        greating_small={translate.author_greating_src.small} 
+        greating_large={translate.author_greating_src.large} 
         greating_alt={translate.author_greating_alt}
         greating_title={translate.author_greating_title}
       /> 

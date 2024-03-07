@@ -96,9 +96,9 @@
   },
 
   "profile_photo_src": {
-    "small": "../public/images/profile_photo120.webp",
-    "medium": "../public/images/profile_photo144.webp",
-    "large": "../public/images/profile_photo168.webp"
+    "small": "images/profile_photo120.svg",
+    "medium": "images/profile_photo144.svg",
+    "large": "images/profile_photo168.svg"
   },
   "profile_photo_alt": "Profile photo",
 
@@ -107,74 +107,77 @@
     "fullstack": "Full stack developer",
     "ux/ui": "UI/UX product designer"
   },
-  "author_greating_src": "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=960,h=752,fit=crop/m5KpR2QMglIWRz11/card-A1aQPzXgM2Tjzx2P.webp",
+  "author_greating_src": {
+    "small": "images/profile_greeting_card_en_small.svg",
+    "large": "images/profile_greeting_card_en_large.svg"
+  },
   "author_greating_alt": "Hi!! I'm glad you are here and Learn something about me, welcome!!",
   "author_greating_title": "Welcome!!",
  
   "langs_and_tools": [
     {
       "name": "Javascript",
-      "url": "../public/images/icons/icon_js.webp"
+      "url": "images/icons/icon_js_small.svg"
     },
     {
       "name": "React.Js",
-      "url": "../public/images/icons/icon_react.webp"
+      "url": "images/icons/icon_react_small.svg"
     },
     {
       "name": "Node.js",
-      "url": "../public/images/icons/icon_nodejs.webp"
+      "url": "images/icons/icon_nodejs_small.svg"
     },
     {
       "name": "HTML5",
-      "url": "../public/images/icons/icon_html5.webp"
+      "url": "images/icons/icon_html5_small.svg"
     },
     {
       "name": "SASS",
-      "url": "../public/images/icons/icon_sass.webp"
+      "url": "images/icons/icon_sass_small.svg"
     },
     {
       "name": "Express.js",
-      "url": "../public/images/icons/icon_expressjs.webp"
+      "url": "images/icons/icon_expressjs_small.svg"
     },
     {
       "name": "CSS3",
-      "url": "../public/images/icons/icon_css3.webp"
+      "url": "images/icons/icon_css3_small.svg"
     },
     {
       "name": "Nextui",
-      "url": "../public/images/icons/icon_nextui.webp"
+      "url": "images/icons/icon_nextui_small.svg"
     },
     {
       "name": "Jest",
-      "url": "../public/images/icons/icon_jest.webp"
+      "url": "images/icons/icon_jest_small.svg"
     },
     {
       "name": "GIT/ GitHub",
-      "url": "../public/images/icons/icon_github.webp"
+      "url": "images/icons/icon_github_small.svg"
     },
     {
       "name": "Figma",
-      "url": "../public/images/icons/icon_figma.webp"
+      "url": "images/icons/icon_figma_small.svg"
     },
     {
       "name": "Balsamic",
-      "url": "../public/images/icons/icon_balsamic.webp"
+      "url": "images/icons/icon_balsamic_small.svg"
     },
     {
       "name": "Firebase",
-      "url": "../public/images/icons/icon_firebase.webp"
+      "url": "images/icons/icon_firebase_small.svg"
     },
     {
       "name": "MongoDb",
-      "url": "../public/images/icons/icon_mongodb.webp"
+      "url": "images/icons/icon_mongodb_small.svg"
     },
     {
       "name": "Docker",
-      "url": "../public/images/icons/icon_docker.webp"
+      "url": "images/icons/icon_docker_small.svg"
     },
     {
       "name": "SQL",
-      "url": "../public/images/icons/icon_sql.webp"
+      "url": "images/icons/icon_sql_small.svg"
     }
   ],
 

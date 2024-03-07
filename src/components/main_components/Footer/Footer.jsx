@@ -30,7 +30,7 @@ function Footer({translate}) {
       <article className='footer_section copyrights'>
         <h2 className='show_expanded'>{translate.copyright_title}</h2>
         <section className='copyright'>
-          <img src='../../../../images/logo_short.png' alt='logo'/>
+          <img src='images/logo.svg' alt='logo'/>
           <a href='https://www.linkedin.com/in/mariangelica-rodr%C3%ADguez-p%C3%A9rez/' target="_blank">© Mariangelica Rodríguez</a>
         </section>
       </article>
