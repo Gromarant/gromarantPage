@@ -48,6 +48,14 @@ p, li, a {
   display: none;
 }
 
+.divisor {
+  display: block;
+  border: 2px solid #f7e0d3;
+  border-radius: 16px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
 #root {
   display: grid;
   font-family: 'Krub', sans-serif;
