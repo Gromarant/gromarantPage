@@ -1,13 +1,12 @@
+import { useContext } from 'react';
 import RRSS from '../../RRSS/RRSS';
 import { FaLocationDot } from "react-icons/fa6";
 import { BsFillSendFill } from "react-icons/bs";
+import { ContactContext } from '../../../context/ContactContext';
+
 
 function Footer({translate}) {
-
-  const contactHandler = () => {
-    const contactIcons = document.querySelector('.contact_icons');
-    contactIcons.classList.toggle('hidden');
-  }
+  const {openContact, setOpenContact} = useContext(ContactContext);
 
   return(
     <footer>
@@ -19,7 +18,7 @@ function Footer({translate}) {
         </article>
 
 
-        <article className='footer_section contact' onClick={contactHandler}>
+        <article className='footer_section contact' onClick={() => setOpenContact(!openContact)}>
           <h2 className='show_medium'>{translate.OnTheWeb_title}</h2>
           <RRSS  className='show_medium' rrss={translate.rrss} footer={translate.mailTo}/>
           <BsFillSendFill  className='icon show_small'/>

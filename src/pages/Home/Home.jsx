@@ -1,13 +1,13 @@
 import RRSS from '../../components/RRSS/RRSS.jsx';
 import Banner from '../../components/Banner/Banner.jsx';
 import Text_block from '../../components/Text_block/Text_block.jsx';
-import { isEven, setInitialState } from "../../utils.js";
+import { isEven } from "../../utils.js";
 
 
 function Home({translate}) {
   return (
     <>
-      <section className='projects' onClick={setInitialState}>
+      <section className='projects'>
         <article className={`project ${ isEven(0) ? 'banner_desc' : 'desc_banner'}`}>
           <Banner
             img={translate.fullPokeApp_title}
