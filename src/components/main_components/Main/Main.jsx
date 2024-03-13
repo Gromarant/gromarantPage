@@ -13,8 +13,8 @@ import Footer from '../Footer/Footer.jsx';
 import Go_up_btn from '../../Go_up_btn/Go_up_btn.jsx';
 import { scrollUp } from '../../../utils.js';
 import { lang_en } from '../../../utils.js';
-import English from '../../../data/en.json';
-import Spanish from '../../../data/es.json';
+import English from '../../../data/en.js';
+import Spanish from '../../../data/es.js';
 
 
 function Main() {

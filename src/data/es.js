@@ -1,4 +1,4 @@
-{
+const spanish = {
   "fullPokeApp_title": "FullPokeApp",
   "fullPokeApp_links": [
     {
@@ -215,3 +215,5 @@
 
   "copyright_title": "Derechos de autor"
 }
+
+export default spanish;
