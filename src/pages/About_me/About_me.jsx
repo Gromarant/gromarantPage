@@ -22,7 +22,9 @@ function About_me({translate}){
         greating_title={translate.author_greating_title}
       /> 
 
-      <RRSS rrss={translate.rrss}/>
+      <section className='rrss'>
+        <RRSS rrss={translate.rrss}/>
+      </section>
       <span className='divisor'></span>
 
       <Section_title title={translate.section_experience_title} isEven={true}/>
@@ -53,7 +55,9 @@ function About_me({translate}){
         />
       </section>
 
-      <RRSS rrss={translate.rrss}/>
+      <section className='rrss'>
+        <RRSS rrss={translate.rrss}/>
+      </section>
       <span className='divisor'></span>
 
       <Section_title title={translate.section_Lang_title} isEven={false}/>
@@ -62,7 +66,9 @@ function About_me({translate}){
                                     map(element => <Icon key={element.name} img={element.url} name={element.name}/>) }
       </section>
 
-      <RRSS rrss={translate.rrss}/>
+      <section className='rrss'>
+        <RRSS rrss={translate.rrss}/>
+      </section>
       <span className='divisor'></span>
 
       <Section_title title={translate.section_academic_title} isEven={true}/>

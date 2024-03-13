@@ -20,7 +20,9 @@ function Footer({translate}) {
 
         <article className='footer_section contact' onClick={() => setOpenContact(!openContact)}>
           <h2 className='show_medium'>{translate.OnTheWeb_title}</h2>
-          <RRSS  className='show_medium' rrss={translate.rrss} footer={translate.mailTo}/>
+          <section className='rrss show_medium'>
+            <RRSS rrss={translate.rrss} footer={translate.mailTo}/>
+          </section>
           <BsFillSendFill  className='icon show_small'/>
           <p className='show_small'>Contact</p>
         </article>

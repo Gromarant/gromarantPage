@@ -1,3 +1,7 @@
+import { FaLinkedinIn, FaInstagram  } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+
 const english = {
   "fullPokeApp_title": "FullPokeApp",
   "fullPokeApp_links": [
@@ -75,24 +79,28 @@ const english = {
     {
       "name": "LinkedIn",
       "link": "https://www.linkedin.com/in/mariangelica-rodr%C3%ADguez-p%C3%A9rez/",
-      "title": "Go to LinkedIn"
+      "title": "Go to LinkedIn",
+      "icon": FaLinkedinIn
     },
     {
       "name": "Instagram",
       "link": "https://www.instagram.com/gromarant/",
-      "title": "Go to Instagram"
+      "title": "Go to Instagram",
+      "icon": FaInstagram
     },
     {
       "name": "Twitter",
       "link": "https://twitter.com/GromarantDev",
-      "title": "Go to Twitter"
+      "title": "Go to Twitter",
+      "icon": FaXTwitter
     }
   ],
 
   "mailTo": {
     "name": "Email",
     "link": "mailto:contacto@gromarant.com",
-    "title": "Write and email"
+    "title": "Write and email",
+    "icon": MdEmail
   },
 
   "profile_photo_src": {

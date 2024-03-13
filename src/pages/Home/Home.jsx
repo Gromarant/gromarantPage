@@ -16,7 +16,9 @@ function Home({translate}) {
           />
           <Text_block title={translate.fullPokeApp_title} desc={translate.fullPokeApp_desc} func={translate.fullPokeApp_functionalities} authors={translate.fullPokeApp_copyRight}/>
         </article>
-        <RRSS rrss={translate.rrss}/>
+        <section className='rrss'>
+          <RRSS rrss={translate.rrss}/>
+        </section>
         <span className='divisor'></span>
 
         <article className={`project ${ isEven(1) ? 'banner_desc' : 'desc_banner'}`}>
@@ -27,7 +29,9 @@ function Home({translate}) {
           />
           <Text_block title={translate.gromaSnake_title} desc={translate.gromaSnake_desc} func={translate.gromaSnake_functionalities} authors={translate.gromaSnake_copyRight}/>
         </article>      
-        <RRSS rrss={translate.rrss}/>
+        <section className='rrss'>
+          <RRSS rrss={translate.rrss}/>
+        </section>
         <span className='divisor'></span>
 
         <article className={`project ${ isEven(2) ? 'banner_desc' : 'desc_banner'}`}>
@@ -38,7 +42,9 @@ function Home({translate}) {
           />
           <Text_block title={translate.funFace_title} desc={translate.funFace_desc} func={translate.funFace_functionalities} authors={translate.funFace_copyRight}/>
         </article>    
-        <RRSS rrss={translate.rrss}/>
+        <section className='rrss'>
+          <RRSS rrss={translate.rrss}/>
+        </section>
         <span className='divisor'></span>
 
         <article className={`project ${ isEven(3) ? 'banner_desc' : 'desc_banner'}`}>
