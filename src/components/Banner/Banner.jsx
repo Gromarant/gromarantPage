@@ -1,6 +1,3 @@
-import { isTheSameAs } from "../../utils";
-import { FaGithub, FaPlayCircle, FaGlobe  } from "react-icons/fa";
-import { MdDevices } from "react-icons/md";
 import {isEven} from "../../utils";
 
 function Banner({img, btns, index, title}) {
@@ -12,14 +9,10 @@ function Banner({img, btns, index, title}) {
         
         <section className={`banner_img ${ isEven(index) ? 'btns_img' : 'img_btns'} ${img}`}>
           <section className='banner_btns'>
-            { btns?.map(btn => <a key={`btn_${btn.name}`} href={btn.link} target='_blank'><button className={`btn ${btn.name}`}>
-              { 
-                isTheSameAs(btn.name , 'Repository') || isTheSameAs(btn.name , 'Repositorio') ? <FaGithub />
-                : isTheSameAs(btn.name , 'Web') ? <FaGlobe />
-                : isTheSameAs(btn.name , 'Prototype') || isTheSameAs(btn.name , 'Prototipo') ? <MdDevices />
-                : isTheSameAs(btn.name , 'Video') ? <FaPlayCircle /> : null
-              }
-              {btn.name}</button></a>)}
+            { btns?.map(btn => <a key={`btn_${btn.name}`} href={btn.link} target='_blank'>
+                                  <button className={`btn ${btn.name}`}><btn.icon />{btn.name}</button>
+                               </a>)
+            }
           </section>
         </section>
       </article>

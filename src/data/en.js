@@ -1,3 +1,5 @@
+import { FaGithub, FaPlayCircle, FaGlobe  } from "react-icons/fa";
+import { MdDevices } from "react-icons/md";
 import { FaLinkedinIn, FaInstagram  } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
@@ -7,11 +9,13 @@ const english = {
   "fullPokeApp_links": [
     {
       "name": "Repository",
-      "link": "https://github.com/Gromarant/fullPokeApp"
+      "link": "https://github.com/Gromarant/fullPokeApp",
+      "icon": FaGithub
     },
     {
       "name": "Web",
-      "link": "https://fullpokeapp.netlify.app/"
+      "link": "https://fullpokeapp.netlify.app/",
+      "icon": FaGlobe
     }
   ],
   "fullPokeApp_desc": "Web application develop in React.js, SASS and Nextui.",
@@ -22,19 +26,23 @@ const english = {
   "gromaSnake_links": [
     {
       "name": "Prototype",
-      "link": "https://www.figma.com/file/6SYeCJMoiDG8LZPKQ3QRyZ/GromaSnake?type=design&node-id=0-1&mode=design&t=taUbdkRK095LZ2Cp-0"
+      "link": "https://www.figma.com/file/6SYeCJMoiDG8LZPKQ3QRyZ/GromaSnake?type=design&node-id=0-1&mode=design&t=taUbdkRK095LZ2Cp-0",
+      "icon": MdDevices
     },
     {
       "name": "Repository",
-      "link": "https://github.com/Gromarant/GromaSnake"
+      "link": "https://github.com/Gromarant/GromaSnake",
+      "icon": FaGithub
     },
     {
       "name": "Web",
-      "link": "https://gromarant.github.io/GromaSnake/"
+      "link": "https://gromarant.github.io/GromaSnake/",
+      "icon": FaGlobe
     },
     {
       "name": "Video",
-      "link": "https://www.youtube.com/watch?v=hwLYrtQhLVI"
+      "link": "https://www.youtube.com/watch?v=hwLYrtQhLVI",
+      "icon": FaPlayCircle
     }
   ],
   "gromaSnake_desc": "Game develop in HTML, CSS and JavaScript.",
@@ -45,15 +53,18 @@ const english = {
   "funFace_links": [
     {
       "name": "Prototype",
-      "link": "https://www.figma.com/proto/fV01fBdBQbbT5fScqf7ro1/FunFace?page-id=15%3A772&node-id=15-933&viewport=758%2C109%2C0.05&scaling=scale-down&starting-point-node-id=15%3A1603"
+      "link": "https://www.figma.com/proto/fV01fBdBQbbT5fScqf7ro1/FunFace?page-id=15%3A772&node-id=15-933&viewport=758%2C109%2C0.05&scaling=scale-down&starting-point-node-id=15%3A1603",
+      "icon": MdDevices
     },
     {
       "name": "Repository",
-      "link": "https://github.com/Gromarant/FunFace"
+      "link": "https://github.com/Gromarant/FunFace",
+      "icon": FaGithub
     },
     {
       "name": "Web",
-      "link": "https://gromarant.github.io/FunFace/"
+      "link": "https://gromarant.github.io/FunFace/",
+      "icon": FaGlobe
     }
   ],
   "funFace_desc": "Static web page, build with HTML, CSS and JavaScript vanilla.",
@@ -64,11 +75,13 @@ const english = {
   "robopage_links": [
     {
       "name": "Repository",
-      "link": "https://github.com/Gromarant/Robopage"
+      "link": "https://github.com/Gromarant/Robopage",
+      "icon": FaGithub
     },
     {
       "name": "Web",
-      "link": "https://robopage.netlify.app/"
+      "link": "https://robopage.netlify.app/",
+      "icon": FaGlobe
     }
   ],
   "robopage_desc": "React web app",
