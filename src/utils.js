@@ -7,11 +7,4 @@ export const scrollUp = () => window.scrollTo({
   behavior: 'smooth'
 });
 
-export const setInitialState = () => {
-  const dropdown = document.querySelector('.dropdown');
-  const contactIcons = document.querySelector('.contact_icons');
-  dropdown.classList.remove('menu');
-  contactIcons.classList.add('hidden');
-};
-
 export const isTheSameAs = (condition, element) => condition === element;
