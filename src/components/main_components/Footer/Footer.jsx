@@ -12,27 +12,27 @@ function Footer({translate}) {
     <footer>
       <section className='footer_up_items'>
         <article className='footer_section location'>
-          <h2 className='show_medium'>{translate.location_title}</h2>
+          <h2 className='show_medium'>{translate.text.footer.location}</h2>
           <FaLocationDot className='icon show_small'/>
-          <p>{translate.Location_place}</p>
+          <p>{translate.text.footer.place}</p>
         </article>
 
 
         <article className='footer_section contact' onClick={() => setOpenContact(!openContact)}>
-          <h2 className='show_medium'>{translate.OnTheWeb_title}</h2>
+          <h2 className='show_medium'>{translate.text.footer.web}</h2>
           <section className='rrss show_medium'>
-            <RRSS rrss={translate.rrss} footer={translate.mailTo}/>
+            <RRSS rrss={[...translate.rrss, translate.mailTo]}/>
           </section>
           <BsFillSendFill  className='icon show_small'/>
-          <p className='show_small'>Contact</p>
+          <p className='show_small'>{translate.text.footer.contact}</p>
         </article>
       </section>
       
       <article className='footer_section copyrights'>
-        <h2 className='show_expanded'>{translate.copyright_title}</h2>
+        <h2 className='show_expanded'>{translate.text.footer.copyright}</h2>
         <section className='copyright'>
           <img src='images/logo.svg' alt='logo'/>
-          <a href='https://www.linkedin.com/in/mariangelica-rodr%C3%ADguez-p%C3%A9rez/' target="_blank">© Mariangelica Rodríguez</a>
+          <a href='https://www.linkedin.com/in/mariangelica-rodr%C3%ADguez-p%C3%A9rez/' target="_blank">{translate.text.footer.author}</a>
         </section>
       </article>
     </footer>
