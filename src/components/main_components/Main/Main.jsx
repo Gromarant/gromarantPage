@@ -21,8 +21,9 @@ function Main() {
   const rrssContactRef = useRef();
 
   const handleContact = (e) => {
-    if (e.target !== document.querySelector('.contact')
-     && e.target !== document.querySelector('.contact .show_small')
+    const contactIcon = document.querySelector('.contact .show_small');
+    const contactContainer = document.querySelector('.contact');
+    if (![contactContainer, contactIcon].includes(e.target)
      && !rrssContactRef.current.contains(e.target)) {
       setOpenContact(false);
     }
@@ -31,24 +32,28 @@ function Main() {
 
 
   useEffect(() => {
-    const storage = JSON.parse(localStorage.getItem('lang'));
-    (storage) ? setLang(JSON.parse(localStorage.getItem('lang'))) : lang
+    const storedLang = JSON.parse(localStorage.getItem('lang'));
+    if (storedLang) {
+      setLang(storedLang);
+    }
   }, [lang]);
+
+  const language = lang_en(lang) ? English : Spanish;
 
   return(
     <>
       <LangContext.Provider value={{lang, setLang}}>
-        <NavBar/>
+        <NavBar translate={language}/>
         <Routes>
-          <Route path='/' element={<Home translate={lang_en(lang) ? English : Spanish}/>}/>
-          <Route path='/about_me' element={<About_me translate={lang_en(lang) ? English : Spanish}/>}/>
+          <Route path='/' element={<Home translate={language}/>}/>
+          <Route path='/about_me' element={<About_me translate={language}/>}/>
         </Routes>
         <Go_up_btn onClick={scrollUp} title={`${lang === 'en' ? 'scroll up' : 'Subir' }`}/>
         <section className={`rrss rrss_contact ${openContact ? 'contact_icons' : 'hidden'}`} ref={rrssContactRef}>
-          <RRSS rrss={lang_en(lang) ? English.rrss : Spanish.rrss} footer={lang_en(lang) ? English.mailTo : Spanish.mailTo}/>
+          <RRSS rrss={[...language.rrss, language.mailTo]}/>
         </section>
         <ContactContext.Provider value={{openContact, setOpenContact}}>
-          <Footer translate={lang_en(lang) ? English : Spanish}/>
+          <Footer translate={language}/>
         </ContactContext.Provider>
       </LangContext.Provider>
     </>
