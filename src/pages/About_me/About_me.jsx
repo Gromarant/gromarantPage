@@ -1,25 +1,16 @@
 import Banner from '../../components/Banner/Banner';
 import Section_title from "../../components/Section_title/Section_title";
 import Icon from '../../components/Icon/Icon';
-import Text_block from "../../components/Text_block/Text_block";
 import Profile from '../../components/Profile/Profile';
 import RRSS from '../../components/RRSS/RRSS';
+import { IoOpenOutline } from 'react-icons/io5';
 
 function About_me({translate}){
   return(
     <section className='about_content'>
       <Profile 
-        photo_small={translate.profile_photo_src.small} 
-        photo_medium={translate.profile_photo_src.medium} 
-        photo_large={translate.profile_photo_src.large}
-        photo_alt={translate.profile_photo_alt}
-        photo_title={translate.author_name}
-        author={translate.author_name}
-        profession={translate.author_profession}
-        greating_small={translate.author_greating_src.small} 
-        greating_large={translate.author_greating_src.large} 
-        greating_alt={translate.author_greating_alt}
-        greating_title={translate.author_greating_title}
+        photo={translate.profile_photo}
+        author={translate.author}
       /> 
 
       <section className='rrss'>
@@ -27,32 +18,19 @@ function About_me({translate}){
       </section>
       <span className='divisor'></span>
 
-      <Section_title title={translate.section_experience_title} isEven={true}/>
+      <Section_title title={translate.text.about.sections.experience} isEven={true}/>
       <section className="about_projects">
-        <Banner
-          img={translate.fullPokeApp_title} 
-          btns={translate.fullPokeApp_links}
-          index={0} 
-          title={translate.fullPokeApp_title}
-        />
-        <Banner 
-          img={translate.gromaSnake_title} 
-          btns={translate.gromaSnake_links}
-          index={1} 
-          title={translate.gromaSnake_title}
-        />
-        <Banner 
-          img={translate.funFace_title} 
-          btns={translate.funFace_links}
-          index={2} 
-          title={translate.funFace_title}
-        />
-        <Banner 
-          img={translate.robopage_title} 
-          btns={translate.robopage_links}
-          index={3} 
-          title={translate.robopage_title}
-        />
+        {
+          translate.projects.map((project, index) => (
+            <Banner
+              key={project.title}
+              img={project.title} 
+              btns={project.links}
+              index={index} 
+              title={project.title}
+            />
+          ))
+        }
       </section>
 
       <section className='rrss'>
@@ -60,7 +38,7 @@ function About_me({translate}){
       </section>
       <span className='divisor'></span>
 
-      <Section_title title={translate.section_Lang_title} isEven={false}/>
+      <Section_title title={translate.text.about.sections.languages} isEven={false}/>
       <section className='languages_tools'>
         { translate.langs_and_tools?.
                                     map(element => <Icon key={element.name} img={element.url} name={element.name}/>) }
@@ -71,10 +49,25 @@ function About_me({translate}){
       </section>
       <span className='divisor'></span>
 
-      <Section_title title={translate.section_academic_title} isEven={true}/>
+      <Section_title title={translate.text.about.sections.academic} isEven={true}/>
         <section className='academic_titles'>
-          { translate.academic_title?.
-                                      map(subject => <Text_block key={subject.date} academic_title={subject.title} date={subject.date} academy={subject.academy} fileLink={subject.diploma_link}/>)}
+          {
+            translate.academic_title?.map(({ title, date, academy, diploma_link }) => (
+              <section key={title} className='academic_title'>
+                <article className='academic_studies'>
+                  <section className='study'>
+                    <p className='study_title'>{title}</p>
+                    <span className='academic_divisor'>|</span>
+                    <p className='study_date'>{date}</p>
+                  </section>
+                  <p>{academy}</p>
+                </article>
+                <a href={diploma_link} target='_blank'>
+                  <button className='btn openLink'><IoOpenOutline />{translate.see_link}</button>
+                </a>
+              </section>
+              ))
+          }
         </section>
 
     </section>
