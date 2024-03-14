@@ -9,13 +9,14 @@ function Dropdown() {
     localStorage.setItem('lang', JSON.stringify(e.target.value));
     setLang(e.target.value)
   };
+
+  const spainFlagIcon = 'https://cdn-icons-png.flaticon.com/128/323/323310.png';
+  const ukFlagIcon = 'https://cdn-icons-png.flaticon.com/128/10601/10601048.png';
   
   return(
     <label htmlFor='lang' className='navBar_lang'>
-      { lang_en(lang) 
-        ? <img className='lang_img' src='https://cdn-icons-png.flaticon.com/128/323/323310.png' alt={lang}/> 
-        : <img className='lang_img' src='https://cdn-icons-png.flaticon.com/128/10601/10601048.png' alt={lang}/> 
-      }
+      <img className='lang_img' src={lang_en(lang) ? spainFlagIcon : ukFlagIcon} alt={lang}/>
+
       <select className='lang_selector' name='lang' id='lang' onClick={handleLanguageSelection}>
         <option value='en'>English</option>
         <option value='es'>Español</option>
