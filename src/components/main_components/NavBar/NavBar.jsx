@@ -1,12 +1,9 @@
 import { Link, NavLink } from 'react-router-dom';
 import { FaBars } from "react-icons/fa6";
-import { LangContext } from '../../../context/LangContext';
-import { lang_en } from "../../../utils";
-import { useContext, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import Dropdown from '../../Dropdown/Dropdown';
 
-function NavBar() {
-  const { lang } = useContext(LangContext);
+function NavBar({ translate }) {
   const [ open, setOpen ] = useState(false);
 
   const dropdownRef = useRef();
@@ -17,7 +14,6 @@ function NavBar() {
     }
   }
   document.addEventListener('mousedown', handleMenu);
-  
 
   return(
     <nav className='navBar'>
@@ -25,16 +21,10 @@ function NavBar() {
       <FaBars className='icon burguer_menu' onClick={() => setOpen(!open)}/>
       <section className={`dropdown ${open ? 'menu' : ''}`} ref={dropdownRef}>
         <Dropdown/>
-        { lang_en(lang)
-          ? <ul className='dropdown_links'>
-              <li><NavLink to='/'>Projects</NavLink></li>
-              <li><NavLink to='/about_me'>About me</NavLink></li>
-            </ul> 
-          : <ul className='dropdown_links'>
-              <li><NavLink to='/'>Proyectos</NavLink></li>
-              <li><NavLink to='/about_me'>Sobre mi</NavLink></li>
-            </ul>
-        }
+        <ul className='dropdown_links'>
+          <li><NavLink to='/'>{translate.text.navigation.links.project}</NavLink></li>
+          <li><NavLink to='/about_me'>{translate.text.navigation.links.about_me}</NavLink></li>
+        </ul> 
       </section>
     
     </nav>
