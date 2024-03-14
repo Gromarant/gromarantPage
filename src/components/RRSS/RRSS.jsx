@@ -1,15 +1,17 @@
-function RRSS({rrss, footer}) {
+function IconButton({ title, link, icon }) {
+  return (
+    <button className='rrss_btn'>
+      <a  href={link} target='_blank' title={title}>{icon}</a>
+    </button>
+  )
+}
+
+function RRSS({ rrss }) {
   return(
     <>
-    { rrss?.map((red, index) => 
-      <button className='rrss_btn' key={`${red}_${index}`}>
-        <a  href={red.link} target='_blank' title={red.title}><red.icon className='icon'/></a>
-      </button>)
-    }
-    { footer && <button className='rrss_btn'>
-      <a  href={footer.link} target='_blank' title={footer.title}><footer.icon className='icon'/></a>
-      </button>
-    }
+      {
+        rrss?.map((red, index) => <IconButton key={`${red}_${index}`} title={red.title} link={red.link} icon={<red.icon className='icon'/>} />)
+      }
     </>
   )
 }
