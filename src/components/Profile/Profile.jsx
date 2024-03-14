@@ -1,43 +1,31 @@
-function Profile({
-  photo_small, 
-  photo_medium, 
-  photo_large, 
-  photo_alt, 
-  photo_title, 
-  author, 
-  profession, 
-  greating_small, 
-  greating_large, 
-  greating_alt, 
-  greating_title
-}) {
+function Profile({ photo, author }) {
   return(
     <article className='profile'>
       <img className='profile_photo' 
-        src={photo_small}
+        src={photo.src.small}
         srcSet={
-                `${photo_small} 120w,
-                 ${photo_medium} 144w,
-                 ${photo_large} 168w`
+                `${photo.src.small} 120w,
+                 ${photo.src.medium} 144w,
+                 ${photo.src.large} 168w`
                }
-        alt={photo_alt} 
-        title={photo_title}/>
+        alt={photo.alt} 
+        title={author.name}/>
       <section className='profile_text'>
-        <h1 className='profile_name'>{author}</h1>
+        <h1 className='profile_name'>{author.name}</h1>
         <article className='profile_professions'>
-          <p>{profession["fullstack"]}</p>
+          <p>{author.profession[0]}</p>
           <span>|</span>
-          <p>{profession["ux/ui"]}</p>
+          <p>{author.profession[1]}</p>
         </article>
       </section>
       <img className='profile_greeting' 
-        src={greating_small}
+        src={author.greating.src.small}
         srcSet={
-                `${greating_small},
-                 ${greating_large}`
+                `${author.greating.src.small},
+                 ${author.greating.src.large}`
                }
-               alt={greating_alt} 
-               title={greating_title}/>
+               alt={author.greating.alt} 
+               title={author.greating.title}/>
     </article>
   )
 }
