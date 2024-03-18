@@ -46,6 +46,8 @@
 }
 
 .project_container {
+  display: grid;
+  gap: 48px;
   width: 100%;
 }
 
@@ -112,6 +114,10 @@
 @media (min-width: abstracts.$layout_breakpoint_medium) {
   .banner_img {
     height: 500px;
+  }
+
+  .project_container {
+    gap: 64px;
   }
 
   .project {
