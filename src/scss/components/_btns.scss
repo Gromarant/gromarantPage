@@ -1,6 +1,4 @@
-@use './colors';
-@use './layouts';
-@use './fonts';
+@use '../abstracts';
 
 .btn {
   display: flex;
@@ -10,14 +8,14 @@
   padding: 8px;
 
   border-radius: 16px;
-  color: colors.$primary-color;
-  font-size: fonts.$btn_small;
-  font-weight: fonts.$medium;
+  color: abstracts.$primary-color;
+  font-size: abstracts.$btn_small;
+  font-weight: abstracts.$medium;
   height: 3.75rem;
   width: 5rem;
    
   svg {
-    color: colors.$primary-color;
+    color: abstracts.$primary-color;
     font-size: 24px;
   }
 }
@@ -43,9 +41,9 @@
   border-color: #24C2AF;
 }
 
-@media (min-width: layouts.$layout_breakpoint_medium) {
+@media (min-width: abstracts.$layout_breakpoint_medium) {
   .btn {
-    font-size: fonts.$btn_medium;
+    font-size: abstracts.$btn_medium;
     height: 5rem;
     width: 6.875rem;
 

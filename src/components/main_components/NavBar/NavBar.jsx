@@ -17,7 +17,7 @@ function NavBar({ translate }) {
 
   return(
     <nav className='navBar'>
-      <Link to='/'><img className='navBar_logo' src='images/navBar_logo.svg' alt='Logo gromarant' title='Gromarant'/></Link>
+      <Link to='/'><img className='navBar_logo' src='src/assets/images/navBar_logo.svg' alt='Logo gromarant' title='Gromarant'/></Link>
       <FaBars className='icon burguer_menu' onClick={() => setOpen(!open)}/>
       <section className={`dropdown ${open ? 'menu' : ''}`} ref={dropdownRef}>
         <Dropdown/>

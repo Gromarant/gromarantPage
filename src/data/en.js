@@ -133,9 +133,9 @@ const english = {
 
   profile_photo : {
     src: {
-      small: "images/profile_photo120.svg",
-      medium: "images/profile_photo144.svg",
-      large: "images/profile_photo168.svg"
+      small: "src/assets/src/assets/images/profile_photo120.svg",
+      medium: "src/assets/images/profile_photo144.svg",
+      large: "src/assets/images/profile_photo168.svg"
     },
     alt: "Profile photo"
   },
@@ -145,8 +145,8 @@ const english = {
     profession: ["Full stack developer", "UI/UX product designer"],
     greating: {
       src: {
-        small: "images/profile_greeting_card_en_small.svg",
-        large: "images/profile_greeting_card_en_large.svg"
+        small: "src/assets/images/profile_greeting_card_en_small.svg",
+        large: "src/assets/images/profile_greeting_card_en_large.svg"
       },
       alt: "Hi!! I'm glad you are here and Learn something about me, welcome!!",
       title: "Welcome!!"
@@ -156,67 +156,67 @@ const english = {
   langs_and_tools: [
     {
       name: "Javascript",
-      url: "images/icons/icon_js_small.svg"
+      url: "src/assets/images/icons/icon_js_small.svg"
     },
     {
       name: "React.Js",
-      url: "images/icons/icon_react_small.svg"
+      url: "src/assets/images/icons/icon_react_small.svg"
     },
     {
       name: "Node.js",
-      url: "images/icons/icon_nodejs_small.svg"
+      url: "src/assets/images/icons/icon_nodejs_small.svg"
     },
     {
       name: "HTML5",
-      url: "images/icons/icon_html5_small.svg"
+      url: "src/assets/images/icons/icon_html5_small.svg"
     },
     {
       name: "SASS",
-      url: "images/icons/icon_sass_small.svg"
+      url: "src/assets/images/icons/icon_sass_small.svg"
     },
     {
       name: "Express.js",
-      url: "images/icons/icon_expressjs_small.svg"
+      url: "src/assets/images/icons/icon_expressjs_small.svg"
     },
     {
       name: "CSS3",
-      url: "images/icons/icon_css3_small.svg"
+      url: "src/assets/images/icons/icon_css3_small.svg"
     },
     {
       name: "Nextui",
-      url: "images/icons/icon_nextui_small.svg"
+      url: "src/assets/images/icons/icon_nextui_small.svg"
     },
     {
       name: "Jest",
-      url: "images/icons/icon_jest_small.svg"
+      url: "src/assets/images/icons/icon_jest_small.svg"
     },
     {
       name: "GIT/ GitHub",
-      url: "images/icons/icon_github_small.svg"
+      url: "src/assets/images/icons/icon_github_small.svg"
     },
     {
       name: "Figma",
-      url: "images/icons/icon_figma_small.svg"
+      url: "src/assets/images/icons/icon_figma_small.svg"
     },
     {
       name: "Balsamic",
-      url: "images/icons/icon_balsamic_small.svg"
+      url: "src/assets/images/icons/icon_balsamic_small.svg"
     },
     {
       name: "Firebase",
-      url: "images/icons/icon_firebase_small.svg"
+      url: "src/assets/images/icons/icon_firebase_small.svg"
     },
     {
       name: "MongoDb",
-      url: "images/icons/icon_mongodb_small.svg"
+      url: "src/assets/images/icons/icon_mongodb_small.svg"
     },
     {
       name: "Docker",
-      url: "images/icons/icon_docker_small.svg"
+      url: "src/assets/images/icons/icon_docker_small.svg"
     },
     {
       name: "SQL",
-      url: "images/icons/icon_sql_small.svg"
+      url: "src/assets/images/icons/icon_sql_small.svg"
     }
   ],
   
