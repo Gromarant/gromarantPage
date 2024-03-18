@@ -11,7 +11,7 @@ function Home({translate}) {
           const isNotLastProject = projectIndex < translate.projects.length -1;
 
           return (
-            <section  key={`project-${project.title}`}>
+            <section className='project_container'  key={`project-${project.title}`}>
               <article className={`project ${isEven(0) ? 'banner_desc' : 'desc_banner'}`}>
                 <Banner
                   img={project.title}

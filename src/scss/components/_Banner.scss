@@ -45,6 +45,10 @@
   align-items: flex-start;
 }
 
+.project_container {
+  width: 100%;
+}
+
 .project {
   .FullPokeApp {
     background: url("src/assets/images/fullPokeApp_banner_img_small.svg"), abstracts.$bg_fullPokeApp;
