@@ -1,4 +1,4 @@
-import {isEven} from "../../utils";
+import {isEven} from "../utils";
 
 function Banner({img, btns, index, title}) {
 

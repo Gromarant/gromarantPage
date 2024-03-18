@@ -1,17 +1,17 @@
 import { useEffect, useState, useRef } from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { LangContext } from '../../../context/LangContext.jsx';
-import { ContactContext } from "../../../context/ContactContext.jsx";
-import Home from '../../../pages/Home/Home.jsx';
-import About_me from '../../../pages/About_me/About_me.jsx';
-import NavBar from '../NavBar/NavBar.jsx';
-import Footer from '../Footer/Footer.jsx';
-import RRSS from '../../RRSS/RRSS.jsx';
-import Go_up_btn from '../../Go_up_btn/Go_up_btn.jsx';
-import { scrollUp } from '../../../utils.js';
-import { lang_en } from '../../../utils.js';
-import English from '../../../data/en.js';
-import Spanish from '../../../data/es.js';
+import { LangContext } from '../context/LangContext.jsx';
+import { ContactContext } from "../context/ContactContext.jsx";
+import English from '../data/en.js';
+import Spanish from '../data/es.js';
+import { scrollUp } from '../utils.js';
+import { lang_en } from '../utils.js';
+import Home from '../pages/Home.jsx';
+import About_me from '../pages/About_me.jsx';
+import NavBar from '../layout/NavBar.jsx';
+import Footer from '../layout/Footer.jsx';
+import RRSS from '../components/RRSS.jsx';
+import Go_up_btn from '../components/Go_up_btn.jsx';
 
 
 function Main() {

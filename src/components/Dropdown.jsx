@@ -1,6 +1,6 @@
 import { useContext } from 'react';
-import { LangContext } from '../../context/LangContext';
-import { lang_en } from '../../utils';
+import { LangContext } from '../context/LangContext';
+import { lang_en } from '../utils';
 
 function Dropdown() {
   const {lang, setLang} = useContext(LangContext);

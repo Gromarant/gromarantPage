@@ -1,7 +1,7 @@
+import { useRef, useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { FaBars } from "react-icons/fa6";
-import { useRef, useState } from 'react';
-import Dropdown from '../../Dropdown/Dropdown';
+import Dropdown from '../components/Dropdown.jsx';
 
 function NavBar({ translate }) {
   const [ open, setOpen ] = useState(false);

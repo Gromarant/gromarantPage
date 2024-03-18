@@ -1,8 +1,8 @@
 import { useContext } from 'react';
-import RRSS from '../../RRSS/RRSS';
 import { FaLocationDot } from "react-icons/fa6";
 import { BsFillSendFill } from "react-icons/bs";
-import { ContactContext } from '../../../context/ContactContext';
+import { ContactContext } from '../context/ContactContext';
+import RRSS from '../components/RRSS.jsx'; 
 
 
 function Footer({translate}) {

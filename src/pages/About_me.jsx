@@ -1,9 +1,9 @@
-import Banner from '../../components/Banner/Banner';
-import Section_title from "../../components/Section_title/Section_title";
-import Icon from '../../components/Icon/Icon';
-import Profile from '../../components/Profile/Profile';
-import RRSS from '../../components/RRSS/RRSS';
 import { IoOpenOutline } from 'react-icons/io5';
+import Banner from '../components/Banner.jsx';
+import Section_title from "../components/Section_title.jsx";
+import Icon from '../components/Icon.jsx';
+import Profile from '../components/Profile.jsx';
+import RRSS from '../components/RRSS.jsx';
 
 function About_me({translate}){
   return(

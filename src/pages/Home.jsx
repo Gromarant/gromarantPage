@@ -1,6 +1,6 @@
-import RRSS from '../../components/RRSS/RRSS.jsx';
-import Banner from '../../components/Banner/Banner.jsx';
-import { isEven } from "../../utils.js";
+import { isEven } from "../utils.js"; 
+import RRSS from '../components/RRSS.jsx';
+import Banner from '../components/Banner.jsx';
 
 
 function Home({translate}) {
