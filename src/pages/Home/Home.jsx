@@ -35,9 +35,11 @@ function Home({translate}) {
                   </section>
                 </article>
               </article>
-              <section className='rrss'>
-                <RRSS rrss={translate.rrss} />
-              </section>
+              {
+                isNotLastProject && <section className='rrss'>
+                  <RRSS rrss={translate.rrss} />
+                </section>
+              }
               {
                 isNotLastProject && <span className='divisor'></span>
               }
