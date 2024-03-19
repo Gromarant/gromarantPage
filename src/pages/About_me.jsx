@@ -52,7 +52,7 @@ function About_me({translate}){
       <Section_title title={translate.text.about.sections.academic} isEven={true}/>
         <section className='academic_titles'>
           {
-            translate.academic_title?.map(({ title, date, academy, diploma_link }) => (
+            translate.academic_title?.map(({ title, date, academy, diploma_link, link_text }) => (
               <section key={title} className='academic_title'>
                 <article className='academic_studies'>
                   <section className='study'>
@@ -62,11 +62,11 @@ function About_me({translate}){
                   </section>
                   <p>{academy}</p>
                 </article>
-                <a href={diploma_link} target='_blank'>
-                  <button className='btn openLink'><IoOpenOutline />{translate.see_link}</button>
+                <a className='btn openLink' href={diploma_link} target='_blank'>
+                  <IoOpenOutline />{link_text}
                 </a>
               </section>
-              ))
+            ))
           }
         </section>
 

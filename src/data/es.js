@@ -225,19 +225,22 @@ const spanish = {
       title: "Desarrollador Full stack",
       date: "08/2023",
       academy: "The Bridge | Digital Talent Accelerator",
-      diploma_link: "https://drive.google.com/file/d/17Tliv0fcZHBc5yvRQ8RAyOg80NLgF-eY/view?usp=sharing"
+      diploma_link: "https://drive.google.com/file/d/17Tliv0fcZHBc5yvRQ8RAyOg80NLgF-eY/view?usp=sharing",
+      link_text: "Abrir enlace"
     },
     {
       title: "Diseñador UX/UI",
       date: "01/2021",
       academy: "The Bridge | Digital Talent Accelerator",
-      diploma_link: "https://drive.google.com/file/d/1YrrCJn8vf9AQ1EBPqmh7G1oCbn7oYGjv/view"
+      diploma_link: "https://drive.google.com/file/d/1YrrCJn8vf9AQ1EBPqmh7G1oCbn7oYGjv/view",
+      link_text: "Abrir enlace"
     },
     {
       title: "Web development",
       date: "07/2020",
       academy: "Centro de estudios Infer, SL (Sistema de Formación Profesional)",
-      diploma_link: "https://drive.google.com/file/d/1TdUkbtT7b-GAhFzkx_daRuHY050DQZaU/view"
+      diploma_link: "https://drive.google.com/file/d/1TdUkbtT7b-GAhFzkx_daRuHY050DQZaU/view",
+      link_text: "Abrir enlace"
     }
   ],
 
