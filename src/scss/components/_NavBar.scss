@@ -18,9 +18,11 @@
   }
 
   .burguer_menu {
-    margin-right: 16px;
+    background-color: transparent;
+    border: none;
     height: 56px;
     width: 56px;
+    margin-right: 16px;
     padding: 16px;
   } 
 
@@ -46,11 +48,11 @@
       gap: 24px;
       list-style: none;
 
-      li, a {
+      li a {
         color: abstracts.$primary-color;
         font-size: 18px;
         text-decoration: none;
-        place-content: center;
+        padding: 8px;
       }
     }
   }
@@ -61,11 +63,7 @@
     font-weight: bold;
     padding: 8px;
   }
-
-  .dropdown_links a:not(.active):hover {
-    color: abstracts.$secondary-color;
-  }
-
+  
   .navBar_lang {
     align-items: center;
     display: flex;
@@ -73,18 +71,34 @@
     height: 100%;
     justify-content: center;
     margin: 1px 0;
-
+    
     .lang_img {
       max-height: 32px;
       max-width: 32px;
     }
-
+    
     .lang_selector {
       border: solid 1px abstracts.$primary_variant-light;
       border-radius: 8px;
       color: abstracts.$primary-color;
       font-size: 18px;
     }
+  }
+  
+  .burguer_menu:active .icon {
+    color: abstracts.$secondary-color;
+  }
+
+  .active:focus {
+    border: solid 2px abstracts.$secondary-color;
+  }
+
+  .dropdown_links a:not(.active):focus  {
+    color: abstracts.$secondary-color;
+  }
+  
+  .lang_selector:focus {
+    border: solid 2px abstracts.$secondary-color;
   }
 }
 
@@ -125,6 +139,15 @@
 
     .dropdown {
       gap: 48px;
+
+      .active:hover {
+        color: abstracts.$primary_variant-dark;
+        border: solid 2px abstracts.$secondary-color;
+      }
+    
+      .dropdown_links a:not(.active):hover  {
+        color: abstracts.$secondary-color;
+      }
     }
   }
 }
