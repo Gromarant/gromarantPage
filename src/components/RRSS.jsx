@@ -1,9 +1,7 @@
 function IconButton({ title, link, icon }) {
   return (
-    <button className='rrss_btn'>
-      <a  href={link} target='_blank' title={title}>{icon}</a>
-    </button>
-  )
+      <a className='rrss_btn' href={link} target='_blank' title={title}>{icon}</a>
+    )
 }
 
 function RRSS({ rrss }) {

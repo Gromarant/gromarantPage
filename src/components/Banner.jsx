@@ -10,8 +10,8 @@ function Banner({img, btns, index, title}) {
         <section className={`banner_img ${ isEven(index) ? 'btns_img' : 'img_btns'} ${img}`}>
           <section className='banner_btns'>
             { btns?.map(btn => (
-              <a key={`btn_${btn.name}`} href={btn.link} target='_blank'>
-                <button className={`btn ${btn.name}`}><btn.icon />{btn.name}</button>
+              <a className={`btn ${btn.name}`} key={`btn_${btn.name}`} href={btn.link} target='_blank'>
+                <btn.icon />{btn.name}
               </a>
             ))
             }
