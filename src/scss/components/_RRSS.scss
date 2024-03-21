@@ -20,9 +20,80 @@
     }
   }
 
-  .rrss_btn:hover {
+  .rrss_btn:hover .icon {
+    transform: scale(1.1);
+    color: abstracts.$secondary-color;
+  }
+
+  .rrss:hover {
+    background-color: abstracts.$secondary-color;
+  }
+
+   .rrss_btn:focus {
+    border: solid 2px abstracts.$primary_variant-light;
+  }
+  
+  .rrss_btn:focus .icon {
+    color: abstracts.$secondary-color;
+  }
+}
+
+.contact_icons {
+  .rrss_btn  {
+    background-color: abstracts.$primary-color;
+    color: abstracts.$icon-light;
+    border-radius: 50%;
+    
     .icon {
-      color: abstracts.$secondary-color;
+      color: white;
+    }
+  }
+
+  .rrss_btn:hover {
+    background-color: abstracts.$secondary-color;
+  }
+  .rrss_btn:hover .icon {
+    color: abstracts.$icon-light;
+  }
+
+  .rrss_btn:focus {
+    background-color: transparent;
+    border: solid 2px abstracts.$primary_variant-light;
+  }
+  .rrss_btn:focus .icon {
+    color: abstracts.$secondary-color;
+  }
+}
+
+.contact {
+  .rrss {
+    .rrss_btn {
+      background-color: abstracts.$primary-color;
+      border-radius: 50%;
+      height: 40px;
+      width: 40px;
+
+      .icon {
+        font-size: 20px;
+      }
+    }
+
+    .rrss_btn:hover {
+      background-color: abstracts.$secondary-color;
+
+      .icon {
+        color: abstracts.$icon-light;
+      }
+    }
+
+    .rrss_btn:focus {
+      background-color: transparent;
+      border: solid 2px abstracts.$primary-color;
+      outline-color: abstracts.$secondary-color;
+
+      .icon {
+        color: abstracts.$icon-light;
+      }
     }
   }
 }

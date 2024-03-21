@@ -62,14 +62,6 @@ footer {
       display: none;
     }
   }
-
-  .contact {
-    .rrss{
-      .rrss_btn:hover {
-        background-color: abstracts.$secondary-color;
-      } 
-    }
-  }
 }
 
 @media (min-width: abstracts.$layout_breakpoint_medium) {
@@ -80,30 +72,20 @@ footer {
       gap: 8px;
       justify-content: space-around;
 
-      h2 {
-        display: block;
-      }
-
       .rrss {
         display: grid;
         grid-template-columns: repeat(4, 40px);
         justify-content: center;
         gap: 16px;
-
-        .rrss_btn {
-          background-color: abstracts.$primary-color;
-          border-radius: 50%;
-          height: 40px;
-          width: 40px;
-
-          .icon {
-            font-size: 20px;
-          }
-        }
       }
-    }
-    .show_small {
-      display: none;
+
+      h2 {
+        display: block;
+      }
+
+      .show_small {
+        display: none;
+      }
     }
   }
 }

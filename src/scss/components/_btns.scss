@@ -20,6 +20,40 @@
   }
 }
 
+.banner_btns {
+  .btn {
+    text-decoration: none;
+    background-color: abstracts.$btns_bg_light;
+    border: none;
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    border: solid 2px abstracts.$primary_variant-light;
+    
+    svg {
+      color: abstracts.$secondary-color;
+    }
+  }
+}
+
+.about_content {
+  .btn {
+    text-decoration: none;
+    background-color: abstracts.$background-color;
+    border: solid 2px abstracts.$primary-color;
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    border: solid 2px abstracts.$primary_variant-light;
+    
+    svg {
+      color: abstracts.$secondary-color;
+    }
+  }
+}
+
 .go_Up {
   display: flex;
   justify-content: center;
@@ -35,7 +69,8 @@
   width: 64px;
 }
 
-.go_Up:hover {
+.go_Up:hover,
+.go_Up:focus {
   background-color: #E6F5F0;
   color: #F09D20;
   border-color: #24C2AF;

@@ -1,9 +1,7 @@
 @use '../abstracts';
 
 .navBar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  @include abstracts.flex( $direction: row, $align-Items: center, $justify-content: space-between );
   position: sticky;
   top: 16px;
 
@@ -85,7 +83,7 @@
     }
   }
   
-  .burguer_menu:active .icon {
+  .burguer_menu:focus .icon {
     color: abstracts.$secondary-color;
   }
 

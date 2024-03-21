@@ -1,0 +1,27 @@
+@mixin flex( $direction: row, $align-Items: center, $justify-content: center ) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align-Items;
+  justify-content: $justify-content;
+}
+
+@mixin grid( $gap: 48px ) {
+  display: grid;
+  gap: $gap;
+}
+
+@mixin fix_size( $height: 24px, $width: 24px ) {
+  height: $height;
+  width: $width;
+}
+
+@mixin btn {
+  @include flex( $direction: column );
+  padding: 8px;
+  border-radius: 16px;
+  color: #1E7B9D;
+  font-size: 12px;
+  font-weight: 500;
+  height: 3.75rem;
+  width: 5rem;
+}

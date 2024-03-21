@@ -15,25 +15,6 @@
     flex-direction: column;
     gap: 16px;
     padding: 16px;
-    
-    a {
-      text-decoration: none;
-    }
-
-    .btn {
-      background-color: abstracts.$btns_bg_light;
-      border: none;
-    }
-  }
-
-  .banner_btns {
-    .btn:hover {
-      border: solid 2px abstracts.$primary_variant-light;
-      
-      svg {
-        color: abstracts.$secondary-color;
-      }
-    }
   }
 }
 

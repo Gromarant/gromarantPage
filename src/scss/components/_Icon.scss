@@ -1,14 +1,10 @@
 @use '../abstracts';
 
 .tool_bg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  
+  @include abstracts.flex;
+  @include abstracts.fix_size($height: 56px, $width: 56px);
   background-color: abstracts.$icon-neutral-bg;
   border-radius: 50%;
-  height: 56px;
-  width: 56px;
 }
 
 .contact_icons {
@@ -23,20 +19,6 @@
   border-radius: 16px;
   padding: 8px 16px;
   width: fit-content;
-
-  .rrss_btn  {
-    background-color: abstracts.$primary-color;
-    color: abstracts.$icon-light;
-    border-radius: 50%;
-    
-    .icon {
-      color: white;
-    }
-  }
-  
-  .rrss_btn:hover {
-    background-color: abstracts.$secondary-color;
-  }
 }
 
 .hidden {
