@@ -24,7 +24,8 @@ const spanish = {
       subtitle: "Funciones",
       functionalities: [ "Juego de memoria.", "Buscador.", "Sección para crear Pokémones."],
       developed: "Desarrollado por",
-      copyRight: ["Mariangelica Rodriguez"]
+      copyRight: ["Mariangelica Rodriguez"],
+      image: "fullPokeApp"
     },
     {
       title: 'Groma-Snake',
@@ -54,7 +55,8 @@ const spanish = {
       subtitle: "Funciones",
       functionalities: [ "Juego de la culebra.", "Reiniciar el juego.", "er Puntaje y score."],
       developed: "Desarrollado por",
-      copyRight: ["Mariangelica Rodriguez"]
+      copyRight: ["Mariangelica Rodriguez"],
+      image: "groma-Snake"
     },
     {
       title: 'FunFace',
@@ -79,7 +81,8 @@ const spanish = {
       subtitle: "Funciones",
       functionalities: [ "Mostrar un emoji aleatorio.", "Elegir emoji a mostrar desde selector."],
       developed: "Desarrollado por",
-      copyRight: ["Mariangelica Rodriguez"]
+      copyRight: ["Mariangelica Rodriguez"],
+      image: "funFace"
     },
     {
       title: 'Robopage',
@@ -99,7 +102,8 @@ const spanish = {
       subtitle: "Funciones",
       functionalities: [ "Buscador con solicitud de datos a una Api externa."],
       developed: "Desarrollado por",
-      copyRight: ["Mariangelica Rodriguez"]
+      copyRight: ["Mariangelica Rodriguez"],
+      image: "robopage"
     }
   ],
 

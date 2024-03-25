@@ -24,7 +24,7 @@ function About_me({translate}){
           translate.projects.map((project, index) => (
             <Banner
               key={project.title}
-              img={project.title} 
+              img={project.image} 
               btns={project.links}
               index={index} 
               title={project.title}

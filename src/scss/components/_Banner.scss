@@ -33,61 +33,67 @@
 }
 
 .project {
-  .FullPokeApp {
-    background: url("src/assets/images/fullPokeApp_banner_img_small.svg"), abstracts.$bg_fullPokeApp;
+  .fullPokeApp {
+    background-image: url("src/assets/images/fullPokeApp_banner_img_small.svg");
+    background-color: abstracts.$bg_fullPokeApp;
   }
   
-  .Groma-Snake {
-    background: url("src/assets/images/gromaSnake_banner_img_small.svg"), abstracts.$bg_groma-snake;
+  .groma-Snake {
+    background-image: url("src/assets/images/gromaSnake_banner_img_small.svg");
+    background-color: abstracts.$bg_groma-snake;
   }
   
-  .FunFace {
-    background: url("src/assets/images/Funface_banner_img_small.svg"), abstracts.$bg_funFace;
+  .funFace {
+    background-image: url("src/assets/images/Funface_banner_img_small.svg");
+    background-color: abstracts.$bg_funFace;
   }
   
-  .Robopage {
-    background: url("src/assets/images/Robopage_banner_img_small.svg"), abstracts.$bg_roboPage;
+  .robopage {
+    background-image: url("src/assets/images/Robopage_banner_img_small.svg");
+    background-color: abstracts.$bg_roboPage;
   }
 
-  .Groma-Snake, .Robopage, .FunFace {
+  .groma-Snake, .robopage, .funFace {
     margin-top: 16px;
   }
-  .Groma-Snake, .Robopage {
+  .groma-Snake, .robopage {
     background-repeat: no-repeat;
     background-position: left 30% center;
   }
   
-  .FullPokeApp,.FunFace {
+  .fullPokeApp,.funFace {
     background-repeat: no-repeat;
     background-position: right 30% center;
   }
 }
 
 .about_projects {
-  .FullPokeApp {
-    background: url("src/assets/images/fullPokeApp_banner_img_small.svg");
+  .fullPokeApp {
+    background-image: url("src/assets/images/fullPokeApp_banner_img_small.svg");
   }
   
-  .Groma-Snake {
-    background: url("src/assets/images/gromaSnake_banner_img_small.svg");
+  .groma-Snake {
+    background-image: url("src/assets/images/gromaSnake_banner_img_small.svg");
   }
   
-  .FunFace {
-    background: url("src/assets/images/Funface_banner_img_small.svg");
+  .funFace {
+    background-image: url("src/assets/images/Funface_banner_img_small.svg");
   }
   
-  .Robopage {
-    background: url("src/assets/images/Robopage_banner_img_small.svg");
+  .robopage {
+    background-image: url("src/assets/images/Robopage_banner_img_small.svg");
   }
   
-  .Groma-Snake, .Robopage {
+  .groma-Snake, .robopage {
     background-repeat: no-repeat;
     background-position: left 30% center;
+    background-color: transparent;
   }
   
-  .FullPokeApp,.FunFace {
+  .fullPokeApp,.funFace {
     background-repeat: no-repeat;
     background-position: right 30% center;
+    background-color: transparent;
   }
 }
 
@@ -102,28 +108,32 @@
   }
 
   .project {
-    .FullPokeApp {
-      background: url("src/assets/images/fullPokeApp_banner_img_medium.svg"), abstracts.$bg_fullPokeApp;
+    .fullPokeApp {
+      background-image: url("src/assets/images/fullPokeApp_banner_img_medium.svg");
+      background-color: abstracts.$bg_fullPokeApp;
     }
   
-    .Groma-Snake {
-      background: url("src/assets/images/gromaSnake_banner_img_medium.svg"), abstracts.$bg_groma-snake;
+    .groma-Snake {
+      background-image: url("src/assets/images/gromaSnake_banner_img_medium.svg");
+      background-color: abstracts.$bg_groma-snake;
     }
     
-    .FunFace {
-      background: url("src/assets/images/Funface_banner_img_medium.svg"), abstracts.$bg_funFace;
+    .funFace {
+      background-image: url("src/assets/images/Funface_banner_img_medium.svg");
+      background-color: abstracts.$bg_funFace;
     }
     
-    .Robopage {
-      background: url("src/assets/images/Robopage_banner_img_medium.svg"), abstracts.$bg_roboPage;
+    .robopage {
+      background-image: url("src/assets/images/Robopage_banner_img_medium.svg");
+      background-color: abstracts.$bg_roboPage;
     }
 
-    .Groma-Snake, .Robopage {
+    .groma-Snake, .robopage {
       background-repeat: no-repeat;
       background-position: left 20% center;
     }
     
-    .FullPokeApp,.FunFace {
+    .fullPokeApp,.funFace {
       background-repeat: no-repeat;
       background-position: right 20% center;
     }
@@ -132,30 +142,32 @@
   .about_content {
 
     .about_projects {
-      .FullPokeApp {
-        background: url("src/assets/images/fullPokeApp_banner_img_medium.svg");
+      .fullPokeApp {
+        background-image: url("src/assets/images/fullPokeApp_banner_img_medium.svg");
       }
       
-      .Groma-Snake {
-        background: url("src/assets/images/gromaSnake_banner_img_medium.svg");
+      .groma-Snake {
+        background-image: url("src/assets/images/gromaSnake_banner_img_medium.svg");
       }
       
-      .FunFace {
-        background: url("src/assets/images/Funface_banner_img_medium.svg");
+      .funFace {
+        background-image: url("src/assets/images/Funface_banner_img_medium.svg");
       }
       
-      .Robopage {
-        background: url("src/assets/images/Robopage_banner_img_medium.svg");
+      .robopage {
+        background-image: url("src/assets/images/Robopage_banner_img_medium.svg");
       }
 
-      .Groma-Snake, .Robopage {
+      .groma-Snake, .robopage {
         background-repeat: no-repeat;
         background-position: left 20% center;
+        background-color: transparent;
       }
       
-      .FullPokeApp,.FunFace {
+      .fullPokeApp,.funFace {
         background-repeat: no-repeat;
         background-position: right 20% center;
+        background-color: transparent;
       }
     }
   }
@@ -167,28 +179,32 @@
   }
   
   .project {
-    .FullPokeApp {
-      background: url("src/assets/images/FullPokeApp_banner_img_expanded.svg"), abstracts.$bg_fullPokeApp;
+    .fullPokeApp {
+      background-image: url("src/assets/images/FullPokeApp_banner_img_expanded.svg");
+      background-color: abstracts.$bg_fullPokeApp;
     }
     
-    .Groma-Snake {
-      background: url("src/assets/images/gromaSnake_banner_img_expanded.svg"), abstracts.$bg_groma-snake;
+    .groma-Snake {
+      background-image: url("src/assets/images/gromaSnake_banner_img_expanded.svg");
+      background-color: abstracts.$bg_groma-snake;
     }
     
-    .FunFace {
-      background: url("src/assets/images/Funface_banner_img_expanded.svg"), abstracts.$bg_funFace;
+    .funFace {
+      background-image: url("src/assets/images/Funface_banner_img_expanded.svg");
+      background-color: abstracts.$bg_funFace;
     }
     
-    .Robopage {
-      background: url("src/assets/images/Robopage_banner_img_expanded.svg"), abstracts.$bg_roboPage;
+    .robopage {
+      background-image: url("src/assets/images/Robopage_banner_img_expanded.svg");
+      background-color: abstracts.$bg_roboPage;
     }
     
-    .Groma-Snake, .Robopage {
+    .groma-Snake, .robopage {
       background-repeat: no-repeat;
       background-position: center;
     }
     
-    .FullPokeApp,.FunFace {
+    .fullPokeApp,.funFace {
       background-repeat: no-repeat;
       background-position: center;
     }
@@ -203,30 +219,32 @@
           padding: 0;
         }
       }
-      .FullPokeApp {
-        background: url("src/assets/images/fullPokeApp_banner_img_expanded.svg");
+      .fullPokeApp {
+        background-image: url("src/assets/images/fullPokeApp_banner_img_expanded.svg");
       }
       
-      .Groma-Snake {
-        background: url("src/assets/images/gromaSnake_banner_img_expanded.svg");
+      .groma-Snake {
+        background-image: url("src/assets/images/gromaSnake_banner_img_expanded.svg");
       }
       
-      .FunFace {
-        background: url("src/assets/images/Funface_banner_img_expanded.svg");
+      .funFace {
+        background-image: url("src/assets/images/Funface_banner_img_expanded.svg");
       }
       
-      .Robopage {
-        background: url("src/assets/images/Robopage_banner_img_expanded.svg");
+      .robopage {
+        background-image: url("src/assets/images/Robopage_banner_img_expanded.svg");
       }
       
-      .Groma-Snake, .Robopage {
+      .groma-Snake, .robopage {
         background-repeat: no-repeat;
         background-position: center;
+        background-color: transparent;
       }
       
-      .FullPokeApp,.FunFace {
+      .fullPokeApp,.funFace {
         background-repeat: no-repeat;
         background-position: center;
+        background-color: transparent;
       }
     }
   }

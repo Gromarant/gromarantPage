@@ -14,7 +14,7 @@ function Home({translate}) {
             <section className='project_container'  key={`project-${project.title}`}>
               <article className={`project ${isEven(0) ? 'banner_desc' : 'desc_banner'}`}>
                 <Banner
-                  img={project.title}
+                  img={project.image}
                   btns={project.links}
                   index={projectIndex} />
                 <article className='project_desc'>
