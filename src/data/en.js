@@ -7,7 +7,7 @@ import { MdEmail } from "react-icons/md";
 const english = {
   projects: [
     {
-      title: 'FullPokeApp',
+      title: "FullPokeApp",
       links: [
         {
           name: "Repository",
@@ -20,11 +20,12 @@ const english = {
           icon: FaGlobe
         }
       ],
-      desc: 'Web application develop in React.js, SASS and Nextui.',
+      desc: "Web application develop in React.js, SASS and Nextui.",
       subtitle: "functionalities",
-      functionalities: [ 'Memory game', 'Search engine', 'Pokémon creation'],
+      functionalities: [ "Memory game", "Search engine", "Pokémon creation"],
       developed: "Develop by",
-      copyRight: ['Mariangelica Rodriguez']
+      copyRight: ["Mariangelica Rodriguez"],
+      image: "fullPokeApp"
     },
     {
       title: "Groma-Snake",
@@ -54,7 +55,8 @@ const english = {
       subtitle: "functionalities",
       functionalities: [ "Snake game", "Reset game", "See points and score"],
       developed: "Develop by",
-      copyRight: ["Mariangelica Rodriguez"]
+      copyRight: ["Mariangelica Rodriguez"],
+      image: "groma-Snake"
     },
     {
       title: "FunFace",
@@ -79,10 +81,11 @@ const english = {
       subtitle: "functionalities",
       functionalities: [ "Display random emoji", "Emoji selector"],
       developed: "Develop by",
-      copyRight: ["Mariangelica Rodriguez"]
+      copyRight: ["Mariangelica Rodriguez"],
+      image: "funFace"
     },
     {
-      title: 'Robopage',
+      title: "Robopage",
       links: [
         {
           name: "Repository",
@@ -99,7 +102,8 @@ const english = {
       subtitle: "functionalities",
       functionalities: [ "Search engine with API fetch data"],
       developed: "Develop by",
-      copyRight: ["Mariangelica Rodriguez"]
+      copyRight: ["Mariangelica Rodriguez"],
+      image: "robopage"
     }
   ],
 
