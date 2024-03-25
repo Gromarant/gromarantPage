@@ -133,7 +133,7 @@ const english = {
 
   profile_photo : {
     src: {
-      small: "src/assets/src/assets/images/profile_photo120.svg",
+      small: "src/assets/images/profile_photo120.svg",
       medium: "src/assets/images/profile_photo144.svg",
       large: "src/assets/images/profile_photo168.svg"
     },
