@@ -23,7 +23,7 @@ jobs:
         run: cp -r src/assets/images dist/assets
 
       - name: Create src folder into dist
-        run: cd dist && mkdir src && sudo mv dist/assets dist/src/
+        run: cd dist && mkdir src && cp -r assets src/
 
       - name: Push to build branch
         uses: s0/git-publish-subdir-action@develop
