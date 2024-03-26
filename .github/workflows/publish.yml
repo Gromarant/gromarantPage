@@ -19,6 +19,10 @@ jobs:
       - name: Build
         run: npm run build
 
+      - name: Add folders and files to publish
+        run: |
+          cd dist && mkdir src && sudo mv dist/ src/ && cp -r src/assets/images dist/src/assets
+
       - name: Push to build branch
         uses: s0/git-publish-subdir-action@develop
         env:
