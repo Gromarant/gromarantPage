@@ -19,28 +19,5 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Create folder of production
-        run: mkdir public_html
-
-      - name: navigate to public_html and create src folder
-        run: cd public_html && mkdir src
-
-      - name: Copy dist html file into public_html
-        run: cp dist/index.html public_html
-
-      - name: Copy dist assets folder into public_html/src
-        run: cp -r dist/assets public_html/src
-
-      - name: Copy images folder into public_html/src/assets
-        run: cp -r src/assets/images public_html/src/assets
-
-      - name: List contents of public_html
-        run: ls public_html
-
-      - name: Push to build branch
-        uses: ad-m/github-push-action@master
-        env:
-          REPO: self
-          BRANCH: build
-          FOLDER: public_html
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create folder src into dist
+        run: cd dist && mkdir src
