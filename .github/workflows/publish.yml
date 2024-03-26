@@ -34,6 +34,9 @@ jobs:
       - name: Copy images folder into public_html/src/assets
         run: cp -r src/assets/images public_html/src/assets
 
+      - name: List contents of public_html
+        run: ls public_html
+
       - name: Push to build branch
         uses: ad-m/github-push-action@master
         with:
