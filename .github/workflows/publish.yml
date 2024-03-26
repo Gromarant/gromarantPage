@@ -23,7 +23,7 @@ jobs:
         run: cd dist && mkdir src 
 
       - name: Move assets into src folder
-        run: mv assets /src/
+        run: mv assets src/
 
       - name: Push to build branch
         uses: s0/git-publish-subdir-action@develop
