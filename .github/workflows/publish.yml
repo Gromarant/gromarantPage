@@ -19,11 +19,25 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Push
-        uses: s0/git-publish-subdir-action@develop
-        env:
-          REPO: self
-          BRANCH: build
-          FOLDER: build
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MESSAGE: "Build: ({sha}) {msg}"
+      - name: Create folder of production
+        run: mkdir public_html
+
+      - name: navigate to public_html and create src folder
+        run: cd public_html && mkdir src
+
+      - name: Copy dist html file into public_html
+        run: cp dist/index.html public_html
+
+      - name: Copy dist assets folder into public_html/src
+        run: cp -r dist/assets public_html/src
+
+      - name: Copy images folder into public_html/src/assets
+        run: cp -r src/assets/images public_html/src/assets
+
+      - name: Push to build branch
+        uses: ad-m/github-push-action@master
+        with:
+          branch: build
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
+          directory: public_html
