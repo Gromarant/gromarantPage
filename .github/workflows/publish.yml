@@ -19,5 +19,10 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Create folder src into dist
-        run: cd dist && mkdir src
+      - name: Push to build branch
+        uses: ad-m/github-push-action@master
+        env:
+          REPO: self
+          BRANCH: build
+          FOLDER: dist
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
