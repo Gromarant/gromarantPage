@@ -20,7 +20,10 @@ jobs:
         run: npm run build
 
       - name: Create src folder into dist
-        run: cd dist && mkdir src
+        run: cd dist && mkdir src 
+
+      - name: Move assets into src folder
+        run: mv assets /src/
 
       - name: Push to build branch
         uses: s0/git-publish-subdir-action@develop
