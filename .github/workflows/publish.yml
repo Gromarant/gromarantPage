@@ -29,7 +29,7 @@ jobs:
         run: cd dist/assets/src/assets/images && rm -r icons
 
       - name: Remove images files from dist/assets folder
-        run: cd dist/assets/src/assets/images && rm logo* profile*
+        run: cd dist/assets/src/assets/images && rm logo* profile* navBar*
 
       - name: Push to build branch
         uses: s0/git-publish-subdir-action@develop
