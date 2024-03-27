@@ -20,7 +20,7 @@ jobs:
         run: npm run build
 
       - name: Create src folder and copy images folder inside
-        run: cd dist && mkdir src && cp -r src/assets/images src/
+        run: cd dist && mkdir src && cd.. && cp -r src/assets/images dist/src/
 
       - name: Push to build branch
         uses: s0/git-publish-subdir-action@develop
