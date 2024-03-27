@@ -25,8 +25,8 @@ jobs:
       - name: Copy src folder into dist/assets
         run: cp -r dist/src dist/assets/
       
-      # - name: Remove images files from dist/src folder
-      #   run: cd dist/src/assets/images && rm *.svg
+      - name: Remove icons folder from dist/assets folder
+        run: cd assets/src/assets/images && rm -r icons
 
       - name: Push to build branch
         uses: s0/git-publish-subdir-action@develop
