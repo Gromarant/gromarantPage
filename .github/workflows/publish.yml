@@ -28,8 +28,11 @@ jobs:
       - name: Remove icons folder from dist/assets folder
         run: cd dist/assets/src/assets/images && rm -r icons
 
-      - name: Remove images files from dist/assets folder
-        run: cd dist/assets/src/assets/images && rm logo* profile*
+      - name: Remove image files from dist/assets folder
+        run: cd dist/assets/src/assets/images && rm logo* profile* navBar*
+
+      - name: Remove image files from dist/src folder
+        run: cd dist/src/assets/images && rm fullPokeApp* funFace* gromaSnake* roboPage*
 
       - name: Push to build branch
         uses: s0/git-publish-subdir-action@develop
