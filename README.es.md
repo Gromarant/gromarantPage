@@ -120,3 +120,27 @@ Aplicación web en React.js.
 <br>
 
 ---
+
+<br>
+
+<p align="center"><img src="src/assets/images/profile_photo120.svg" style="border-radius:50%;" alt="Full Stack Developer | Mariangelica Rodriguez" title="Ver perfil de LinkedIn"/></p>
+<p align="center" style="color: #D9D9D9">© Mariangelica Rodriguez</p>
+
+<div style="display:flex; flex-wrapp: wrapp; gap:24px; justify-content:center; align-items:center;">
+<a href="https://github.com/Gromarant">
+<div style="display:flex; justify-content:center; align-items:center; width:40px; height:40px; background-color:#1e7b9d; border-radius:50%;">
+  <img src="src/assets/images/repository_readme.svg" alt="Github logo" title="Visitar perfil de Github"/></div>
+</a>
+<a href="https://www.linkedin.com/in/mariangelicarodriguezperez/">
+<div style="display:flex; justify-content:center; align-items:center; width:40px; height:40px; background-color:#1e7b9d; border-radius:50%;">
+  <img src="src/assets/images/linkedIn_readme.svg" alt="linkedIn logo" title="Ver perfil de LinkedIn"/></div>
+</a>
+<a href="mailto:contacto@gromarant.com">
+<div style="display:flex; justify-content:center; align-items:center; width:40px; height:40px; background-color:#1e7b9d; border-radius:50%;">
+  <img style="margin-top:10%;" src="src/assets/images/mail_readme.svg" alt="Email logo" title="Contactar por correo"/></div>
+</a>
+</div>
+
+<br><br>
+
+<p align="center"><a href="https://www.gromarant.com/"><img src="src/assets/images/logoGromarant-2023.webp" style="width:250px;" alt="Gromarant logo" title="Visitar página de Gromarant"/></a></p>
