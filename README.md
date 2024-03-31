@@ -97,52 +97,27 @@ Static web page, build with HTML, CSS and JavaScript vanilla.
 
 <details>
 <summary>
+&nbsp; &nbsp; <img src="src/assets/images/Robopage_readme.svg" style="padding:1px; border-radius:4px; background-color:#FFF6F1;"/> &nbsp; &nbsp;
   Robopage:
 </summary>
 
 <br>
-Project image/Banner
-<br>
-<img src="src/assets/images/memoryPage.webp" title="memory game" alt="memory game"/>
+<img src="src/assets/images/roboPage_banner_img_small.svg" title="Groma-FunFace" alt="FunFace"/>
 
 <br>
 
 ### Description:
-xxx
+React web app
 
 ### functions
-  - xxxxxxxxx
-  - xxxxxxxxx
+  - Search engine with API fetch data.
 
-Project links
-<p align="center"><a href="https://fullpokeapp.netlify.app" target="_blank">Visit app<img src="src/assets/images/play.webp" alt="Play icon" style="width:48px; height:48px;"/></a></p>
+### Project links
+<p style="display:flex; flex-wrapp; wrapp; gap:24px; justify-content:center;">
+<a href="https://github.com/Gromarant/Robopage" title="visit Robopage repository" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/github_readme.svg"/>Repository</a>
+<a href="https://robopage.netlify.app/" title="Go to Robopage web app" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/web_readme.svg"/>Web</a>
 </details>
-
----
-
-<details>
-<summary>
-  Gromarant Portfolio:
-</summary>
-
 <br>
-Project image/Banner
-<br>
-<img src="src/assets/images/memoryPage.webp" title="memory game" alt="memory game"/>
-
-<br>
-
-### Description:
-xxx
-
-### functions
-  - xxxxxxxxx
-  - xxxxxxxxx
-
-Project links
-<p align="center"><a href="https://fullpokeapp.netlify.app" target="_blank">Visit app<img src="src/assets/images/play.webp" alt="Play icon" style="width:48px; height:48px;"/></a></p>
-</details>
-
 
 ---
 
