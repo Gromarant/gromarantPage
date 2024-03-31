@@ -1,14 +1,9 @@
-<!-- import { FaGithub, FaPlayCircle, FaGlobe  } from "react-icons/fa";
-import { MdDevices } from "react-icons/md";
-import { FaLinkedinIn, FaInstagram  } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
-import { MdEmail } from "react-icons/md"; -->
 Change to:&nbsp; &nbsp; [![es](https://img.shields.io/badge/Language-Spanish-blue.svg)](README.es.md)
 
 ---
 
 # Portfolio
-This is a professional portfolio some projects developed by <a href="https://www.linkedin.com/in/mariangelicarodriguezperez/" target="_blank">Mariangelica Rodriguez</a>, where you can visit links to websites, design of prototypes, mockups and repositories of different projects.
+This is a professional portfolio with some of the projects developed by <a href="https://www.linkedin.com/in/mariangelicarodriguezperez/" target="_blank">Mariangelica Rodriguez</a>, where you can visit links to websites, design of prototypes, mockups and repositories of different projects.
 
 <br>
 
