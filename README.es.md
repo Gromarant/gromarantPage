@@ -29,9 +29,10 @@ Aplicación web desarrollada en React.js, SASS y Nextui.
   - Sección para crear Pokémones.
 
 ### Links del proyecto:
-<p style="display:flex; flex-wrapp; wrapp; gap:24px; justify-content:center;">
-<a href="https://github.com/Gromarant/fullPokeApp" title="visitar repositorio FullPokeApp " target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/github_readme.svg"/>Repositorio</a>
-<a href="https://fullpokeapp.netlify.app" title="Ir a la página FullPokeApp" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center;padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/web_readme.svg"/>Web</a></p>
+<p align="center">
+<a href="https://github.com/Gromarant/fullPokeApp" title="visitar repositorio FullPokeApp " target="_blank"><img src="src/assets/images/repositorio_readme.svg"/></a> &nbsp; &nbsp;
+<a href="https://fullpokeapp.netlify.app" title="Ir a la página FullPokeApp" target="_blank"><img src="src/assets/images/web_readme.svg"/></a>
+</p>
 </details>
 <br>
 
@@ -57,11 +58,12 @@ Juego desarrollado en HTML, CSS y JavaScript vanilla.
   - Ver Puntaje y score.
 
 ### Links del proyecto:
-<p style="display:flex; flex-wrapp; wrapp; gap:24px; justify-content:center;">
-<a href="https://www.figma.com/file/6SYeCJMoiDG8LZPKQ3QRyZ/GromaSnake?type=design&node-id=0-1&mode=design&t=taUbdkRK095LZ2Cp-0" title="Ver prototipo de FullPokeApp" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/prototype_readme.svg"/>Prototipo</a>
-<a href="https://github.com/Gromarant/GromaSnake" title="visitar repositorio GromaSnake" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/github_readme.svg"/>Repositorio</a>
-<a href="hhttps://gromarant.github.io/GromaSnake/" title="Ir a la página GromaSnake" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/web_readme.svg"/>Web</a>
-<a href="https://www.youtube.com/watch?v=hwLYrtQhLVI" title="Ver video de Groma-Snake " target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center;padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/web_readme.svg"/>Video</a></p>
+<p align="center">
+<a href="https://www.figma.com/file/6SYeCJMoiDG8LZPKQ3QRyZ/GromaSnake?type=design&node-id=0-1&mode=design&t=taUbdkRK095LZ2Cp-0" title="Ver prototipo de FullPokeApp" target="_blank"><img src="src/assets/images/prototipo_readme.svg"/></a> &nbsp; &nbsp;
+<a href="https://github.com/Gromarant/GromaSnake" title="visitar repositorio GromaSnake" target="_blank"><img src="src/assets/images/repositorio_readme.svg"/></a> &nbsp; &nbsp;
+<a href="hhttps://gromarant.github.io/GromaSnake/" title="Ir a la página GromaSnake" target="_blank"><img src="src/assets/images/web_readme.svg"/></a> &nbsp; &nbsp;
+<a href="https://www.youtube.com/watch?v=hwLYrtQhLVI" title="Ver video de Groma-Snake " target="_blank"><img src="src/assets/images/video_readme.svg"/></a>
+</p>
 </details>
 <br>
 
@@ -86,10 +88,11 @@ Página web estática, desarrollada en HTML, CSS y JavaScript vanilla.
   - Elegir emoji a mostrar desde selector.
 
 ### Links del proyecto:
-<p style="display:flex; flex-wrapp; wrapp; gap:24px; justify-content:center;">
-<a href="https://www.figma.com/proto/fV01fBdBQbbT5fScqf7ro1/FunFace?page-id=15%3A772&node-id=15-933&viewport=758%2C109%2C0.05&scaling=scale-down&starting-point-node-id=15%3A1603" title="Ver prototipo de FunFace" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/prototype_readme.svg"/>Prototipo</a>
-<a href="https://github.com/Gromarant/FunFace" title="visitar repositorio FunFace" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/github_readme.svg"/>Repositorio</a>
-<a href="https://gromarant.github.io/FunFace/" title="Ir a la página FunFace" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/web_readme.svg"/>Web</a>
+<p align="center">
+<a href="https://www.figma.com/proto/fV01fBdBQbbT5fScqf7ro1/FunFace?page-id=15%3A772&node-id=15-933&viewport=758%2C109%2C0.05&scaling=scale-down&starting-point-node-id=15%3A1603" title="Ver prototipo de FunFace" target="_blank"><img src="src/assets/images/prototipo_readme.svg"/></a> &nbsp; &nbsp;
+<a href="https://github.com/Gromarant/FunFace" title="visitar repositorio FunFace" target="_blank"><img src="src/assets/images/repositorio_readme.svg"/></a> &nbsp; &nbsp;
+<a href="https://gromarant.github.io/FunFace/" title="Ir a la página FunFace" target="_blank"><img src="src/assets/images/web_readme.svg"/></a>
+</p>
 </details>
 <br>
 
@@ -113,9 +116,10 @@ Aplicación web en React.js.
   - Buscador con solicitud de datos a una Api externa.
 
 ### Links del proyecto:
-<p style="display:flex; flex-wrapp; wrapp; gap:24px; justify-content:center;">
-<a href="https://github.com/Gromarant/Robopage" title="visitar repositorio Robopage" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/github_readme.svg"/>Repository</a>
-<a href="https://robopage.netlify.app/" title="Ir a la página Robopage" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/web_readme.svg"/>Web</a>
+<p align="center">
+<a href="https://github.com/Gromarant/Robopage" title="visitar repositorio Robopage" target="_blank"><img src="src/assets/images/repositorio_readme.svg"/></a> &nbsp; &nbsp;
+<a href="https://robopage.netlify.app/" title="Ir a la página Robopage" target="_blank"><img src="src/assets/images/web_readme.svg"/></a>
+</p>
 </details>
 <br>
 
@@ -126,20 +130,17 @@ Aplicación web en React.js.
 <p align="center"><img src="src/assets/images/profile_photo120.svg" style="border-radius:50%;" alt="Full Stack Developer | Mariangelica Rodriguez" title="Ver perfil de LinkedIn"/></p>
 <p align="center" style="color: #D9D9D9">© Mariangelica Rodriguez</p>
 
-<div style="display:flex; flex-wrapp: wrapp; gap:24px; justify-content:center; align-items:center;">
-<a href="https://github.com/Gromarant">
-<div style="display:flex; justify-content:center; align-items:center; width:40px; height:40px; background-color:#1e7b9d; border-radius:50%;">
-  <img src="src/assets/images/repository_readme.svg" alt="Github logo" title="Visitar perfil de Github"/></div>
+<p align="center">
+<a style="text-decoration:none; cursor:pointer;" stylehref="https://github.com/Gromarant">
+  <img src="src/assets/images/github_readme.svg" alt="Github logo" title="Visitar perfil de Github"/>
+</a> &nbsp; &nbsp;
+<a style="text-decoration:none; cursor:pointer;" stylehref="https://www.linkedin.com/in/mariangelicarodriguezperez/">
+  <img src="src/assets/images/linkedIn_readme.svg" alt="linkedIn logo" title="Ver perfil de LinkedIn"/>
+</a> &nbsp; &nbsp;
+<a style="text-decoration:none; cursor:pointer;" stylehref="mailto:contacto@gromarant.com">
+  <img style="margin-top:10%;" src="src/assets/images/mail_readme.svg" alt="Email logo" title="Contactar por correo"/>
 </a>
-<a href="https://www.linkedin.com/in/mariangelicarodriguezperez/">
-<div style="display:flex; justify-content:center; align-items:center; width:40px; height:40px; background-color:#1e7b9d; border-radius:50%;">
-  <img src="src/assets/images/linkedIn_readme.svg" alt="linkedIn logo" title="Ver perfil de LinkedIn"/></div>
-</a>
-<a href="mailto:contacto@gromarant.com">
-<div style="display:flex; justify-content:center; align-items:center; width:40px; height:40px; background-color:#1e7b9d; border-radius:50%;">
-  <img style="margin-top:10%;" src="src/assets/images/mail_readme.svg" alt="Email logo" title="Contactar por correo"/></div>
-</a>
-</div>
+</p>
 
 <br><br>
 
