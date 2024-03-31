@@ -30,8 +30,8 @@ Web application develop in React.js, SASS and Nextui.
 
 ### Project links:
 <p style="display:flex; flex-wrap:wrap; gap:24px; justify-content:center;">
-<a href="https://github.com/Gromarant/fullPokeApp" title="visit FullPokeApp repository" target="_blank" style="display:flex; flex-wrap:wrap; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/github_readme.svg"/>Repository</a>
-<a href="https://fullpokeapp.netlify.app" title="Go to FullPokeApp web app" target="_blank" style="display:flex; flex-wrap:wrap; gap:4px; justify-content:center; align-items:center;padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/web_readme.svg"/>Web</a></p>
+<a href="https://github.com/Gromarant/fullPokeApp" title="visit FullPokeApp repository" target="_blank"><img src="src/assets/images/repository_readme.svg"/></a>
+<a href="https://fullpokeapp.netlify.app" title="Go to FullPokeApp web app" target="_blank"><img src="src/assets/images/web_readme.svg"/></a></p>
 </details>
 <br>
 
@@ -57,11 +57,11 @@ Game develop in HTML, CSS and JavaScript.
   - See points and score
 
 ### Project links:
-<p style="display:flex; flex-wrap:wrap; gap:24px; justify-content:center;">
-<a href="https://www.figma.com/file/6SYeCJMoiDG8LZPKQ3QRyZ/GromaSnake?type=design&node-id=0-1&mode=design&t=taUbdkRK095LZ2Cp-0" title="visit FullPokeApp prototype" target="_blank" style="display:flex; flex-wrap:wrap; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/prototype_readme.svg"/>Prototype</a>
-<a href="https://github.com/Gromarant/GromaSnake" title="visit Groma-Snake repository" target="_blank" style="display:flex; flex-wrap:wrap; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/github_readme.svg"/>Repository</a>
-<a href="hhttps://gromarant.github.io/GromaSnake/" title="Go to Groma-Snake web app" target="_blank" style="display:flex; flex-wrap:wrap; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/web_readme.svg"/>Web</a>
-<a href="https://www.youtube.com/watch?v=hwLYrtQhLVI" title="See Groma-Snake video" target="_blank" style="display:flex; flex-wrap:wrap; gap:4px; justify-content:center; align-items:center;padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/web_readme.svg"/>Video</a></p>
+<div style="display:flex; flex-wrap:wrap; gap:24px; justify-content:center;">
+<a href="https://www.figma.com/file/6SYeCJMoiDG8LZPKQ3QRyZ/GromaSnake?type=design&node-id=0-1&mode=design&t=taUbdkRK095LZ2Cp-0" title="visit FullPokeApp prototype" target="_blank"><img src="src/assets/images/prototype_readme.svg"/></a>
+<a href="https://github.com/Gromarant/GromaSnake" title="visit Groma-Snake repository" target="_blank"><img src="src/assets/images/repository_readme.svg"/></a>
+<a href="hhttps://gromarant.github.io/GromaSnake/" title="Go to Groma-Snake web app" target="_blank"><img src="src/assets/images/web_readme.svg"/></a>
+<a href="https://www.youtube.com/watch?v=hwLYrtQhLVI" title="See Groma-Snake video" target="_blank"><img src="src/assets/images/video_readme.svg"/></a></div>
 </details>
 <br>
 
@@ -87,9 +87,9 @@ Static web page, build with HTML, CSS and JavaScript vanilla.
 
 ### Project links:
 <p style="display:flex; flex-wrap:wrap; gap:24px; justify-content:center;">
-<a href="https://www.figma.com/proto/fV01fBdBQbbT5fScqf7ro1/FunFace?page-id=15%3A772&node-id=15-933&viewport=758%2C109%2C0.05&scaling=scale-down&starting-point-node-id=15%3A1603" title="visit FunFace prototype" target="_blank" style="display:flex; flex-wrap:wrap; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/prototype_readme.svg"/>Prototype</a>
-<a href="https://github.com/Gromarant/FunFace" title="visit FunFace repository" target="_blank" style="display:flex; flex-wrap:wrap; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/github_readme.svg"/>Repository</a>
-<a href="https://gromarant.github.io/FunFace/" title="Go to FunFace web app" target="_blank" style="display:flex; flex-wrap:wrap; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/web_readme.svg"/>Web</a>
+<a href="https://www.figma.com/proto/fV01fBdBQbbT5fScqf7ro1/FunFace?page-id=15%3A772&node-id=15-933&viewport=758%2C109%2C0.05&scaling=scale-down&starting-point-node-id=15%3A1603" title="visit FunFace prototype" target="_blank"><img src="src/assets/images/prototype_readme.svg"/></a>
+<a href="https://github.com/Gromarant/FunFace" title="visit FunFace repository" target="_blank"><img src="src/assets/images/repository_readme.svg"/></a>
+<a href="https://gromarant.github.io/FunFace/" title="Go to FunFace web app" target="_blank"><img src="src/assets/images/web_readme.svg"/></a>
 </details>
 <br>
 
@@ -114,8 +114,8 @@ React web app.
 
 ### Project links:
 <p style="display:flex; flex-wrap:wrap; gap:24px; justify-content:center;">
-<a href="https://github.com/Gromarant/Robopage" title="visit Robopage repository" target="_blank" style="display:flex; flex-wrap:wrap; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/github_readme.svg"/>Repository</a>
-<a href="https://robopage.netlify.app/" title="Go to Robopage web app" target="_blank" style="display:flex; flex-wrap:wrap; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/web_readme.svg"/>Web</a>
+<a href="https://github.com/Gromarant/Robopage" title="visit Robopage repository" target="_blank"><img src="src/assets/images/repository_readme.svg"/></a>
+<a href="https://robopage.netlify.app/" title="Go to Robopage web app" target="_blank"><img src="src/assets/images/web_readme.svg"/></a>
 </details>
 <br>
 
@@ -128,15 +128,15 @@ React web app.
 
 <div style="display:flex; flex-wrapp: wrapp; gap:24px; justify-content:center; align-items:center;">
 <a href="https://github.com/Gromarant">
-<div style="display:flex; justify-content:center; align-items:center; width:40px; height:40px; background-color:#1e7b9d; border-radius:50%;">
-  <img src="src/assets/images/repository_readme.svg" alt="Github logo" title="Visit her Github profile"/></div>
+<div style="display:flex; justify-content:center; align-items:center;">
+  <img src="src/assets/images/github_readme.svg" alt="Github logo" title="Visit her Github profile"/></div>
 </a>
 <a href="https://www.linkedin.com/in/mariangelicarodriguezperez/">
-<div style="display:flex; justify-content:center; align-items:center; width:40px; height:40px; background-color:#1e7b9d; border-radius:50%;">
+<div style="display:flex; justify-content:center; align-items:center;">
   <img src="src/assets/images/linkedIn_readme.svg" alt="linkedIn logo" title="See her LinkedIn profile"/></div>
 </a>
 <a href="mailto:contacto@gromarant.com">
-<div style="display:flex; justify-content:center; align-items:center; width:40px; height:40px; background-color:#1e7b9d; border-radius:50%;">
+<div style="display:flex; justify-content:center; align-items:center;">
   <img style="margin-top:10%;" src="src/assets/images/mail_readme.svg" alt="Email logo" title="Write her an email"/></div>
 </a>
 </div>
