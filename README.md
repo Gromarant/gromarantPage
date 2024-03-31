@@ -131,15 +131,9 @@ React web app.
 <p align="center" style="color: #D9D9D9">© Mariangelica Rodriguez</p>
 
 <p align="center">
-<a style="text-decoration:none; cursor:pointer;" href="https://github.com/Gromarant">
-  <img src="src/assets/images/github_readme.svg" alt="Github logo" title="Visit her Github profile"/>
-</a> &nbsp; &nbsp;
-<a style="text-decoration:none; cursor:pointer;" href="https://www.linkedin.com/in/mariangelicarodriguezperez/">
-  <img src="src/assets/images/linkedIn_readme.svg" alt="linkedIn logo" title="See her LinkedIn profile"/>
-</a> &nbsp; &nbsp;
-<a style="text-decoration:none; cursor:pointer;" href="mailto:contacto@gromarant.com">
-  <img style="margin-top:10%;" src="src/assets/images/mail_readme.svg" alt="Email logo" title="Write her an email"/>
-</a>
+<a style="text-decoration:none; cursor:pointer;" href="https://github.com/Gromarant"><img src="src/assets/images/github_readme.svg" alt="Github logo" title="Visit her Github profile"/></a> &nbsp; &nbsp;
+<a style="text-decoration:none; cursor:pointer;" href="https://www.linkedin.com/in/mariangelicarodriguezperez/"><img src="src/assets/images/linkedIn_readme.svg" alt="linkedIn logo" title="See her LinkedIn profile"/></a> &nbsp; &nbsp;
+<a style="text-decoration:none; cursor:pointer;" href="mailto:contacto@gromarant.com"><img src="src/assets/images/mail_readme.svg" alt="Email logo" title="Write her an email"/></a>
 </p>
 
 <br><br>

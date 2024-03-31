@@ -131,15 +131,9 @@ Aplicación web en React.js.
 <p align="center" style="color: #D9D9D9">© Mariangelica Rodriguez</p>
 
 <p align="center">
-<a style="text-decoration:none; cursor:pointer;" stylehref="https://github.com/Gromarant">
-  <img src="src/assets/images/github_readme.svg" alt="Github logo" title="Visitar perfil de Github"/>
-</a> &nbsp; &nbsp;
-<a style="text-decoration:none; cursor:pointer;" stylehref="https://www.linkedin.com/in/mariangelicarodriguezperez/">
-  <img src="src/assets/images/linkedIn_readme.svg" alt="linkedIn logo" title="Ver perfil de LinkedIn"/>
-</a> &nbsp; &nbsp;
-<a style="text-decoration:none; cursor:pointer;" stylehref="mailto:contacto@gromarant.com">
-  <img style="margin-top:10%;" src="src/assets/images/mail_readme.svg" alt="Email logo" title="Contactar por correo"/>
-</a>
+<a style="text-decoration:none; cursor:pointer;" stylehref="https://github.com/Gromarant"><img src="src/assets/images/github_readme.svg" alt="Github logo" title="Visitar perfil de Github"/></a> &nbsp; &nbsp;
+<a style="text-decoration:none; cursor:pointer;" stylehref="https://www.linkedin.com/in/mariangelicarodriguezperez/"><img src="src/assets/images/linkedIn_readme.svg" alt="linkedIn logo" title="Ver perfil de LinkedIn"/></a> &nbsp; &nbsp;
+<a style="text-decoration:none; cursor:pointer;" stylehref="mailto:contacto@gromarant.com"><img src="src/assets/images/mail_readme.svg" alt="Email logo" title="Contactar por correo"/></a>
 </p>
 
 <br><br>
