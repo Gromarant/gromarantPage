@@ -11,7 +11,7 @@ This is a professional portfolio with some of the projects developed by <a href=
 
 <details>
 <summary>
-&nbsp; &nbsp; <img src="src/assets/images/fullPokeApp_readme.svg"/> &nbsp; &nbsp;
+&nbsp; &nbsp; <img src="src/assets/images/fullPokeApp_readme.svg" style="padding:1px; border-radius:4px; background-color:#FFF6F1;"/> &nbsp; &nbsp;
   FullPokeApp:
 </summary>
 
@@ -39,26 +39,31 @@ Web application develop in React.js, SASS and Nextui.
 
 <details>
 <summary>
+&nbsp; &nbsp; <img src="src/assets/images/gromaSnake_readme.svg" style="padding:1px; border-radius:4px; background-color:#FFF6F1;"/> &nbsp; &nbsp;
   Groma-Snake:
 </summary>
 
 <br>
-Project image/Banner
-<br>
-<img src="src/assets/images/memoryPage.webp" title="memory game" alt="memory game"/>
+<img src="src/assets/images/gromaSnake_banner_img_small.svg" title="Groma-Snake" alt="Groma-Snake"/>
 
 <br>
 
 ### Description:
-xxx
+Game develop in HTML, CSS and JavaScript.
 
 ### functions
-  - xxxxxxxxx
-  - xxxxxxxxx
+  - Snake game
+  - Reset game
+  - See points and score
 
-Project links
-<p align="center"><a href="https://fullpokeapp.netlify.app" target="_blank">Visit app<img src="src/assets/images/play.webp" alt="Play icon" style="width:48px; height:48px;"/></a></p>
+### Project links
+<p style="display:flex; flex-wrapp; wrapp; gap:24px; justify-content:center;">
+<a href="https://www.figma.com/file/6SYeCJMoiDG8LZPKQ3QRyZ/GromaSnake?type=design&node-id=0-1&mode=design&t=taUbdkRK095LZ2Cp-0" title="visit FullPokeApp prototype" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/prototype_readme.svg"/>Prototype</a>
+<a href="https://github.com/Gromarant/GromaSnake" title="visit Groma-Snake repository" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/github_readme.svg"/>Repository</a>
+<a href="hhttps://gromarant.github.io/GromaSnake/" title="Go to Groma-Snake web app" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/web_readme.svg"/>Web</a>
+<a href="https://www.youtube.com/watch?v=hwLYrtQhLVI" title="See Groma-Snake video" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center;padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/web_readme.svg"/>Video</a></p>
 </details>
+<br>
 
 ---
 
