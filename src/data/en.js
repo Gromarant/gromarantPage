@@ -23,7 +23,7 @@ const english = {
       desc: "Web application develop in React.js, SASS and Nextui.",
       subtitle: "functionalities",
       functionalities: [ "Memory game", "Search engine", "Pokémon creation"],
-      developed: "Develop by",
+      developed: "Developed by",
       copyRight: ["Mariangelica Rodriguez"],
       image: "fullPokeApp"
     },
@@ -54,7 +54,7 @@ const english = {
       desc: "Game develop in HTML, CSS and JavaScript.",
       subtitle: "functionalities",
       functionalities: [ "Snake game", "Reset game", "See points and score"],
-      developed: "Develop by",
+      developed: "Developed by",
       copyRight: ["Mariangelica Rodriguez"],
       image: "groma-Snake"
     },
@@ -80,7 +80,7 @@ const english = {
       desc: "Static web page, build with HTML, CSS and JavaScript vanilla.",
       subtitle: "functionalities",
       functionalities: [ "Display random emoji", "Emoji selector"],
-      developed: "Develop by",
+      developed: "Developed by",
       copyRight: ["Mariangelica Rodriguez"],
       image: "funFace"
     },
@@ -101,7 +101,7 @@ const english = {
       desc: "React web app",
       subtitle: "functionalities",
       functionalities: [ "Search engine with API fetch data"],
-      developed: "Develop by",
+      developed: "Developed by",
       copyRight: ["Mariangelica Rodriguez"],
       image: "robopage"
     }

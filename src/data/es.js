@@ -252,7 +252,7 @@ const spanish = {
     navigation: {
       links: {
         project: "Proyectos",
-        about_me: "Sobre mi",
+        about_me: "Sobre mí",
       }
     }, 
     scroll: "subir",
