@@ -123,7 +123,7 @@ React web app.
 
 <br>
 
-<p align="center"><img src="src/assets/images/profile_photo120.svg" style="border-radius:50%;" alt="Full Stack Developer | Mariangelica Rodriguez" title="Ver perfil de LinkedIn"/></p>
+<p align="center"><img src="src/assets/images/profile_photo120.svg" style="border-radius:50%;" alt="Full Stack Developer | Mariangelica Rodriguez" title="See her LinkedIn profile"/></p>
 <p align="center" style="color: #D9D9D9">© Mariangelica Rodriguez</p>
 
 <div style="display:flex; flex-wrapp: wrapp; gap:24px; justify-content:center; align-items:center;">
@@ -143,4 +143,4 @@ React web app.
 
 <br><br>
 
-<p align="center"><a href="https://www.gromarant.com/"><img src="src/assets/images/logoGromarant-2023.webp" style="width:250px;" alt="Gromarant logo" title="Visitar página de Gromarant"/></a></p>
+<p align="center"><a href="https://www.gromarant.com/"><img src="src/assets/images/logoGromarant-2023.webp" style="width:250px;" alt="Gromarant logo" title="Go to Gromarant wep app"/></a></p>
