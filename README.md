@@ -23,12 +23,12 @@ This is a professional portfolio with some of the projects developed by <a href=
 ### Description:
 Web application develop in React.js, SASS and Nextui.
 
-### functions
+### functions:
   - Memory game
   - Search engine
   - Pokémon creation
 
-### Project links
+### Project links:
 <p style="display:flex; flex-wrapp; wrapp; gap:24px; justify-content:center;">
 <a href="https://github.com/Gromarant/fullPokeApp" title="visit FullPokeApp repository" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/github_readme.svg"/>Repository</a>
 <a href="https://fullpokeapp.netlify.app" title="Go to FullPokeApp web app" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center;padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/web_readme.svg"/>Web</a></p>
@@ -51,12 +51,12 @@ Web application develop in React.js, SASS and Nextui.
 ### Description:
 Game develop in HTML, CSS and JavaScript.
 
-### functions
+### functions:
   - Snake game
   - Reset game
   - See points and score
 
-### Project links
+### Project links:
 <p style="display:flex; flex-wrapp; wrapp; gap:24px; justify-content:center;">
 <a href="https://www.figma.com/file/6SYeCJMoiDG8LZPKQ3QRyZ/GromaSnake?type=design&node-id=0-1&mode=design&t=taUbdkRK095LZ2Cp-0" title="visit FullPokeApp prototype" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/prototype_readme.svg"/>Prototype</a>
 <a href="https://github.com/Gromarant/GromaSnake" title="visit Groma-Snake repository" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/github_readme.svg"/>Repository</a>
@@ -81,11 +81,11 @@ Game develop in HTML, CSS and JavaScript.
 ### Description:
 Static web page, build with HTML, CSS and JavaScript vanilla.
 
-### functions
+### functions:
   - Display random emoji
   - Emoji selector
 
-### Project links
+### Project links:
 <p style="display:flex; flex-wrapp; wrapp; gap:24px; justify-content:center;">
 <a href="https://www.figma.com/proto/fV01fBdBQbbT5fScqf7ro1/FunFace?page-id=15%3A772&node-id=15-933&viewport=758%2C109%2C0.05&scaling=scale-down&starting-point-node-id=15%3A1603" title="visit FunFace prototype" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/prototype_readme.svg"/>Prototype</a>
 <a href="https://github.com/Gromarant/FunFace" title="visit FunFace repository" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/github_readme.svg"/>Repository</a>
@@ -107,12 +107,12 @@ Static web page, build with HTML, CSS and JavaScript vanilla.
 <br>
 
 ### Description:
-React web app
+React web app.
 
-### functions
+### functions:
   - Search engine with API fetch data.
 
-### Project links
+### Project links:
 <p style="display:flex; flex-wrapp; wrapp; gap:24px; justify-content:center;">
 <a href="https://github.com/Gromarant/Robopage" title="visit Robopage repository" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/github_readme.svg"/>Repository</a>
 <a href="https://robopage.netlify.app/" title="Go to Robopage web app" target="_blank" style="display:flex; flex-wrapp; wrapp; gap:4px; justify-content:center; align-items:center; padding:8px 24px; border-radius:16px; background-color: #fcffff;color:#1e7b9d; font-weight:600;"><img src="src/assets/images/web_readme.svg"/>Web</a>
