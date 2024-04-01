@@ -3,7 +3,9 @@ Cambiar a:&nbsp; &nbsp; [![es](https://img.shields.io/badge/idioma-Inglés-green
 ---
 
 # Portafolio
-Este es un portafolio profesional con algunos de los projectos desarrollados por <a href="https://www.linkedin.com/in/mariangelicarodriguezperez/" target="_blank">Mariangelica Rodriguez</a>, dónde puedes visitar las webs, diseños de prototipos, mockups y repositorios de los diferentes proyectos.
+Bienvenid@ a mi portafolio profesional!, Yo soy <a href="https://www.linkedin.com/in/mariangelicarodriguezperez/" target="_blank">Mariangelica Rodriguez</a>, aquí puedes ver algunos de mis proyetos. Navega en sitios web, prototipos, mockups y repositorios.
+
+Explora mi trabajo en los siguientes enlaces.
 
 <br>
 
@@ -23,7 +25,7 @@ Este es un portafolio profesional con algunos de los projectos desarrollados por
 ### Descripción:
 Aplicación web desarrollada en React.js, SASS y Nextui.
 
-### funciones:
+### Funciones:
   - Juego de memoria.
   - Buscador.
   - Sección para crear Pokémones.
@@ -52,7 +54,7 @@ Aplicación web desarrollada en React.js, SASS y Nextui.
 ### Descripción:
 Juego desarrollado en HTML, CSS y JavaScript vanilla.
 
-### funciones:
+### Funciones:
   - Juego de la culebra.
   - Reiniciar el juego.
   - Ver Puntaje y score.
@@ -83,7 +85,7 @@ Juego desarrollado en HTML, CSS y JavaScript vanilla.
 ### Descripción:
 Página web estática, desarrollada en HTML, CSS y JavaScript vanilla.
 
-### funciones:
+### Funciones:
   - Mostrar un emoji aleatorio.
   - Elegir emoji a mostrar desde selector.
 
@@ -109,10 +111,10 @@ Página web estática, desarrollada en HTML, CSS y JavaScript vanilla.
 
 <br>
 
-### Description:
+### Descripción:
 Aplicación web en React.js.
 
-### funciones:
+### Funciones:
   - Buscador con solicitud de datos a una Api externa.
 
 ### Links del proyecto:
