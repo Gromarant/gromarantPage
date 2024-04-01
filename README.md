@@ -3,7 +3,10 @@ Change to:&nbsp; &nbsp; [![es](https://img.shields.io/badge/Language-Spanish-blu
 ---
 
 # Portfolio
-Welcome to <a href="https://www.linkedin.com/in/mariangelicarodriguezperez/" target="_blank">Mariangelica Rodriguez's</a> professional portfolio, showcasing a selection of her diverse projects. Dive into websites, prototypes, mockups, and repositories. Explore Mariangelica's work by following the links provided.
+Welcome to my professional portfolio! I am <a href="https://www.linkedin.com/in/mariangelicarodriguezperez/" target="_blank">Mariangelica Rodriguez</a>, here you can see some of my projects. Dive into websites, prototypes, mockups, and repositories. 
+
+
+Explore my work in the following links.
 
 <br>
 
@@ -23,7 +26,7 @@ Welcome to <a href="https://www.linkedin.com/in/mariangelicarodriguezperez/" tar
 ### Description:
 Web application developed in React.js, SASS and Nextui.
 
-### functions:
+### Functions:
   - Memory game
   - Search engine
   - Pokémon creation
@@ -66,7 +69,7 @@ Web application developed in React.js, SASS and Nextui.
 ### Description:
 Game developed in HTML, CSS and JavaScript.
 
-### functions:
+### Functions:
   - Snake game
   - Reset game
   - See points and score
@@ -111,7 +114,7 @@ Game developed in HTML, CSS and JavaScript.
 ### Description:
 Static web page, build with HTML, CSS and JavaScript vanilla.
 
-### functions:
+### Functions:
   - Display random emoji
   - Emoji selector
 
@@ -154,7 +157,7 @@ Static web page, build with HTML, CSS and JavaScript vanilla.
 ### Description:
 React web app.
 
-### functions:
+### Functions:
   - Search engine with API fetch data.
 
 ### Languages and tools:
