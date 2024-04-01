@@ -1,3 +1,22 @@
+<p align="center">
+<img src="src/assets/images/profile_photo120.svg" style="border-radius:50%;" alt="Profile photo"/>
+</p>
+<p align="center">Mariangelica Rodriguez</p>
+<p align="center">Desarrolladora Full stack | Diseñadora UI/UX</p>
+
+<p align="center">
+<a style="text-decoration:none; cursor:pointer;" stylehref="https://github.com/Gromarant"><img src="src/assets/images/github_readme.svg" alt="Github logo" title="Visitar mi perfil de Github"/></a> &nbsp; &nbsp;
+<a style="text-decoration:none; cursor:pointer;" stylehref="https://www.linkedin.com/in/mariangelicarodriguezperez/"><img src="src/assets/images/linkedIn_readme.svg" alt="linkedIn logo" title="Ver mi perfil de LinkedIn"/></a> &nbsp; &nbsp;
+<a style="text-decoration:none; cursor:pointer;" stylehref="mailto:contacto@gromarant.com"><img src="src/assets/images/mail_readme.svg" alt="Email logo" title="Contactarme por correo"/></a>
+</p>
+
+<br>
+<p align="center">
+<img src="src/assets/images/profile_greeting_card_es_small.svg" alt="Hola! Encantada de que estés por aquí y que conozcas un poco sobre mí"/>
+</p>
+
+<br><br>
+
 Cambiar a:&nbsp; &nbsp; [![es](https://img.shields.io/badge/idioma-Inglés-green.svg)](README.md)
 
 ---
@@ -133,9 +152,9 @@ Aplicación web en React.js.
 <p align="center" style="color: #D9D9D9">© Mariangelica Rodriguez</p>
 
 <p align="center">
-<a style="text-decoration:none; cursor:pointer;" stylehref="https://github.com/Gromarant"><img src="src/assets/images/github_readme.svg" alt="Github logo" title="Visitar perfil de Github"/></a> &nbsp; &nbsp;
-<a style="text-decoration:none; cursor:pointer;" stylehref="https://www.linkedin.com/in/mariangelicarodriguezperez/"><img src="src/assets/images/linkedIn_readme.svg" alt="linkedIn logo" title="Ver perfil de LinkedIn"/></a> &nbsp; &nbsp;
-<a style="text-decoration:none; cursor:pointer;" stylehref="mailto:contacto@gromarant.com"><img src="src/assets/images/mail_readme.svg" alt="Email logo" title="Contactar por correo"/></a>
+<a style="text-decoration:none; cursor:pointer;" stylehref="https://github.com/Gromarant"><img src="src/assets/images/github_readme.svg" alt="Github logo" title="Visitar mi perfil de Github"/></a> &nbsp; &nbsp;
+<a style="text-decoration:none; cursor:pointer;" stylehref="https://www.linkedin.com/in/mariangelicarodriguezperez/"><img src="src/assets/images/linkedIn_readme.svg" alt="linkedIn logo" title="Ver mi perfil de LinkedIn"/></a> &nbsp; &nbsp;
+<a style="text-decoration:none; cursor:pointer;" stylehref="mailto:contacto@gromarant.com"><img src="src/assets/images/mail_readme.svg" alt="Email logo" title="Contactarme por correo"/></a>
 </p>
 
 <br><br>
