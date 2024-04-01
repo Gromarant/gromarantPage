@@ -53,7 +53,7 @@ const spanish = {
       ],
       desc: 'Juego desarrollado en  HTML, CSS y JavaScript vanilla.',
       subtitle: "Funciones",
-      functionalities: [ "Juego de la culebra.", "Reiniciar el juego.", "er Puntaje y score."],
+      functionalities: [ "Juego de la culebra.", "Reiniciar el juego.", "Ver Puntaje y score."],
       developed: "Desarrollado por",
       copyRight: ["Mariangelica Rodriguez"],
       image: "groma-Snake"
@@ -252,7 +252,7 @@ const spanish = {
     navigation: {
       links: {
         project: "Proyectos",
-        about_me: "Sobre mi",
+        about_me: "Sobre mí",
       }
     }, 
     scroll: "subir",

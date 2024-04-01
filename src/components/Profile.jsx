@@ -14,7 +14,7 @@ function Profile({ photo, author }) {
         <h1 className='profile_name'>{author.name}</h1>
         <article className='profile_professions'>
           <p>{author.profession[0]}</p>
-          <span>|</span>
+          <p>|</p>
           <p>{author.profession[1]}</p>
         </article>
       </section>
