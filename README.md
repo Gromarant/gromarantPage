@@ -1,3 +1,22 @@
+<p align="center">
+<img src="src/assets/images/profile_photo120.svg" style="border-radius:50%;" alt="Profile photo"/>
+</p>
+<p align="center">Mariangelica Rodriguez</p>
+<p align="center">Full stack developer | UI/UX product designer</p>
+
+<p align="center">
+<a style="text-decoration:none; cursor:pointer;" href="https://github.com/Gromarant"><img src="src/assets/images/github_readme.svg" alt="Github logo" title="Visit my Github profile"/></a> &nbsp; &nbsp;
+<a style="text-decoration:none; cursor:pointer;" href="https://www.linkedin.com/in/mariangelicarodriguezperez/"><img src="src/assets/images/linkedIn_readme.svg" alt="linkedIn logo" title="See my LinkedIn profile"/></a> &nbsp; &nbsp;
+<a style="text-decoration:none; cursor:pointer;" href="mailto:contacto@gromarant.com"><img src="src/assets/images/mail_readme.svg" alt="Email logo" title="Write me an email"/></a>
+</p>
+
+<br>
+<p align="center">
+<img src="src/assets/images/profile_greeting_card_en_small.svg" alt="Hi!, I'm glad you are here and Learn something about me, welcome!"/>
+</p>
+
+<br><br>
+
 Change to:&nbsp; &nbsp; [![es](https://img.shields.io/badge/Language-Spanish-blue.svg)](README.es.md)
 
 ---
@@ -180,13 +199,13 @@ React web app.
 
 <br>
 
-<p align="center"><img src="src/assets/images/profile_photo120.svg" style="border-radius:50%;" alt="Full Stack Developer | Mariangelica Rodriguez" title="See her LinkedIn profile"/></p>
+<p align="center"><img src="src/assets/images/profile_photo120.svg" style="border-radius:50%;" alt="Profile photo"/></p>
 <p align="center" style="color: #D9D9D9">© Mariangelica Rodriguez</p>
 
 <p align="center">
-<a style="text-decoration:none; cursor:pointer;" href="https://github.com/Gromarant"><img src="src/assets/images/github_readme.svg" alt="Github logo" title="Visit her Github profile"/></a> &nbsp; &nbsp;
-<a style="text-decoration:none; cursor:pointer;" href="https://www.linkedin.com/in/mariangelicarodriguezperez/"><img src="src/assets/images/linkedIn_readme.svg" alt="linkedIn logo" title="See her LinkedIn profile"/></a> &nbsp; &nbsp;
-<a style="text-decoration:none; cursor:pointer;" href="mailto:contacto@gromarant.com"><img src="src/assets/images/mail_readme.svg" alt="Email logo" title="Write her an email"/></a>
+<a style="text-decoration:none; cursor:pointer;" href="https://github.com/Gromarant"><img src="src/assets/images/github_readme.svg" alt="Github logo" title="Visit my Github profile"/></a> &nbsp; &nbsp;
+<a style="text-decoration:none; cursor:pointer;" href="https://www.linkedin.com/in/mariangelicarodriguezperez/"><img src="src/assets/images/linkedIn_readme.svg" alt="linkedIn logo" title="See my LinkedIn profile"/></a> &nbsp; &nbsp;
+<a style="text-decoration:none; cursor:pointer;" href="mailto:contacto@gromarant.com"><img src="src/assets/images/mail_readme.svg" alt="Email logo" title="Write me an email"/></a>
 </p>
 
 <br><br>
