@@ -3,7 +3,7 @@ Change to:&nbsp; &nbsp; [![es](https://img.shields.io/badge/Language-Spanish-blu
 ---
 
 # Portfolio
-This is a professional portfolio with some of the projects developed by <a href="https://www.linkedin.com/in/mariangelicarodriguezperez/" target="_blank">Mariangelica Rodriguez</a>, where you can visit links to websites, design of prototypes, mockups and repositories of different projects.
+Welcome to <a href="https://www.linkedin.com/in/mariangelicarodriguezperez/" target="_blank">Mariangelica Rodriguez's</a> professional portfolio, showcasing a selection of her diverse projects. Dive into websites, prototypes, mockups, and repositories. Explore Mariangelica's work by following the links provided.
 
 <br>
 
@@ -21,12 +21,26 @@ This is a professional portfolio with some of the projects developed by <a href=
 <br>
 
 ### Description:
-Web application develop in React.js, SASS and Nextui.
+Web application developed in React.js, SASS and Nextui.
 
 ### functions:
   - Memory game
   - Search engine
   - Pokémon creation
+
+### Languages and tools:
+<br>
+
+<img src="src/assets/images/icons/icon_react_small.svg" title="React.js logo" alt="React.js"/>
+<a href="https://react.dev/" title="know more about React.js" target="_blank">React.js</a>  &nbsp; &nbsp; &nbsp;
+  
+<img src="src/assets/images/icons/icon_sass_small.svg" title="SASS logo" alt="SASS"/>
+<a href="https://www.google.com/search?q=sass&rlz=1C1CHBF_esES930ES930&oq=sass&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGDwyBggCEEUYPDIGCAMQRRg8MgYIBBBFGD0yBggFEEUYQTIGCAYQRRhBMgYIBxBFGDzSAQgxMDc5ajBqNKgCALACAQ&sourceid=chrome&ie=UTF-8" title="know more about SASS" target="_blank">SASS</a> &nbsp; &nbsp; &nbsp;
+
+<img src="src/assets/images/icons/icon_nextui_small.svg" title="Nextui logo" alt="Nextui"/>
+<a href="https://nextui.org/" title="know more about Nextui" target="_blank">Nextui</a>
+
+<br>
 
 ### Project links:
 <p align="center">
@@ -41,7 +55,7 @@ Web application develop in React.js, SASS and Nextui.
 <details>
 <summary>
 &nbsp; &nbsp; <img src="src/assets/images/gromaSnake_readme.svg" style="padding:1px; border-radius:4px; background-color:#FFF6F1;"/> &nbsp; &nbsp;
-  Groma-Snake:
+  GromaSnake:
 </summary>
 
 <br>
@@ -50,12 +64,26 @@ Web application develop in React.js, SASS and Nextui.
 <br>
 
 ### Description:
-Game develop in HTML, CSS and JavaScript.
+Game developed in HTML, CSS and JavaScript.
 
 ### functions:
   - Snake game
   - Reset game
   - See points and score
+
+### Languages and tools:
+<br>
+
+<img src="src/assets/images/icons/icon_html5_small.svg" title="HTML5 logo" alt="HTML5"/>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="know more about HTML" target="_blank">HTML</a>  &nbsp; &nbsp; &nbsp;
+
+<img src="src/assets/images/icons/icon_css3_small.svg" title="CSS3 logo" alt="CSS3"/>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="know more about CSS" target="_blank">CSS</a>  &nbsp; &nbsp; &nbsp;
+
+<img src="src/assets/images/icons/icon_js_small.svg" title="Javascript logo" alt="Javascript"/>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="know more about Javascript" target="_blank">Javascript</a>  &nbsp; &nbsp; &nbsp;
+
+<br>
 
 ### Project links:
 <p align="center">
@@ -87,6 +115,20 @@ Static web page, build with HTML, CSS and JavaScript vanilla.
   - Display random emoji
   - Emoji selector
 
+### Languages and tools:
+<br>
+
+<img src="src/assets/images/icons/icon_html5_small.svg" title="HTML5 logo" alt="HTML5"/>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML" title="know more about HTML" target="_blank">HTML</a>  &nbsp; &nbsp; &nbsp;
+
+<img src="src/assets/images/icons/icon_css3_small.svg" title="CSS3 logo" alt="CSS3"/>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS" title="know more about CSS" target="_blank">CSS</a>  &nbsp; &nbsp; &nbsp;
+
+<img src="src/assets/images/icons/icon_js_small.svg" title="Javascript logo" alt="Javascript"/>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" title="know more about Javascript" target="_blank">Javascript</a>  &nbsp; &nbsp; &nbsp;
+
+<br>
+
 ### Project links:
 <p align="center">
 <a href="https://www.figma.com/proto/fV01fBdBQbbT5fScqf7ro1/FunFace?page-id=15%3A772&node-id=15-933&viewport=758%2C109%2C0.05&scaling=scale-down&starting-point-node-id=15%3A1603" title="visit FunFace prototype" target="_blank"><img src="src/assets/images/prototype_readme.svg"/></a> &nbsp; &nbsp;
@@ -114,6 +156,14 @@ React web app.
 
 ### functions:
   - Search engine with API fetch data.
+
+### Languages and tools:
+<br>
+
+<img src="src/assets/images/icons/icon_react_small.svg" title="React.js logo" alt="React.js"/>
+<a href="https://react.dev/" title="know more about React.js" target="_blank">React.js</a>
+
+<br>
 
 ### Project links:
 <p align="center">
