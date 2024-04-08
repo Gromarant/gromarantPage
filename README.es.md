@@ -1,5 +1,5 @@
 <p align="center">
-<img src="src/assets/images/profile_photo120.svg" style="border-radius:50%; width:160px;" alt="Profile photo"/>
+<img src="src/assets/images/profile_photo120.svg" style="border-radius:50%; width:200px;" alt="Profile photo"/>
 </p>
 <p align="center">Mariangelica Rodriguez</p>
 <p align="center">Desarrolladora Full stack | Diseñadora UI/UX</p>
