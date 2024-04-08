@@ -1,5 +1,5 @@
 <p align="center">
-<img src="src/assets/images/profile_photo120.svg" style="border-radius:50%;" alt="Profile photo"/>
+<img src="src/assets/images/profile_photo120.svg" style="border-radius:50%; width:160px;" alt="Profile photo"/>
 </p>
 <p align="center">Mariangelica Rodriguez</p>
 <p align="center">Full stack developer | UI/UX product designer</p>
@@ -199,7 +199,16 @@ React web app.
 
 <br>
 
-<p align="center"><img src="src/assets/images/profile_photo120.svg" style="border-radius:50%;" alt="Profile photo"/></p>
+## Professionals:
+
+<a href="https://www.linkedin.com/in/mariangelicarodriguezperez/">
+<p align="center"><img src="src/assets/images/professionalCard.webp" style="width:190px; border-radius: 10px;" alt="Full Stack Developer | Mariangelica Rodriguez" title="See my LinkedIn profile"/></p>
+</a>
+
+---
+
+<br><br>
+
 <p align="center" style="color: #D9D9D9">© Mariangelica Rodriguez</p>
 
 <p align="center">
@@ -208,6 +217,5 @@ React web app.
 <a style="text-decoration:none; cursor:pointer;" href="mailto:contacto@gromarant.com"><img src="src/assets/images/mail_readme.svg" alt="Email logo" title="Write me an email"/></a>
 </p>
 
-<br><br>
-
+<br>
 <p align="center"><a href="https://www.gromarant.com/"><img src="src/assets/images/logoGromarant-2023.webp" style="width:250px;" alt="Gromarant logo" title="Go to Gromarant wep app"/></a></p>
