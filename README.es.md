@@ -82,7 +82,7 @@ Juego desarrollado en HTML, CSS y JavaScript vanilla.
 <p align="center">
 <a href="https://www.figma.com/file/6SYeCJMoiDG8LZPKQ3QRyZ/GromaSnake?type=design&node-id=0-1&mode=design&t=taUbdkRK095LZ2Cp-0" title="Ver prototipo de FullPokeApp" target="_blank"><img src="src/assets/images/prototipo_readme.svg"/></a> &nbsp; &nbsp;
 <a href="https://github.com/Gromarant/GromaSnake" title="visitar repositorio GromaSnake" target="_blank"><img src="src/assets/images/repositorio_readme.svg"/></a> &nbsp; &nbsp;
-<a href="hhttps://gromarant.github.io/GromaSnake/" title="Ir a la página GromaSnake" target="_blank"><img src="src/assets/images/web_readme.svg"/></a> &nbsp; &nbsp;
+<a href="https://gromarant.github.io/GromaSnake/" title="Ir a la página GromaSnake" target="_blank"><img src="src/assets/images/web_readme.svg"/></a> &nbsp; &nbsp;
 <a href="https://www.youtube.com/watch?v=hwLYrtQhLVI" title="Ver video de Groma-Snake " target="_blank"><img src="src/assets/images/video_readme.svg"/></a>
 </p>
 </details>
